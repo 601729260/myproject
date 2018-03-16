@@ -19,7 +19,7 @@
       <transactionManager type="JDBC"/>
       <!--dataSource 元素使用标准的 JDBC 数据源接口来配置 JDBC 连接对象源  -->
       <dataSource type="POOLED">
-        <property name="driver" value="com.mysql.jdbc.Driver"/>
+        <property name="driver" value="com.mysql.cj.jdbc.Driver"/>
         <property name="url" value="jdbc:mysql://localhost:3306/wgn?serverTimezone=UTC"/>
         <property name="username" value="root"/>
         <property name="password" value="password"/>
@@ -31,6 +31,9 @@
        <!-- 注册personMapper.xml文件，
        personMapper.xml位于com.ys.bean这个包下，所以resource写成com/ys/bean/personMapper.xml-->
        <mapper resource="mybatis/PersonMapper.xml"/>
+       <mapper resource="mybatis/StudentMapper.xml"/>
+       <mapper resource="mybatis/TeacherMapper.xml"/>
+       <mapper class="com.wgn.annocation.PersonMapper"/>
   </mappers>
   
 </configuration>
