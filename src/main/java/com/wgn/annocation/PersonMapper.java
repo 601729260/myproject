@@ -16,5 +16,5 @@ public interface PersonMapper {
 	public int updatePerson(Person person);
 	@Delete("delete from person where id=#{id}")
 	public int deletePerson(Person person);
-	
+
 }

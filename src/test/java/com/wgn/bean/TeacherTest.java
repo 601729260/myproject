@@ -1,6 +1,7 @@
 package com.wgn.bean;
 
 import java.io.InputStream;
+import java.lang.reflect.Field;
 import java.util.Iterator;
 import java.util.List;
 
@@ -10,13 +11,13 @@ import org.apache.ibatis.session.SqlSessionFactoryBuilder;
 import org.junit.Before;
 import org.junit.Test;
 
-import com.wgn.annocation.TeacherMapper;
+import com.wgn.dao.TeacherMapper;
 
 public class TeacherTest {
 	SqlSession session;
 	@Before
 	public void beforeLoadXml(){
-		InputStream inputstream=MybatisTest.class.getClassLoader().getResourceAsStream("mybatis/Configuration.xml");
+		InputStream inputstream=MybatisTest.class.getClassLoader().getResourceAsStream("Configuration.xml");
 		SqlSessionFactory sqlsessionfactory=new SqlSessionFactoryBuilder().build(inputstream);
 		session=sqlsessionfactory.openSession();
 		
@@ -36,5 +37,6 @@ public class TeacherTest {
 		}
 		session.commit();
 		session.close();
+		
 	}
 }

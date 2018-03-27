@@ -14,7 +14,7 @@ public class MybatisTest {
 	
 	@Before
 	public void beforeLoadXml(){
-		InputStream inputstream=MybatisTest.class.getClassLoader().getResourceAsStream("mybatis/Configuration.xml");
+		InputStream inputstream=MybatisTest.class.getClassLoader().getResourceAsStream("Configuration.xml");
 		SqlSessionFactory sqlsessionfactory=new SqlSessionFactoryBuilder().build(inputstream);
 		session=sqlsessionfactory.openSession();
 		
