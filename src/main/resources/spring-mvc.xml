@@ -52,7 +52,4 @@
     </bean> 
     <bean id="log" 
     	class="com.wgn.springaop.MyLog"/>
-    <aop:aspectj-autoproxy/>
-    
- 
 </beans> 

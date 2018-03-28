@@ -1,0 +1,299 @@
+[INFO] [2018-03-27 11:58:55][org.apache.zookeeper.ZooKeeper]Client environment:zookeeper.version=3.4.8--1, built on 02/06/2016 03:18 GMT
+ [INFO] [2018-03-27 11:58:55][org.apache.zookeeper.ZooKeeper]Client environment:host.name=wanggn-PC
+ [INFO] [2018-03-27 11:58:55][org.apache.zookeeper.ZooKeeper]Client environment:java.version=1.8.0_152
+ [INFO] [2018-03-27 11:58:55][org.apache.zookeeper.ZooKeeper]Client environment:java.vendor=Oracle Corporation
+ [INFO] [2018-03-27 11:58:55][org.apache.zookeeper.ZooKeeper]Client environment:java.home=C:\Program Files\Java\jre1.8.0_152
+ [INFO] [2018-03-27 11:58:55][org.apache.zookeeper.ZooKeeper]Client environment:java.class.path=D:\cygwin64\workspace\myproject\target\test-classes;D:\cygwin64\workspace\myproject\target\classes;C:\Users\Administrator\.m2\repository\junit\junit\4.10\junit-4.10.jar;C:\Users\Administrator\.m2\repository\org\hamcrest\hamcrest-core\1.1\hamcrest-core-1.1.jar;C:\Users\Administrator\.m2\repository\org\mybatis\mybatis\3.4.6\mybatis-3.4.6.jar;C:\Users\Administrator\.m2\repository\mysql\mysql-connector-java\6.0.6\mysql-connector-java-6.0.6.jar;C:\Users\Administrator\.m2\repository\org\springframework\spring-context\5.0.0.RELEASE\spring-context-5.0.0.RELEASE.jar;C:\Users\Administrator\.m2\repository\org\springframework\spring-aop\5.0.0.RELEASE\spring-aop-5.0.0.RELEASE.jar;C:\Users\Administrator\.m2\repository\org\springframework\spring-core\5.0.0.RELEASE\spring-core-5.0.0.RELEASE.jar;C:\Users\Administrator\.m2\repository\org\springframework\spring-jcl\5.0.0.RELEASE\spring-jcl-5.0.0.RELEASE.jar;C:\Users\Administrator\.m2\repository\org\springframework\spring-expression\5.0.0.RELEASE\spring-expression-5.0.0.RELEASE.jar;C:\Users\Administrator\.m2\repository\org\springframework\spring-test\5.0.0.RELEASE\spring-test-5.0.0.RELEASE.jar;C:\Users\Administrator\.m2\repository\org\springframework\spring-beans\5.0.0.RELEASE\spring-beans-5.0.0.RELEASE.jar;C:\Users\Administrator\.m2\repository\org\springframework\spring-webmvc\5.0.0.RELEASE\spring-webmvc-5.0.0.RELEASE.jar;C:\Users\Administrator\.m2\repository\org\springframework\spring-web\5.0.0.RELEASE\spring-web-5.0.0.RELEASE.jar;C:\Users\Administrator\.m2\repository\org\springframework\spring-orm\5.0.0.RELEASE\spring-orm-5.0.0.RELEASE.jar;C:\Users\Administrator\.m2\repository\org\springframework\spring-jdbc\5.0.0.RELEASE\spring-jdbc-5.0.0.RELEASE.jar;C:\Users\Administrator\.m2\repository\org\springframework\spring-tx\5.0.0.RELEASE\spring-tx-5.0.0.RELEASE.jar;C:\Users\Administrator\.m2\repository\org\springframework\spring-aspects\5.0.0.RELEASE\spring-aspects-5.0.0.RELEASE.jar;C:\Users\Administrator\.m2\repository\org\aspectj\aspectjrt\1.8.13\aspectjrt-1.8.13.jar;C:\Users\Administrator\.m2\repository\org\aspectj\aspectjweaver\1.8.13\aspectjweaver-1.8.13.jar;C:\Users\Administrator\.m2\repository\cglib\cglib\3.2.5\cglib-3.2.5.jar;C:\Users\Administrator\.m2\repository\org\ow2\asm\asm\5.2\asm-5.2.jar;C:\Users\Administrator\.m2\repository\org\apache\ant\ant\1.9.6\ant-1.9.6.jar;C:\Users\Administrator\.m2\repository\org\apache\ant\ant-launcher\1.9.6\ant-launcher-1.9.6.jar;C:\Users\Administrator\.m2\repository\org\mybatis\generator\mybatis-generator-core\1.3.6\mybatis-generator-core-1.3.6.jar;C:\Users\Administrator\.m2\repository\javax\javaee-api\8.0\javaee-api-8.0.jar;C:\Users\Administrator\.m2\repository\com\sun\mail\javax.mail\1.6.0\javax.mail-1.6.0.jar;C:\Users\Administrator\.m2\repository\javax\activation\activation\1.1\activation-1.1.jar;C:\Users\Administrator\.m2\repository\org\mybatis\mybatis-spring\1.3.1\mybatis-spring-1.3.1.jar;C:\Users\Administrator\.m2\repository\commons-dbcp\commons-dbcp\1.4\commons-dbcp-1.4.jar;C:\Users\Administrator\.m2\repository\commons-pool\commons-pool\1.5.4\commons-pool-1.5.4.jar;C:\Users\Administrator\.m2\repository\javax\servlet\jstl\1.2\jstl-1.2.jar;C:\Users\Administrator\.m2\repository\com\alibaba\fastjson\1.2.41\fastjson-1.2.41.jar;C:\Users\Administrator\.m2\repository\log4j\log4j\1.2.17\log4j-1.2.17.jar;C:\Users\Administrator\.m2\repository\org\slf4j\slf4j-api\1.7.25\slf4j-api-1.7.25.jar;C:\Users\Administrator\.m2\repository\org\slf4j\slf4j-log4j12\1.7.25\slf4j-log4j12-1.7.25.jar;C:\Users\Administrator\.m2\repository\org\codehaus\jackson\jackson-mapper-asl\1.9.13\jackson-mapper-asl-1.9.13.jar;C:\Users\Administrator\.m2\repository\org\codehaus\jackson\jackson-core-asl\1.9.13\jackson-core-asl-1.9.13.jar;C:\Users\Administrator\.m2\repository\commons-fileupload\commons-fileupload\1.3.3\commons-fileupload-1.3.3.jar;C:\Users\Administrator\.m2\repository\commons-io\commons-io\2.5\commons-io-2.5.jar;C:\Users\Administrator\.m2\repository\commons-codec\commons-codec\1.10\commons-codec-1.10.jar;C:\Users\Administrator\.m2\repository\com\fasterxml\jackson\core\jackson-core\2.9.0\jackson-core-2.9.0.jar;C:\Users\Administrator\.m2\repository\com\fasterxml\jackson\core\jackson-databind\2.9.0\jackson-databind-2.9.0.jar;C:\Users\Administrator\.m2\repository\com\fasterxml\jackson\core\jackson-annotations\2.9.0\jackson-annotations-2.9.0.jar;C:\Users\Administrator\.m2\repository\org\apache\zookeeper\zookeeper\3.4.8\zookeeper-3.4.8.jar;C:\Users\Administrator\.m2\repository\jline\jline\0.9.94\jline-0.9.94.jar;C:\Users\Administrator\.m2\repository\io\netty\netty\3.7.0.Final\netty-3.7.0.Final.jar;C:\Users\Administrator\.m2\repository\org\apache\storm\storm-core\1.0.6\storm-core-1.0.6.jar;/D:/eclipse/configuration/org.eclipse.osgi/383/0/.cp/;/D:/eclipse/configuration/org.eclipse.osgi/382/0/.cp/
+ [INFO] [2018-03-27 11:58:55][org.apache.zookeeper.ZooKeeper]Client environment:java.library.path=C:\Program Files\Java\jre1.8.0_152\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;C:/Program Files/Java/jre1.8.0_152/bin/server;C:/Program Files/Java/jre1.8.0_152/bin;C:/Program Files/Java/jre1.8.0_152/lib/amd64;C:\ProgramData\Oracle\Java\javapath;D:\oracle\product\11.2.0\dbhome_2\bin;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Program Files\TortoiseSVN\bin;C:\Program Files (x86)\Rational\common;C:\Program Files (x86)\Intel\OpenCL SDK\3.0\bin\x86;C:\Program Files (x86)\Intel\OpenCL SDK\3.0\bin\x64;C:\Program Files\Lenovo\Fingerprint Manager Pro\;C:\Program Files\TortoiseGit\bin;C:\Program Files\Java\jdk1.7.0_79\lib\dt.jar;C:\Program Files\Java\jdk1.7.0_79\lib\tools.jar;C:\Program Files\Java\jdk1.7.0_79\lib;D:\apache-tomcat-8.0.33\lib;D:\apache-tomcat-8.0.33\bin;C:\Users\Administrator\AppData\Local\Programs\Python\Python36;D:\cygwin64\bin;C:\Program Files\wkhtmltopdf\bin;C:\Program Files (x86)\sqlite3;C:\Program Files\Intel\WiFi\bin\;C:\Program Files\Common Files\Intel\WirelessCommon\;C:\Users\Administrator\AppData\Local\Programs\Python\Python36\Scripts\;C:\Users\Administrator\AppData\Local\Programs\Python\Python36\;C:\Program Files\Docker Toolbox;D:\cygwin64\bin;C:\Program Files\Java\jdk1.7.0_79\bin;C:\Program Files\Intel\WiFi\bin\;C:\Program Files\Common Files\Intel\WirelessCommon\;.;;D:\eclipse;;.;;.
+ [INFO] [2018-03-27 11:58:55][org.apache.zookeeper.ZooKeeper]Client environment:java.io.tmpdir=C:\Users\ADMINI~1\AppData\Local\Temp\
+ [INFO] [2018-03-27 11:58:55][org.apache.zookeeper.ZooKeeper]Client environment:java.compiler=<NA>
+ [INFO] [2018-03-27 11:58:55][org.apache.zookeeper.ZooKeeper]Client environment:os.name=Windows 7
+ [INFO] [2018-03-27 11:58:55][org.apache.zookeeper.ZooKeeper]Client environment:os.arch=amd64
+ [INFO] [2018-03-27 11:58:55][org.apache.zookeeper.ZooKeeper]Client environment:os.version=6.1
+ [INFO] [2018-03-27 11:58:55][org.apache.zookeeper.ZooKeeper]Client environment:user.name=Administrator
+ [INFO] [2018-03-27 11:58:55][org.apache.zookeeper.ZooKeeper]Client environment:user.home=C:\Users\Administrator
+ [INFO] [2018-03-27 11:58:55][org.apache.zookeeper.ZooKeeper]Client environment:user.dir=D:\cygwin64\workspace\myproject
+ [INFO] [2018-03-27 11:58:55][org.apache.zookeeper.ZooKeeper]Initiating client connection, connectString=10.1.241.131 sessionTimeout=500000 watcher=com.wgn.zookeeper.ZkTest$1@67f89fa3
+ [INFO] [2018-03-27 11:58:56][org.apache.zookeeper.ClientCnxn]Opening socket connection to server 10.1.241.131/10.1.241.131:2181. Will not attempt to authenticate using SASL (unknown error)
+ [INFO] [2018-03-27 11:58:57][org.apache.zookeeper.ClientCnxn]Socket connection established to 10.1.241.131/10.1.241.131:2181, initiating session
+ [INFO] [2018-03-27 11:58:57][org.apache.zookeeper.ClientCnxn]Session establishment complete on server 10.1.241.131/10.1.241.131:2181, sessionid = 0x16262e2c2790003, negotiated timeout = 40000
+ [INFO] [2018-03-27 11:58:58][org.apache.zookeeper.ZooKeeper]Session: 0x16262e2c2790003 closed
+ [INFO] [2018-03-27 11:58:58][org.apache.zookeeper.ClientCnxn]EventThread shut down for session: 0x16262e2c2790003
+ [INFO] [2018-03-27 14:44:18][org.apache.zookeeper.ZooKeeper]Client environment:zookeeper.version=3.4.8--1, built on 02/06/2016 03:18 GMT
+ [INFO] [2018-03-27 14:44:18][org.apache.zookeeper.ZooKeeper]Client environment:host.name=wanggn-PC
+ [INFO] [2018-03-27 14:44:18][org.apache.zookeeper.ZooKeeper]Client environment:java.version=1.8.0_152
+ [INFO] [2018-03-27 14:44:18][org.apache.zookeeper.ZooKeeper]Client environment:java.vendor=Oracle Corporation
+ [INFO] [2018-03-27 14:44:18][org.apache.zookeeper.ZooKeeper]Client environment:java.home=C:\Program Files\Java\jre1.8.0_152
+ [INFO] [2018-03-27 14:44:18][org.apache.zookeeper.ZooKeeper]Client environment:java.class.path=D:\cygwin64\workspace\myproject\target\test-classes;D:\cygwin64\workspace\myproject\target\classes;C:\Users\Administrator\.m2\repository\junit\junit\4.10\junit-4.10.jar;C:\Users\Administrator\.m2\repository\org\hamcrest\hamcrest-core\1.1\hamcrest-core-1.1.jar;C:\Users\Administrator\.m2\repository\org\mybatis\mybatis\3.4.6\mybatis-3.4.6.jar;C:\Users\Administrator\.m2\repository\mysql\mysql-connector-java\6.0.6\mysql-connector-java-6.0.6.jar;C:\Users\Administrator\.m2\repository\org\springframework\spring-context\5.0.0.RELEASE\spring-context-5.0.0.RELEASE.jar;C:\Users\Administrator\.m2\repository\org\springframework\spring-aop\5.0.0.RELEASE\spring-aop-5.0.0.RELEASE.jar;C:\Users\Administrator\.m2\repository\org\springframework\spring-core\5.0.0.RELEASE\spring-core-5.0.0.RELEASE.jar;C:\Users\Administrator\.m2\repository\org\springframework\spring-jcl\5.0.0.RELEASE\spring-jcl-5.0.0.RELEASE.jar;C:\Users\Administrator\.m2\repository\org\springframework\spring-expression\5.0.0.RELEASE\spring-expression-5.0.0.RELEASE.jar;C:\Users\Administrator\.m2\repository\org\springframework\spring-test\5.0.0.RELEASE\spring-test-5.0.0.RELEASE.jar;C:\Users\Administrator\.m2\repository\org\springframework\spring-beans\5.0.0.RELEASE\spring-beans-5.0.0.RELEASE.jar;C:\Users\Administrator\.m2\repository\org\springframework\spring-webmvc\5.0.0.RELEASE\spring-webmvc-5.0.0.RELEASE.jar;C:\Users\Administrator\.m2\repository\org\springframework\spring-web\5.0.0.RELEASE\spring-web-5.0.0.RELEASE.jar;C:\Users\Administrator\.m2\repository\org\springframework\spring-orm\5.0.0.RELEASE\spring-orm-5.0.0.RELEASE.jar;C:\Users\Administrator\.m2\repository\org\springframework\spring-jdbc\5.0.0.RELEASE\spring-jdbc-5.0.0.RELEASE.jar;C:\Users\Administrator\.m2\repository\org\springframework\spring-tx\5.0.0.RELEASE\spring-tx-5.0.0.RELEASE.jar;C:\Users\Administrator\.m2\repository\org\springframework\spring-aspects\5.0.0.RELEASE\spring-aspects-5.0.0.RELEASE.jar;C:\Users\Administrator\.m2\repository\org\aspectj\aspectjrt\1.8.13\aspectjrt-1.8.13.jar;C:\Users\Administrator\.m2\repository\org\aspectj\aspectjweaver\1.8.13\aspectjweaver-1.8.13.jar;C:\Users\Administrator\.m2\repository\cglib\cglib\3.2.5\cglib-3.2.5.jar;C:\Users\Administrator\.m2\repository\org\ow2\asm\asm\5.2\asm-5.2.jar;C:\Users\Administrator\.m2\repository\org\apache\ant\ant\1.9.6\ant-1.9.6.jar;C:\Users\Administrator\.m2\repository\org\apache\ant\ant-launcher\1.9.6\ant-launcher-1.9.6.jar;C:\Users\Administrator\.m2\repository\org\mybatis\generator\mybatis-generator-core\1.3.6\mybatis-generator-core-1.3.6.jar;C:\Users\Administrator\.m2\repository\javax\javaee-api\8.0\javaee-api-8.0.jar;C:\Users\Administrator\.m2\repository\com\sun\mail\javax.mail\1.6.0\javax.mail-1.6.0.jar;C:\Users\Administrator\.m2\repository\javax\activation\activation\1.1\activation-1.1.jar;C:\Users\Administrator\.m2\repository\org\mybatis\mybatis-spring\1.3.1\mybatis-spring-1.3.1.jar;C:\Users\Administrator\.m2\repository\commons-dbcp\commons-dbcp\1.4\commons-dbcp-1.4.jar;C:\Users\Administrator\.m2\repository\commons-pool\commons-pool\1.5.4\commons-pool-1.5.4.jar;C:\Users\Administrator\.m2\repository\javax\servlet\jstl\1.2\jstl-1.2.jar;C:\Users\Administrator\.m2\repository\com\alibaba\fastjson\1.2.41\fastjson-1.2.41.jar;C:\Users\Administrator\.m2\repository\log4j\log4j\1.2.17\log4j-1.2.17.jar;C:\Users\Administrator\.m2\repository\org\slf4j\slf4j-api\1.7.25\slf4j-api-1.7.25.jar;C:\Users\Administrator\.m2\repository\org\slf4j\slf4j-log4j12\1.7.25\slf4j-log4j12-1.7.25.jar;C:\Users\Administrator\.m2\repository\org\codehaus\jackson\jackson-mapper-asl\1.9.13\jackson-mapper-asl-1.9.13.jar;C:\Users\Administrator\.m2\repository\org\codehaus\jackson\jackson-core-asl\1.9.13\jackson-core-asl-1.9.13.jar;C:\Users\Administrator\.m2\repository\commons-fileupload\commons-fileupload\1.3.3\commons-fileupload-1.3.3.jar;C:\Users\Administrator\.m2\repository\commons-io\commons-io\2.5\commons-io-2.5.jar;C:\Users\Administrator\.m2\repository\commons-codec\commons-codec\1.10\commons-codec-1.10.jar;C:\Users\Administrator\.m2\repository\com\fasterxml\jackson\core\jackson-core\2.9.0\jackson-core-2.9.0.jar;C:\Users\Administrator\.m2\repository\com\fasterxml\jackson\core\jackson-databind\2.9.0\jackson-databind-2.9.0.jar;C:\Users\Administrator\.m2\repository\com\fasterxml\jackson\core\jackson-annotations\2.9.0\jackson-annotations-2.9.0.jar;C:\Users\Administrator\.m2\repository\org\apache\zookeeper\zookeeper\3.4.8\zookeeper-3.4.8.jar;C:\Users\Administrator\.m2\repository\jline\jline\0.9.94\jline-0.9.94.jar;C:\Users\Administrator\.m2\repository\io\netty\netty\3.7.0.Final\netty-3.7.0.Final.jar;C:\Users\Administrator\.m2\repository\org\apache\storm\storm-core\1.0.6\storm-core-1.0.6.jar;/D:/eclipse/configuration/org.eclipse.osgi/383/0/.cp/;/D:/eclipse/configuration/org.eclipse.osgi/382/0/.cp/
+ [INFO] [2018-03-27 14:44:18][org.apache.zookeeper.ZooKeeper]Client environment:java.library.path=C:\Program Files\Java\jre1.8.0_152\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;C:/Program Files/Java/jre1.8.0_152/bin/server;C:/Program Files/Java/jre1.8.0_152/bin;C:/Program Files/Java/jre1.8.0_152/lib/amd64;C:\ProgramData\Oracle\Java\javapath;D:\oracle\product\11.2.0\dbhome_2\bin;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Program Files\TortoiseSVN\bin;C:\Program Files (x86)\Rational\common;C:\Program Files (x86)\Intel\OpenCL SDK\3.0\bin\x86;C:\Program Files (x86)\Intel\OpenCL SDK\3.0\bin\x64;C:\Program Files\Lenovo\Fingerprint Manager Pro\;C:\Program Files\TortoiseGit\bin;C:\Program Files\Java\jdk1.7.0_79\lib\dt.jar;C:\Program Files\Java\jdk1.7.0_79\lib\tools.jar;C:\Program Files\Java\jdk1.7.0_79\lib;D:\apache-tomcat-8.0.33\lib;D:\apache-tomcat-8.0.33\bin;C:\Users\Administrator\AppData\Local\Programs\Python\Python36;D:\cygwin64\bin;C:\Program Files\wkhtmltopdf\bin;C:\Program Files (x86)\sqlite3;C:\Program Files\Intel\WiFi\bin\;C:\Program Files\Common Files\Intel\WirelessCommon\;C:\Users\Administrator\AppData\Local\Programs\Python\Python36\Scripts\;C:\Users\Administrator\AppData\Local\Programs\Python\Python36\;C:\Program Files\Docker Toolbox;D:\cygwin64\bin;C:\Program Files\Java\jdk1.7.0_79\bin;C:\Program Files\Intel\WiFi\bin\;C:\Program Files\Common Files\Intel\WirelessCommon\;.;;D:\eclipse;;.;;.
+ [INFO] [2018-03-27 14:44:18][org.apache.zookeeper.ZooKeeper]Client environment:java.io.tmpdir=C:\Users\ADMINI~1\AppData\Local\Temp\
+ [INFO] [2018-03-27 14:44:18][org.apache.zookeeper.ZooKeeper]Client environment:java.compiler=<NA>
+ [INFO] [2018-03-27 14:44:18][org.apache.zookeeper.ZooKeeper]Client environment:os.name=Windows 7
+ [INFO] [2018-03-27 14:44:18][org.apache.zookeeper.ZooKeeper]Client environment:os.arch=amd64
+ [INFO] [2018-03-27 14:44:18][org.apache.zookeeper.ZooKeeper]Client environment:os.version=6.1
+ [INFO] [2018-03-27 14:44:18][org.apache.zookeeper.ZooKeeper]Client environment:user.name=Administrator
+ [INFO] [2018-03-27 14:44:18][org.apache.zookeeper.ZooKeeper]Client environment:user.home=C:\Users\Administrator
+ [INFO] [2018-03-27 14:44:18][org.apache.zookeeper.ZooKeeper]Client environment:user.dir=D:\cygwin64\workspace\myproject
+ [INFO] [2018-03-27 14:44:18][org.apache.zookeeper.ZooKeeper]Initiating client connection, connectString=10.1.241.131 sessionTimeout=500000 watcher=com.wgn.zookeeper.ZkTest$1@67f89fa3
+ [INFO] [2018-03-27 14:44:20][org.apache.zookeeper.ClientCnxn]Opening socket connection to server 10.1.241.131/10.1.241.131:2181. Will not attempt to authenticate using SASL (unknown error)
+ [INFO] [2018-03-27 14:44:20][org.apache.zookeeper.ClientCnxn]Socket connection established to 10.1.241.131/10.1.241.131:2181, initiating session
+ [INFO] [2018-03-27 14:44:20][org.apache.zookeeper.ClientCnxn]Session establishment complete on server 10.1.241.131/10.1.241.131:2181, sessionid = 0x16262e2c2790005, negotiated timeout = 40000
+ [INFO] [2018-03-27 14:46:42][org.apache.zookeeper.ZooKeeper]Client environment:zookeeper.version=3.4.8--1, built on 02/06/2016 03:18 GMT
+ [INFO] [2018-03-27 14:46:42][org.apache.zookeeper.ZooKeeper]Client environment:host.name=wanggn-PC
+ [INFO] [2018-03-27 14:46:42][org.apache.zookeeper.ZooKeeper]Client environment:java.version=1.8.0_152
+ [INFO] [2018-03-27 14:46:42][org.apache.zookeeper.ZooKeeper]Client environment:java.vendor=Oracle Corporation
+ [INFO] [2018-03-27 14:46:42][org.apache.zookeeper.ZooKeeper]Client environment:java.home=C:\Program Files\Java\jre1.8.0_152
+ [INFO] [2018-03-27 14:46:42][org.apache.zookeeper.ZooKeeper]Client environment:java.class.path=D:\cygwin64\workspace\myproject\target\test-classes;D:\cygwin64\workspace\myproject\target\classes;C:\Users\Administrator\.m2\repository\junit\junit\4.10\junit-4.10.jar;C:\Users\Administrator\.m2\repository\org\hamcrest\hamcrest-core\1.1\hamcrest-core-1.1.jar;C:\Users\Administrator\.m2\repository\org\mybatis\mybatis\3.4.6\mybatis-3.4.6.jar;C:\Users\Administrator\.m2\repository\mysql\mysql-connector-java\6.0.6\mysql-connector-java-6.0.6.jar;C:\Users\Administrator\.m2\repository\org\springframework\spring-context\5.0.0.RELEASE\spring-context-5.0.0.RELEASE.jar;C:\Users\Administrator\.m2\repository\org\springframework\spring-aop\5.0.0.RELEASE\spring-aop-5.0.0.RELEASE.jar;C:\Users\Administrator\.m2\repository\org\springframework\spring-core\5.0.0.RELEASE\spring-core-5.0.0.RELEASE.jar;C:\Users\Administrator\.m2\repository\org\springframework\spring-jcl\5.0.0.RELEASE\spring-jcl-5.0.0.RELEASE.jar;C:\Users\Administrator\.m2\repository\org\springframework\spring-expression\5.0.0.RELEASE\spring-expression-5.0.0.RELEASE.jar;C:\Users\Administrator\.m2\repository\org\springframework\spring-test\5.0.0.RELEASE\spring-test-5.0.0.RELEASE.jar;C:\Users\Administrator\.m2\repository\org\springframework\spring-beans\5.0.0.RELEASE\spring-beans-5.0.0.RELEASE.jar;C:\Users\Administrator\.m2\repository\org\springframework\spring-webmvc\5.0.0.RELEASE\spring-webmvc-5.0.0.RELEASE.jar;C:\Users\Administrator\.m2\repository\org\springframework\spring-web\5.0.0.RELEASE\spring-web-5.0.0.RELEASE.jar;C:\Users\Administrator\.m2\repository\org\springframework\spring-orm\5.0.0.RELEASE\spring-orm-5.0.0.RELEASE.jar;C:\Users\Administrator\.m2\repository\org\springframework\spring-jdbc\5.0.0.RELEASE\spring-jdbc-5.0.0.RELEASE.jar;C:\Users\Administrator\.m2\repository\org\springframework\spring-tx\5.0.0.RELEASE\spring-tx-5.0.0.RELEASE.jar;C:\Users\Administrator\.m2\repository\org\springframework\spring-aspects\5.0.0.RELEASE\spring-aspects-5.0.0.RELEASE.jar;C:\Users\Administrator\.m2\repository\org\aspectj\aspectjrt\1.8.13\aspectjrt-1.8.13.jar;C:\Users\Administrator\.m2\repository\org\aspectj\aspectjweaver\1.8.13\aspectjweaver-1.8.13.jar;C:\Users\Administrator\.m2\repository\cglib\cglib\3.2.5\cglib-3.2.5.jar;C:\Users\Administrator\.m2\repository\org\ow2\asm\asm\5.2\asm-5.2.jar;C:\Users\Administrator\.m2\repository\org\apache\ant\ant\1.9.6\ant-1.9.6.jar;C:\Users\Administrator\.m2\repository\org\apache\ant\ant-launcher\1.9.6\ant-launcher-1.9.6.jar;C:\Users\Administrator\.m2\repository\org\mybatis\generator\mybatis-generator-core\1.3.6\mybatis-generator-core-1.3.6.jar;C:\Users\Administrator\.m2\repository\javax\javaee-api\8.0\javaee-api-8.0.jar;C:\Users\Administrator\.m2\repository\com\sun\mail\javax.mail\1.6.0\javax.mail-1.6.0.jar;C:\Users\Administrator\.m2\repository\javax\activation\activation\1.1\activation-1.1.jar;C:\Users\Administrator\.m2\repository\org\mybatis\mybatis-spring\1.3.1\mybatis-spring-1.3.1.jar;C:\Users\Administrator\.m2\repository\commons-dbcp\commons-dbcp\1.4\commons-dbcp-1.4.jar;C:\Users\Administrator\.m2\repository\commons-pool\commons-pool\1.5.4\commons-pool-1.5.4.jar;C:\Users\Administrator\.m2\repository\javax\servlet\jstl\1.2\jstl-1.2.jar;C:\Users\Administrator\.m2\repository\com\alibaba\fastjson\1.2.41\fastjson-1.2.41.jar;C:\Users\Administrator\.m2\repository\log4j\log4j\1.2.17\log4j-1.2.17.jar;C:\Users\Administrator\.m2\repository\org\slf4j\slf4j-api\1.7.25\slf4j-api-1.7.25.jar;C:\Users\Administrator\.m2\repository\org\slf4j\slf4j-log4j12\1.7.25\slf4j-log4j12-1.7.25.jar;C:\Users\Administrator\.m2\repository\org\codehaus\jackson\jackson-mapper-asl\1.9.13\jackson-mapper-asl-1.9.13.jar;C:\Users\Administrator\.m2\repository\org\codehaus\jackson\jackson-core-asl\1.9.13\jackson-core-asl-1.9.13.jar;C:\Users\Administrator\.m2\repository\commons-fileupload\commons-fileupload\1.3.3\commons-fileupload-1.3.3.jar;C:\Users\Administrator\.m2\repository\commons-io\commons-io\2.5\commons-io-2.5.jar;C:\Users\Administrator\.m2\repository\commons-codec\commons-codec\1.10\commons-codec-1.10.jar;C:\Users\Administrator\.m2\repository\com\fasterxml\jackson\core\jackson-core\2.9.0\jackson-core-2.9.0.jar;C:\Users\Administrator\.m2\repository\com\fasterxml\jackson\core\jackson-databind\2.9.0\jackson-databind-2.9.0.jar;C:\Users\Administrator\.m2\repository\com\fasterxml\jackson\core\jackson-annotations\2.9.0\jackson-annotations-2.9.0.jar;C:\Users\Administrator\.m2\repository\org\apache\zookeeper\zookeeper\3.4.8\zookeeper-3.4.8.jar;C:\Users\Administrator\.m2\repository\jline\jline\0.9.94\jline-0.9.94.jar;C:\Users\Administrator\.m2\repository\io\netty\netty\3.7.0.Final\netty-3.7.0.Final.jar;C:\Users\Administrator\.m2\repository\org\apache\storm\storm-core\1.0.6\storm-core-1.0.6.jar;/D:/eclipse/configuration/org.eclipse.osgi/383/0/.cp/;/D:/eclipse/configuration/org.eclipse.osgi/382/0/.cp/
+ [INFO] [2018-03-27 14:46:42][org.apache.zookeeper.ZooKeeper]Client environment:java.library.path=C:\Program Files\Java\jre1.8.0_152\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;C:/Program Files/Java/jre1.8.0_152/bin/server;C:/Program Files/Java/jre1.8.0_152/bin;C:/Program Files/Java/jre1.8.0_152/lib/amd64;C:\ProgramData\Oracle\Java\javapath;D:\oracle\product\11.2.0\dbhome_2\bin;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Program Files\TortoiseSVN\bin;C:\Program Files (x86)\Rational\common;C:\Program Files (x86)\Intel\OpenCL SDK\3.0\bin\x86;C:\Program Files (x86)\Intel\OpenCL SDK\3.0\bin\x64;C:\Program Files\Lenovo\Fingerprint Manager Pro\;C:\Program Files\TortoiseGit\bin;C:\Program Files\Java\jdk1.7.0_79\lib\dt.jar;C:\Program Files\Java\jdk1.7.0_79\lib\tools.jar;C:\Program Files\Java\jdk1.7.0_79\lib;D:\apache-tomcat-8.0.33\lib;D:\apache-tomcat-8.0.33\bin;C:\Users\Administrator\AppData\Local\Programs\Python\Python36;D:\cygwin64\bin;C:\Program Files\wkhtmltopdf\bin;C:\Program Files (x86)\sqlite3;C:\Program Files\Intel\WiFi\bin\;C:\Program Files\Common Files\Intel\WirelessCommon\;C:\Users\Administrator\AppData\Local\Programs\Python\Python36\Scripts\;C:\Users\Administrator\AppData\Local\Programs\Python\Python36\;C:\Program Files\Docker Toolbox;D:\cygwin64\bin;C:\Program Files\Java\jdk1.7.0_79\bin;C:\Program Files\Intel\WiFi\bin\;C:\Program Files\Common Files\Intel\WirelessCommon\;.;;D:\eclipse;;.;;.
+ [INFO] [2018-03-27 14:46:42][org.apache.zookeeper.ZooKeeper]Client environment:java.io.tmpdir=C:\Users\ADMINI~1\AppData\Local\Temp\
+ [INFO] [2018-03-27 14:46:42][org.apache.zookeeper.ZooKeeper]Client environment:java.compiler=<NA>
+ [INFO] [2018-03-27 14:46:42][org.apache.zookeeper.ZooKeeper]Client environment:os.name=Windows 7
+ [INFO] [2018-03-27 14:46:42][org.apache.zookeeper.ZooKeeper]Client environment:os.arch=amd64
+ [INFO] [2018-03-27 14:46:42][org.apache.zookeeper.ZooKeeper]Client environment:os.version=6.1
+ [INFO] [2018-03-27 14:46:42][org.apache.zookeeper.ZooKeeper]Client environment:user.name=Administrator
+ [INFO] [2018-03-27 14:46:42][org.apache.zookeeper.ZooKeeper]Client environment:user.home=C:\Users\Administrator
+ [INFO] [2018-03-27 14:46:42][org.apache.zookeeper.ZooKeeper]Client environment:user.dir=D:\cygwin64\workspace\myproject
+ [INFO] [2018-03-27 14:46:42][org.apache.zookeeper.ZooKeeper]Initiating client connection, connectString=10.1.241.131 sessionTimeout=500000 watcher=com.wgn.zookeeper.ZkTest$1@67f89fa3
+ [INFO] [2018-03-27 14:46:43][org.apache.zookeeper.ClientCnxn]Opening socket connection to server 10.1.241.131/10.1.241.131:2181. Will not attempt to authenticate using SASL (unknown error)
+ [INFO] [2018-03-27 14:46:43][org.apache.zookeeper.ClientCnxn]Socket connection established to 10.1.241.131/10.1.241.131:2181, initiating session
+ [INFO] [2018-03-27 14:46:43][org.apache.zookeeper.ClientCnxn]Session establishment complete on server 10.1.241.131/10.1.241.131:2181, sessionid = 0x16262e2c2790007, negotiated timeout = 40000
+ [INFO] [2018-03-27 14:47:23][org.apache.zookeeper.ZooKeeper]Client environment:zookeeper.version=3.4.8--1, built on 02/06/2016 03:18 GMT
+ [INFO] [2018-03-27 14:47:23][org.apache.zookeeper.ZooKeeper]Client environment:host.name=wanggn-PC
+ [INFO] [2018-03-27 14:47:23][org.apache.zookeeper.ZooKeeper]Client environment:java.version=1.8.0_152
+ [INFO] [2018-03-27 14:47:23][org.apache.zookeeper.ZooKeeper]Client environment:java.vendor=Oracle Corporation
+ [INFO] [2018-03-27 14:47:23][org.apache.zookeeper.ZooKeeper]Client environment:java.home=C:\Program Files\Java\jre1.8.0_152
+ [INFO] [2018-03-27 14:47:23][org.apache.zookeeper.ZooKeeper]Client environment:java.class.path=D:\cygwin64\workspace\myproject\target\test-classes;D:\cygwin64\workspace\myproject\target\classes;C:\Users\Administrator\.m2\repository\junit\junit\4.10\junit-4.10.jar;C:\Users\Administrator\.m2\repository\org\hamcrest\hamcrest-core\1.1\hamcrest-core-1.1.jar;C:\Users\Administrator\.m2\repository\org\mybatis\mybatis\3.4.6\mybatis-3.4.6.jar;C:\Users\Administrator\.m2\repository\mysql\mysql-connector-java\6.0.6\mysql-connector-java-6.0.6.jar;C:\Users\Administrator\.m2\repository\org\springframework\spring-context\5.0.0.RELEASE\spring-context-5.0.0.RELEASE.jar;C:\Users\Administrator\.m2\repository\org\springframework\spring-aop\5.0.0.RELEASE\spring-aop-5.0.0.RELEASE.jar;C:\Users\Administrator\.m2\repository\org\springframework\spring-core\5.0.0.RELEASE\spring-core-5.0.0.RELEASE.jar;C:\Users\Administrator\.m2\repository\org\springframework\spring-jcl\5.0.0.RELEASE\spring-jcl-5.0.0.RELEASE.jar;C:\Users\Administrator\.m2\repository\org\springframework\spring-expression\5.0.0.RELEASE\spring-expression-5.0.0.RELEASE.jar;C:\Users\Administrator\.m2\repository\org\springframework\spring-test\5.0.0.RELEASE\spring-test-5.0.0.RELEASE.jar;C:\Users\Administrator\.m2\repository\org\springframework\spring-beans\5.0.0.RELEASE\spring-beans-5.0.0.RELEASE.jar;C:\Users\Administrator\.m2\repository\org\springframework\spring-webmvc\5.0.0.RELEASE\spring-webmvc-5.0.0.RELEASE.jar;C:\Users\Administrator\.m2\repository\org\springframework\spring-web\5.0.0.RELEASE\spring-web-5.0.0.RELEASE.jar;C:\Users\Administrator\.m2\repository\org\springframework\spring-orm\5.0.0.RELEASE\spring-orm-5.0.0.RELEASE.jar;C:\Users\Administrator\.m2\repository\org\springframework\spring-jdbc\5.0.0.RELEASE\spring-jdbc-5.0.0.RELEASE.jar;C:\Users\Administrator\.m2\repository\org\springframework\spring-tx\5.0.0.RELEASE\spring-tx-5.0.0.RELEASE.jar;C:\Users\Administrator\.m2\repository\org\springframework\spring-aspects\5.0.0.RELEASE\spring-aspects-5.0.0.RELEASE.jar;C:\Users\Administrator\.m2\repository\org\aspectj\aspectjrt\1.8.13\aspectjrt-1.8.13.jar;C:\Users\Administrator\.m2\repository\org\aspectj\aspectjweaver\1.8.13\aspectjweaver-1.8.13.jar;C:\Users\Administrator\.m2\repository\cglib\cglib\3.2.5\cglib-3.2.5.jar;C:\Users\Administrator\.m2\repository\org\ow2\asm\asm\5.2\asm-5.2.jar;C:\Users\Administrator\.m2\repository\org\apache\ant\ant\1.9.6\ant-1.9.6.jar;C:\Users\Administrator\.m2\repository\org\apache\ant\ant-launcher\1.9.6\ant-launcher-1.9.6.jar;C:\Users\Administrator\.m2\repository\org\mybatis\generator\mybatis-generator-core\1.3.6\mybatis-generator-core-1.3.6.jar;C:\Users\Administrator\.m2\repository\javax\javaee-api\8.0\javaee-api-8.0.jar;C:\Users\Administrator\.m2\repository\com\sun\mail\javax.mail\1.6.0\javax.mail-1.6.0.jar;C:\Users\Administrator\.m2\repository\javax\activation\activation\1.1\activation-1.1.jar;C:\Users\Administrator\.m2\repository\org\mybatis\mybatis-spring\1.3.1\mybatis-spring-1.3.1.jar;C:\Users\Administrator\.m2\repository\commons-dbcp\commons-dbcp\1.4\commons-dbcp-1.4.jar;C:\Users\Administrator\.m2\repository\commons-pool\commons-pool\1.5.4\commons-pool-1.5.4.jar;C:\Users\Administrator\.m2\repository\javax\servlet\jstl\1.2\jstl-1.2.jar;C:\Users\Administrator\.m2\repository\com\alibaba\fastjson\1.2.41\fastjson-1.2.41.jar;C:\Users\Administrator\.m2\repository\log4j\log4j\1.2.17\log4j-1.2.17.jar;C:\Users\Administrator\.m2\repository\org\slf4j\slf4j-api\1.7.25\slf4j-api-1.7.25.jar;C:\Users\Administrator\.m2\repository\org\slf4j\slf4j-log4j12\1.7.25\slf4j-log4j12-1.7.25.jar;C:\Users\Administrator\.m2\repository\org\codehaus\jackson\jackson-mapper-asl\1.9.13\jackson-mapper-asl-1.9.13.jar;C:\Users\Administrator\.m2\repository\org\codehaus\jackson\jackson-core-asl\1.9.13\jackson-core-asl-1.9.13.jar;C:\Users\Administrator\.m2\repository\commons-fileupload\commons-fileupload\1.3.3\commons-fileupload-1.3.3.jar;C:\Users\Administrator\.m2\repository\commons-io\commons-io\2.5\commons-io-2.5.jar;C:\Users\Administrator\.m2\repository\commons-codec\commons-codec\1.10\commons-codec-1.10.jar;C:\Users\Administrator\.m2\repository\com\fasterxml\jackson\core\jackson-core\2.9.0\jackson-core-2.9.0.jar;C:\Users\Administrator\.m2\repository\com\fasterxml\jackson\core\jackson-databind\2.9.0\jackson-databind-2.9.0.jar;C:\Users\Administrator\.m2\repository\com\fasterxml\jackson\core\jackson-annotations\2.9.0\jackson-annotations-2.9.0.jar;C:\Users\Administrator\.m2\repository\org\apache\zookeeper\zookeeper\3.4.8\zookeeper-3.4.8.jar;C:\Users\Administrator\.m2\repository\jline\jline\0.9.94\jline-0.9.94.jar;C:\Users\Administrator\.m2\repository\io\netty\netty\3.7.0.Final\netty-3.7.0.Final.jar;C:\Users\Administrator\.m2\repository\org\apache\storm\storm-core\1.0.6\storm-core-1.0.6.jar;/D:/eclipse/configuration/org.eclipse.osgi/383/0/.cp/;/D:/eclipse/configuration/org.eclipse.osgi/382/0/.cp/
+ [INFO] [2018-03-27 14:47:23][org.apache.zookeeper.ZooKeeper]Client environment:java.library.path=C:\Program Files\Java\jre1.8.0_152\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;C:/Program Files/Java/jre1.8.0_152/bin/server;C:/Program Files/Java/jre1.8.0_152/bin;C:/Program Files/Java/jre1.8.0_152/lib/amd64;C:\ProgramData\Oracle\Java\javapath;D:\oracle\product\11.2.0\dbhome_2\bin;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Program Files\TortoiseSVN\bin;C:\Program Files (x86)\Rational\common;C:\Program Files (x86)\Intel\OpenCL SDK\3.0\bin\x86;C:\Program Files (x86)\Intel\OpenCL SDK\3.0\bin\x64;C:\Program Files\Lenovo\Fingerprint Manager Pro\;C:\Program Files\TortoiseGit\bin;C:\Program Files\Java\jdk1.7.0_79\lib\dt.jar;C:\Program Files\Java\jdk1.7.0_79\lib\tools.jar;C:\Program Files\Java\jdk1.7.0_79\lib;D:\apache-tomcat-8.0.33\lib;D:\apache-tomcat-8.0.33\bin;C:\Users\Administrator\AppData\Local\Programs\Python\Python36;D:\cygwin64\bin;C:\Program Files\wkhtmltopdf\bin;C:\Program Files (x86)\sqlite3;C:\Program Files\Intel\WiFi\bin\;C:\Program Files\Common Files\Intel\WirelessCommon\;C:\Users\Administrator\AppData\Local\Programs\Python\Python36\Scripts\;C:\Users\Administrator\AppData\Local\Programs\Python\Python36\;C:\Program Files\Docker Toolbox;D:\cygwin64\bin;C:\Program Files\Java\jdk1.7.0_79\bin;C:\Program Files\Intel\WiFi\bin\;C:\Program Files\Common Files\Intel\WirelessCommon\;.;;D:\eclipse;;.;;.
+ [INFO] [2018-03-27 14:47:23][org.apache.zookeeper.ZooKeeper]Client environment:java.io.tmpdir=C:\Users\ADMINI~1\AppData\Local\Temp\
+ [INFO] [2018-03-27 14:47:23][org.apache.zookeeper.ZooKeeper]Client environment:java.compiler=<NA>
+ [INFO] [2018-03-27 14:47:23][org.apache.zookeeper.ZooKeeper]Client environment:os.name=Windows 7
+ [INFO] [2018-03-27 14:47:23][org.apache.zookeeper.ZooKeeper]Client environment:os.arch=amd64
+ [INFO] [2018-03-27 14:47:23][org.apache.zookeeper.ZooKeeper]Client environment:os.version=6.1
+ [INFO] [2018-03-27 14:47:23][org.apache.zookeeper.ZooKeeper]Client environment:user.name=Administrator
+ [INFO] [2018-03-27 14:47:23][org.apache.zookeeper.ZooKeeper]Client environment:user.home=C:\Users\Administrator
+ [INFO] [2018-03-27 14:47:23][org.apache.zookeeper.ZooKeeper]Client environment:user.dir=D:\cygwin64\workspace\myproject
+ [INFO] [2018-03-27 14:47:23][org.apache.zookeeper.ZooKeeper]Initiating client connection, connectString=10.1.241.131 sessionTimeout=500000 watcher=com.wgn.zookeeper.ZkTest$1@67f89fa3
+ [INFO] [2018-03-27 14:47:24][org.apache.zookeeper.ClientCnxn]Opening socket connection to server 10.1.241.131/10.1.241.131:2181. Will not attempt to authenticate using SASL (unknown error)
+ [INFO] [2018-03-27 14:47:24][org.apache.zookeeper.ClientCnxn]Socket connection established to 10.1.241.131/10.1.241.131:2181, initiating session
+ [INFO] [2018-03-27 14:47:25][org.apache.zookeeper.ClientCnxn]Session establishment complete on server 10.1.241.131/10.1.241.131:2181, sessionid = 0x16262e2c2790008, negotiated timeout = 40000
+ [INFO] [2018-03-27 14:47:25][org.apache.zookeeper.ZooKeeper]Session: 0x16262e2c2790008 closed
+ [INFO] [2018-03-27 14:47:25][org.apache.zookeeper.ClientCnxn]EventThread shut down for session: 0x16262e2c2790008
+ [WARN] [2018-03-27 17:35:30][org.apache.storm.utils.Utils]STORM-VERSION new 1.0.6 old null
+ [INFO] [2018-03-27 17:35:31][org.apache.storm.StormSubmitter]Generated ZooKeeper secret payload for MD5-digest: -8045824007575316629:-8886235780625497436
+ [WARN] [2018-03-27 17:37:06][org.apache.storm.utils.Utils]STORM-VERSION new 1.0.6 old null
+ [INFO] [2018-03-27 17:37:07][org.apache.storm.StormSubmitter]Generated ZooKeeper secret payload for MD5-digest: -8238375744888967085:-8802735558738538752
+ [WARN] [2018-03-27 17:37:08][org.apache.storm.utils.Utils]STORM-VERSION new 1.0.6 old 1.0.6
+ [INFO] [2018-03-27 17:37:08][org.apache.storm.security.auth.AuthUtils]Got AutoCreds []
+ [WARN] [2018-03-27 17:37:08][org.apache.storm.utils.NimbusClient]Using deprecated config nimbus.host for backward compatibility. Please update your storm.yaml so it only has config nimbus.seeds
+ [INFO] [2018-03-27 17:37:17][org.apache.storm.utils.NimbusClient]Found leader nimbus : host-10-1-241-131:6627
+ [WARN] [2018-03-27 17:42:14][org.apache.storm.utils.Utils]STORM-VERSION new 1.0.6 old null
+ [INFO] [2018-03-27 17:42:17][org.apache.storm.StormSubmitter]Generated ZooKeeper secret payload for MD5-digest: -7702492613636848249:-7552817411406734856
+ [WARN] [2018-03-27 17:42:17][org.apache.storm.utils.Utils]STORM-VERSION new 1.0.6 old 1.0.6
+ [INFO] [2018-03-27 17:42:17][org.apache.storm.security.auth.AuthUtils]Got AutoCreds []
+ [WARN] [2018-03-27 17:44:13][org.apache.storm.utils.NimbusClient]Ignoring exception while trying to get leader nimbus info from 10.1.241.131. will retry with a different seed host.
+ java.lang.RuntimeException: java.lang.RuntimeException: org.apache.storm.thrift.transport.TTransportException: java.net.ConnectException: Connection timed out: connect
+	at org.apache.storm.security.auth.ThriftClient.reconnect(ThriftClient.java:108)
+	at org.apache.storm.security.auth.ThriftClient.<init>(ThriftClient.java:69)
+	at org.apache.storm.utils.NimbusClient.<init>(NimbusClient.java:125)
+	at org.apache.storm.utils.NimbusClient.getConfiguredClientAs(NimbusClient.java:83)
+	at org.apache.storm.StormSubmitter.topologyNameExists(StormSubmitter.java:371)
+	at org.apache.storm.StormSubmitter.submitTopologyAs(StormSubmitter.java:234)
+	at org.apache.storm.StormSubmitter.submitTopology(StormSubmitter.java:311)
+	at org.apache.storm.StormSubmitter.submitTopology(StormSubmitter.java:157)
+	at com.wgn.storm.LogAnalyserStorm.StormTest(LogAnalyserStorm.java:45)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.junit.runners.model.FrameworkMethod$1.runReflectiveCall(FrameworkMethod.java:45)
+	at org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:15)
+	at org.junit.runners.model.FrameworkMethod.invokeExplosively(FrameworkMethod.java:42)
+	at org.junit.internal.runners.statements.InvokeMethod.evaluate(InvokeMethod.java:20)
+	at org.junit.runners.ParentRunner.runLeaf(ParentRunner.java:263)
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:68)
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:47)
+	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:231)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:60)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:229)
+	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:50)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:222)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:300)
+	at org.eclipse.jdt.internal.junit4.runner.JUnit4TestReference.run(JUnit4TestReference.java:86)
+	at org.eclipse.jdt.internal.junit.runner.TestExecution.run(TestExecution.java:38)
+	at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.runTests(RemoteTestRunner.java:459)
+	at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.runTests(RemoteTestRunner.java:675)
+	at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.run(RemoteTestRunner.java:382)
+	at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.main(RemoteTestRunner.java:192)
+Caused by: java.lang.RuntimeException: org.apache.storm.thrift.transport.TTransportException: java.net.ConnectException: Connection timed out: connect
+	at org.apache.storm.security.auth.TBackoffConnect.retryNext(TBackoffConnect.java:64)
+	at org.apache.storm.security.auth.TBackoffConnect.doConnectWithRetry(TBackoffConnect.java:56)
+	at org.apache.storm.security.auth.ThriftClient.reconnect(ThriftClient.java:100)
+	... 31 more
+Caused by: org.apache.storm.thrift.transport.TTransportException: java.net.ConnectException: Connection timed out: connect
+	at org.apache.storm.thrift.transport.TSocket.open(TSocket.java:226)
+	at org.apache.storm.thrift.transport.TFramedTransport.open(TFramedTransport.java:81)
+	at org.apache.storm.security.auth.SimpleTransportPlugin.connect(SimpleTransportPlugin.java:105)
+	at org.apache.storm.security.auth.TBackoffConnect.doConnectWithRetry(TBackoffConnect.java:53)
+	... 32 more
+Caused by: java.net.ConnectException: Connection timed out: connect
+	at java.net.DualStackPlainSocketImpl.connect0(Native Method)
+	at java.net.DualStackPlainSocketImpl.socketConnect(Unknown Source)
+	at java.net.AbstractPlainSocketImpl.doConnect(Unknown Source)
+	at java.net.AbstractPlainSocketImpl.connectToAddress(Unknown Source)
+	at java.net.AbstractPlainSocketImpl.connect(Unknown Source)
+	at java.net.PlainSocketImpl.connect(Unknown Source)
+	at java.net.SocksSocketImpl.connect(Unknown Source)
+	at java.net.Socket.connect(Unknown Source)
+	at org.apache.storm.thrift.transport.TSocket.open(TSocket.java:221)
+	... 35 more
+[WARN] [2018-03-27 17:46:29][org.apache.storm.utils.NimbusClient]Ignoring exception while trying to get leader nimbus info from 10.1.241.133. will retry with a different seed host.
+ java.lang.RuntimeException: java.lang.RuntimeException: org.apache.storm.thrift.transport.TTransportException: java.net.ConnectException: Connection timed out: connect
+	at org.apache.storm.security.auth.ThriftClient.reconnect(ThriftClient.java:108)
+	at org.apache.storm.security.auth.ThriftClient.<init>(ThriftClient.java:69)
+	at org.apache.storm.utils.NimbusClient.<init>(NimbusClient.java:125)
+	at org.apache.storm.utils.NimbusClient.getConfiguredClientAs(NimbusClient.java:83)
+	at org.apache.storm.StormSubmitter.topologyNameExists(StormSubmitter.java:371)
+	at org.apache.storm.StormSubmitter.submitTopologyAs(StormSubmitter.java:234)
+	at org.apache.storm.StormSubmitter.submitTopology(StormSubmitter.java:311)
+	at org.apache.storm.StormSubmitter.submitTopology(StormSubmitter.java:157)
+	at com.wgn.storm.LogAnalyserStorm.StormTest(LogAnalyserStorm.java:45)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.junit.runners.model.FrameworkMethod$1.runReflectiveCall(FrameworkMethod.java:45)
+	at org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:15)
+	at org.junit.runners.model.FrameworkMethod.invokeExplosively(FrameworkMethod.java:42)
+	at org.junit.internal.runners.statements.InvokeMethod.evaluate(InvokeMethod.java:20)
+	at org.junit.runners.ParentRunner.runLeaf(ParentRunner.java:263)
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:68)
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:47)
+	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:231)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:60)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:229)
+	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:50)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:222)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:300)
+	at org.eclipse.jdt.internal.junit4.runner.JUnit4TestReference.run(JUnit4TestReference.java:86)
+	at org.eclipse.jdt.internal.junit.runner.TestExecution.run(TestExecution.java:38)
+	at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.runTests(RemoteTestRunner.java:459)
+	at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.runTests(RemoteTestRunner.java:675)
+	at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.run(RemoteTestRunner.java:382)
+	at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.main(RemoteTestRunner.java:192)
+Caused by: java.lang.RuntimeException: org.apache.storm.thrift.transport.TTransportException: java.net.ConnectException: Connection timed out: connect
+	at org.apache.storm.security.auth.TBackoffConnect.retryNext(TBackoffConnect.java:64)
+	at org.apache.storm.security.auth.TBackoffConnect.doConnectWithRetry(TBackoffConnect.java:56)
+	at org.apache.storm.security.auth.ThriftClient.reconnect(ThriftClient.java:100)
+	... 31 more
+Caused by: org.apache.storm.thrift.transport.TTransportException: java.net.ConnectException: Connection timed out: connect
+	at org.apache.storm.thrift.transport.TSocket.open(TSocket.java:226)
+	at org.apache.storm.thrift.transport.TFramedTransport.open(TFramedTransport.java:81)
+	at org.apache.storm.security.auth.SimpleTransportPlugin.connect(SimpleTransportPlugin.java:105)
+	at org.apache.storm.security.auth.TBackoffConnect.doConnectWithRetry(TBackoffConnect.java:53)
+	... 32 more
+Caused by: java.net.ConnectException: Connection timed out: connect
+	at java.net.DualStackPlainSocketImpl.connect0(Native Method)
+	at java.net.DualStackPlainSocketImpl.socketConnect(Unknown Source)
+	at java.net.AbstractPlainSocketImpl.doConnect(Unknown Source)
+	at java.net.AbstractPlainSocketImpl.connectToAddress(Unknown Source)
+	at java.net.AbstractPlainSocketImpl.connect(Unknown Source)
+	at java.net.PlainSocketImpl.connect(Unknown Source)
+	at java.net.SocksSocketImpl.connect(Unknown Source)
+	at java.net.Socket.connect(Unknown Source)
+	at org.apache.storm.thrift.transport.TSocket.open(TSocket.java:221)
+	... 35 more
+[WARN] [2018-03-27 17:48:45][org.apache.storm.utils.NimbusClient]Ignoring exception while trying to get leader nimbus info from 10.1.241.134. will retry with a different seed host.
+ java.lang.RuntimeException: java.lang.RuntimeException: org.apache.storm.thrift.transport.TTransportException: java.net.ConnectException: Connection timed out: connect
+	at org.apache.storm.security.auth.ThriftClient.reconnect(ThriftClient.java:108)
+	at org.apache.storm.security.auth.ThriftClient.<init>(ThriftClient.java:69)
+	at org.apache.storm.utils.NimbusClient.<init>(NimbusClient.java:125)
+	at org.apache.storm.utils.NimbusClient.getConfiguredClientAs(NimbusClient.java:83)
+	at org.apache.storm.StormSubmitter.topologyNameExists(StormSubmitter.java:371)
+	at org.apache.storm.StormSubmitter.submitTopologyAs(StormSubmitter.java:234)
+	at org.apache.storm.StormSubmitter.submitTopology(StormSubmitter.java:311)
+	at org.apache.storm.StormSubmitter.submitTopology(StormSubmitter.java:157)
+	at com.wgn.storm.LogAnalyserStorm.StormTest(LogAnalyserStorm.java:45)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.junit.runners.model.FrameworkMethod$1.runReflectiveCall(FrameworkMethod.java:45)
+	at org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:15)
+	at org.junit.runners.model.FrameworkMethod.invokeExplosively(FrameworkMethod.java:42)
+	at org.junit.internal.runners.statements.InvokeMethod.evaluate(InvokeMethod.java:20)
+	at org.junit.runners.ParentRunner.runLeaf(ParentRunner.java:263)
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:68)
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:47)
+	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:231)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:60)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:229)
+	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:50)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:222)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:300)
+	at org.eclipse.jdt.internal.junit4.runner.JUnit4TestReference.run(JUnit4TestReference.java:86)
+	at org.eclipse.jdt.internal.junit.runner.TestExecution.run(TestExecution.java:38)
+	at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.runTests(RemoteTestRunner.java:459)
+	at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.runTests(RemoteTestRunner.java:675)
+	at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.run(RemoteTestRunner.java:382)
+	at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.main(RemoteTestRunner.java:192)
+Caused by: java.lang.RuntimeException: org.apache.storm.thrift.transport.TTransportException: java.net.ConnectException: Connection timed out: connect
+	at org.apache.storm.security.auth.TBackoffConnect.retryNext(TBackoffConnect.java:64)
+	at org.apache.storm.security.auth.TBackoffConnect.doConnectWithRetry(TBackoffConnect.java:56)
+	at org.apache.storm.security.auth.ThriftClient.reconnect(ThriftClient.java:100)
+	... 31 more
+Caused by: org.apache.storm.thrift.transport.TTransportException: java.net.ConnectException: Connection timed out: connect
+	at org.apache.storm.thrift.transport.TSocket.open(TSocket.java:226)
+	at org.apache.storm.thrift.transport.TFramedTransport.open(TFramedTransport.java:81)
+	at org.apache.storm.security.auth.SimpleTransportPlugin.connect(SimpleTransportPlugin.java:105)
+	at org.apache.storm.security.auth.TBackoffConnect.doConnectWithRetry(TBackoffConnect.java:53)
+	... 32 more
+Caused by: java.net.ConnectException: Connection timed out: connect
+	at java.net.DualStackPlainSocketImpl.connect0(Native Method)
+	at java.net.DualStackPlainSocketImpl.socketConnect(Unknown Source)
+	at java.net.AbstractPlainSocketImpl.doConnect(Unknown Source)
+	at java.net.AbstractPlainSocketImpl.connectToAddress(Unknown Source)
+	at java.net.AbstractPlainSocketImpl.connect(Unknown Source)
+	at java.net.PlainSocketImpl.connect(Unknown Source)
+	at java.net.SocksSocketImpl.connect(Unknown Source)
+	at java.net.Socket.connect(Unknown Source)
+	at org.apache.storm.thrift.transport.TSocket.open(TSocket.java:221)
+	... 35 more
+[WARN] [2018-03-27 17:51:06][org.apache.storm.utils.Utils]STORM-VERSION new 1.0.6 old null
+ [INFO] [2018-03-27 17:51:07][org.apache.storm.StormSubmitter]Generated ZooKeeper secret payload for MD5-digest: -6493767296262627786:-8176640217590340307
+ [WARN] [2018-03-27 17:51:07][org.apache.storm.utils.Utils]STORM-VERSION new 1.0.6 old 1.0.6
+ [INFO] [2018-03-27 17:51:07][org.apache.storm.security.auth.AuthUtils]Got AutoCreds []
+ [INFO] [2018-03-27 17:51:19][org.apache.storm.utils.NimbusClient]Found leader nimbus : host-10-1-241-131:6627
+ [WARN] [2018-03-27 18:19:07][org.apache.storm.utils.Utils]STORM-VERSION new 1.0.6 old null
+ [INFO] [2018-03-27 18:19:09][org.apache.storm.StormSubmitter]Generated ZooKeeper secret payload for MD5-digest: -4627996667415980878:-4705928602637605850
+ [WARN] [2018-03-27 18:19:09][org.apache.storm.utils.Utils]STORM-VERSION new 1.0.6 old 1.0.6
+ [INFO] [2018-03-27 18:19:09][org.apache.storm.security.auth.AuthUtils]Got AutoCreds []
+ [INFO] [2018-03-27 18:19:11][org.apache.storm.utils.NimbusClient]Found leader nimbus : host-10-1-241-131:6627
+ [INFO] [2018-03-27 18:19:11][org.apache.storm.utils.NimbusClient]Found leader nimbus : host-10-1-241-131:6627
+ [INFO] [2018-03-27 18:19:11][org.apache.storm.StormSubmitter]Uploading topology jar G:\mystorm.jar to assigned location: /data01/mesos/apache-storm-1.0.6/status/nimbus/inbox/stormjar-fe80be61-78b8-433c-8ef8-ddc64e708ee8.jar
+ [INFO] [2018-03-27 18:19:12][org.apache.storm.StormSubmitter]Successfully uploaded topology jar to assigned location: /data01/mesos/apache-storm-1.0.6/status/nimbus/inbox/stormjar-fe80be61-78b8-433c-8ef8-ddc64e708ee8.jar
+ [INFO] [2018-03-27 18:19:12][org.apache.storm.utils.NimbusClient]Found leader nimbus : host-10-1-241-131:6627
+ [INFO] [2018-03-27 18:19:12][org.apache.storm.StormSubmitter]Submitting topology LogAnalyserStorm in distributed mode with conf {"nimbus.seeds":["10.1.241.131","10.1.241.133","10.1.241.134"],"storm.zookeeper.topology.auth.scheme":"digest","topology.workers":3,"storm.zookeeper.port":2181,"nimbus.thrift.port":6627,"topology.debug":true,"storm.zookeeper.topology.auth.payload":"-4627996667415980878:-4705928602637605850","storm.zookeeper.servers":["10.1.241.131","10.1.241.133","10.1.241.134"]}
+ [INFO] [2018-03-27 18:19:13][org.apache.storm.StormSubmitter]Finished submitting topology: LogAnalyserStorm
+ [WARN] [2018-03-27 22:17:48][org.apache.storm.utils.Utils]STORM-VERSION new 1.0.6 old null
+ [INFO] [2018-03-27 22:17:49][org.apache.storm.StormSubmitter]Generated ZooKeeper secret payload for MD5-digest: -4667036729768078301:-8746322511229489622
+ [WARN] [2018-03-27 22:17:49][org.apache.storm.utils.Utils]STORM-VERSION new 1.0.6 old 1.0.6
+ [INFO] [2018-03-27 22:17:49][org.apache.storm.security.auth.AuthUtils]Got AutoCreds []
+ [INFO] [2018-03-27 22:17:50][org.apache.storm.utils.NimbusClient]Found leader nimbus : host-10-1-241-131:6627
+ [INFO] [2018-03-27 22:17:50][org.apache.storm.utils.NimbusClient]Found leader nimbus : host-10-1-241-131:6627
+ [INFO] [2018-03-27 22:17:51][org.apache.storm.StormSubmitter]Uploading topology jar G:\mystorm.jar to assigned location: /data01/mesos/apache-storm-1.0.6/status/nimbus/inbox/stormjar-42ed3228-654e-475a-9962-9f0a108b1929.jar
+ [INFO] [2018-03-27 22:17:51][org.apache.storm.StormSubmitter]Successfully uploaded topology jar to assigned location: /data01/mesos/apache-storm-1.0.6/status/nimbus/inbox/stormjar-42ed3228-654e-475a-9962-9f0a108b1929.jar
+ [INFO] [2018-03-27 22:17:51][org.apache.storm.utils.NimbusClient]Found leader nimbus : host-10-1-241-131:6627
+ [INFO] [2018-03-27 22:17:51][org.apache.storm.StormSubmitter]Submitting topology LogAnalyserStorm in distributed mode with conf {"nimbus.seeds":["10.1.241.131","10.1.241.133","10.1.241.134"],"storm.zookeeper.topology.auth.scheme":"digest","topology.workers":3,"storm.zookeeper.port":2181,"nimbus.thrift.port":6627,"topology.debug":true,"storm.zookeeper.topology.auth.payload":"-4667036729768078301:-8746322511229489622","storm.zookeeper.servers":["10.1.241.131","10.1.241.133","10.1.241.134"]}
+ [INFO] [2018-03-27 22:17:52][org.apache.storm.StormSubmitter]Finished submitting topology: LogAnalyserStorm
+ [WARN] [2018-03-27 22:26:48][org.apache.storm.utils.Utils]STORM-VERSION new 1.0.6 old null
+ [INFO] [2018-03-27 22:26:49][org.apache.storm.StormSubmitter]Generated ZooKeeper secret payload for MD5-digest: -7654107565398276276:-5127421991258128809
+ [WARN] [2018-03-27 22:26:50][org.apache.storm.utils.Utils]STORM-VERSION new 1.0.6 old 1.0.6
+ [INFO] [2018-03-27 22:26:50][org.apache.storm.security.auth.AuthUtils]Got AutoCreds []
+ [INFO] [2018-03-27 22:26:50][org.apache.storm.utils.NimbusClient]Found leader nimbus : host-10-1-241-131:6627
+ [INFO] [2018-03-27 22:26:51][org.apache.storm.utils.NimbusClient]Found leader nimbus : host-10-1-241-131:6627
+ [INFO] [2018-03-27 22:26:51][org.apache.storm.StormSubmitter]Uploading topology jar G:\mystorm.jar to assigned location: /data01/mesos/apache-storm-1.0.6/status/nimbus/inbox/stormjar-cd50db34-3067-4caa-8d8c-80354cd454a3.jar
+ [INFO] [2018-03-27 22:26:51][org.apache.storm.StormSubmitter]Successfully uploaded topology jar to assigned location: /data01/mesos/apache-storm-1.0.6/status/nimbus/inbox/stormjar-cd50db34-3067-4caa-8d8c-80354cd454a3.jar
+ [INFO] [2018-03-27 22:26:52][org.apache.storm.utils.NimbusClient]Found leader nimbus : host-10-1-241-131:6627
+ [INFO] [2018-03-27 22:26:52][org.apache.storm.StormSubmitter]Submitting topology LogAnalyserStorm in distributed mode with conf {"nimbus.seeds":["10.1.241.131","10.1.241.133","10.1.241.134"],"storm.zookeeper.topology.auth.scheme":"digest","topology.workers":3,"storm.zookeeper.port":2181,"nimbus.thrift.port":6627,"topology.debug":true,"storm.zookeeper.topology.auth.payload":"-7654107565398276276:-5127421991258128809","storm.zookeeper.servers":["10.1.241.131","10.1.241.133","10.1.241.134"]}
+ [INFO] [2018-03-27 22:26:52][org.apache.storm.StormSubmitter]Finished submitting topology: LogAnalyserStorm
+ 
