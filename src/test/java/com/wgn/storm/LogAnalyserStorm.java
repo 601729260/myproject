@@ -40,7 +40,7 @@ public class LogAnalyserStorm {
 
 			// 非常关键的一步，使用StormSubmitter提交拓扑时，不管怎么样，都是需要将所需的jar提交到nimbus上去，如果不指定jar文件路径，
 			// storm默认会使用System.getProperty("storm.jar")去取，如果不设定，就不能提交
-			System.setProperty("storm.jar", "G:\\mystorm.jar");
+			System.setProperty("storm.jar", "D:\\cygwin64\\workspace\\myproject\\target\\project-jar-with-dependencies.jar");
 			try {
 				StormSubmitter.submitTopology("LogAnalyserStorm", conf, builder.createTopology());
 			} catch (AlreadyAliveException | InvalidTopologyException | AuthorizationException e) {

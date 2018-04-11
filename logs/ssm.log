@@ -296,4 +296,945 @@ Caused by: java.net.ConnectException: Connection timed out: connect
  [INFO] [2018-03-27 22:26:52][org.apache.storm.utils.NimbusClient]Found leader nimbus : host-10-1-241-131:6627
  [INFO] [2018-03-27 22:26:52][org.apache.storm.StormSubmitter]Submitting topology LogAnalyserStorm in distributed mode with conf {"nimbus.seeds":["10.1.241.131","10.1.241.133","10.1.241.134"],"storm.zookeeper.topology.auth.scheme":"digest","topology.workers":3,"storm.zookeeper.port":2181,"nimbus.thrift.port":6627,"topology.debug":true,"storm.zookeeper.topology.auth.payload":"-7654107565398276276:-5127421991258128809","storm.zookeeper.servers":["10.1.241.131","10.1.241.133","10.1.241.134"]}
  [INFO] [2018-03-27 22:26:52][org.apache.storm.StormSubmitter]Finished submitting topology: LogAnalyserStorm
+ [INFO] [2018-04-06 17:40:54][org.apache.kafka.clients.consumer.ConsumerConfig]ConsumerConfig values: 
+	auto.commit.interval.ms = 1000
+	auto.offset.reset = latest
+	bootstrap.servers = [10.1.241.131:9092]
+	check.crcs = true
+	client.id = 
+	connections.max.idle.ms = 540000
+	enable.auto.commit = true
+	exclude.internal.topics = true
+	fetch.max.bytes = 52428800
+	fetch.max.wait.ms = 500
+	fetch.min.bytes = 1
+	group.id = 0
+	heartbeat.interval.ms = 3000
+	interceptor.classes = null
+	internal.leave.group.on.close = true
+	isolation.level = read_uncommitted
+	key.deserializer = class org.apache.kafka.common.serialization.IntegerDeserializer
+	max.partition.fetch.bytes = 1048576
+	max.poll.interval.ms = 300000
+	max.poll.records = 500
+	metadata.max.age.ms = 300000
+	metric.reporters = []
+	metrics.num.samples = 2
+	metrics.recording.level = INFO
+	metrics.sample.window.ms = 30000
+	partition.assignment.strategy = [class org.apache.kafka.clients.consumer.RangeAssignor]
+	receive.buffer.bytes = 65536
+	reconnect.backoff.max.ms = 1000
+	reconnect.backoff.ms = 50
+	request.timeout.ms = 305000
+	retry.backoff.ms = 100
+	sasl.jaas.config = null
+	sasl.kerberos.kinit.cmd = /usr/bin/kinit
+	sasl.kerberos.min.time.before.relogin = 60000
+	sasl.kerberos.service.name = null
+	sasl.kerberos.ticket.renew.jitter = 0.05
+	sasl.kerberos.ticket.renew.window.factor = 0.8
+	sasl.mechanism = GSSAPI
+	security.protocol = PLAINTEXT
+	send.buffer.bytes = 131072
+	session.timeout.ms = 15000
+	ssl.cipher.suites = null
+	ssl.enabled.protocols = [TLSv1.2, TLSv1.1, TLSv1]
+	ssl.endpoint.identification.algorithm = null
+	ssl.key.password = null
+	ssl.keymanager.algorithm = SunX509
+	ssl.keystore.location = null
+	ssl.keystore.password = null
+	ssl.keystore.type = JKS
+	ssl.protocol = TLS
+	ssl.provider = null
+	ssl.secure.random.implementation = null
+	ssl.trustmanager.algorithm = PKIX
+	ssl.truststore.location = null
+	ssl.truststore.password = null
+	ssl.truststore.type = JKS
+	value.deserializer = class org.apache.kafka.common.serialization.StringDeserializer
+
+ [INFO] [2018-04-06 17:40:55][org.apache.kafka.common.utils.AppInfoParser]Kafka version : 1.0.0
+ [INFO] [2018-04-06 17:40:55][org.apache.kafka.common.utils.AppInfoParser]Kafka commitId : aaa7af6d4a11b29d
+ [INFO] [2018-04-06 17:41:01][org.apache.kafka.clients.consumer.internals.AbstractCoordinator][Consumer clientId=consumer-1, groupId=0] Discovered coordinator host-10-1-241-133:9092 (id: 2147483646 rack: null)
+ [INFO] [2018-04-06 17:41:01][org.apache.kafka.clients.consumer.internals.AbstractCoordinator][Consumer clientId=consumer-1, groupId=0] Marking the coordinator host-10-1-241-133:9092 (id: 2147483646 rack: null) dead
+ [INFO] [2018-04-06 17:41:01][org.apache.kafka.clients.consumer.internals.AbstractCoordinator][Consumer clientId=consumer-1, groupId=0] Discovered coordinator host-10-1-241-133:9092 (id: 2147483646 rack: null)
+ [INFO] [2018-04-06 17:41:01][org.apache.kafka.clients.consumer.internals.AbstractCoordinator][Consumer clientId=consumer-1, groupId=0] Marking the coordinator host-10-1-241-133:9092 (id: 2147483646 rack: null) dead
+ [INFO] [2018-04-06 17:41:02][org.apache.kafka.clients.consumer.internals.AbstractCoordinator][Consumer clientId=consumer-1, groupId=0] Discovered coordinator host-10-1-241-133:9092 (id: 2147483646 rack: null)
+ [INFO] [2018-04-06 17:41:02][org.apache.kafka.clients.consumer.internals.AbstractCoordinator][Consumer clientId=consumer-1, groupId=0] Marking the coordinator host-10-1-241-133:9092 (id: 2147483646 rack: null) dead
+ [INFO] [2018-04-06 17:41:02][org.apache.kafka.clients.consumer.internals.AbstractCoordinator][Consumer clientId=consumer-1, groupId=0] Discovered coordinator host-10-1-241-133:9092 (id: 2147483646 rack: null)
+ [INFO] [2018-04-06 17:41:02][org.apache.kafka.clients.consumer.internals.AbstractCoordinator][Consumer clientId=consumer-1, groupId=0] Marking the coordinator host-10-1-241-133:9092 (id: 2147483646 rack: null) dead
+ [INFO] [2018-04-06 17:41:04][org.apache.kafka.clients.consumer.internals.AbstractCoordinator][Consumer clientId=consumer-1, groupId=0] Discovered coordinator host-10-1-241-133:9092 (id: 2147483646 rack: null)
+ [INFO] [2018-04-06 17:41:04][org.apache.kafka.clients.consumer.internals.AbstractCoordinator][Consumer clientId=consumer-1, groupId=0] Marking the coordinator host-10-1-241-133:9092 (id: 2147483646 rack: null) dead
+ [INFO] [2018-04-06 17:41:04][org.apache.kafka.clients.consumer.internals.AbstractCoordinator][Consumer clientId=consumer-1, groupId=0] Discovered coordinator host-10-1-241-133:9092 (id: 2147483646 rack: null)
+ [INFO] [2018-04-06 17:41:04][org.apache.kafka.clients.consumer.internals.AbstractCoordinator][Consumer clientId=consumer-1, groupId=0] Marking the coordinator host-10-1-241-133:9092 (id: 2147483646 rack: null) dead
+ [INFO] [2018-04-06 17:41:05][org.apache.kafka.clients.consumer.internals.AbstractCoordinator][Consumer clientId=consumer-1, groupId=0] Discovered coordinator host-10-1-241-133:9092 (id: 2147483646 rack: null)
+ [INFO] [2018-04-06 17:41:05][org.apache.kafka.clients.consumer.internals.AbstractCoordinator][Consumer clientId=consumer-1, groupId=0] Marking the coordinator host-10-1-241-133:9092 (id: 2147483646 rack: null) dead
+ [INFO] [2018-04-06 17:41:05][org.apache.kafka.clients.consumer.internals.AbstractCoordinator][Consumer clientId=consumer-1, groupId=0] Discovered coordinator host-10-1-241-133:9092 (id: 2147483646 rack: null)
+ [INFO] [2018-04-06 17:41:05][org.apache.kafka.clients.consumer.internals.AbstractCoordinator][Consumer clientId=consumer-1, groupId=0] Marking the coordinator host-10-1-241-133:9092 (id: 2147483646 rack: null) dead
+ [INFO] [2018-04-06 17:41:10][org.apache.kafka.clients.consumer.internals.AbstractCoordinator][Consumer clientId=consumer-1, groupId=0] Discovered coordinator host-10-1-241-133:9092 (id: 2147483646 rack: null)
+ [INFO] [2018-04-06 17:41:11][org.apache.kafka.clients.consumer.internals.AbstractCoordinator][Consumer clientId=consumer-1, groupId=0] Marking the coordinator host-10-1-241-133:9092 (id: 2147483646 rack: null) dead
+ [INFO] [2018-04-06 17:41:13][org.apache.kafka.clients.consumer.internals.AbstractCoordinator][Consumer clientId=consumer-1, groupId=0] Discovered coordinator host-10-1-241-133:9092 (id: 2147483646 rack: null)
+ [INFO] [2018-04-06 17:41:13][org.apache.kafka.clients.consumer.internals.AbstractCoordinator][Consumer clientId=consumer-1, groupId=0] Marking the coordinator host-10-1-241-133:9092 (id: 2147483646 rack: null) dead
+ [INFO] [2018-04-06 17:41:13][org.apache.kafka.clients.consumer.internals.AbstractCoordinator][Consumer clientId=consumer-1, groupId=0] Discovered coordinator host-10-1-241-133:9092 (id: 2147483646 rack: null)
+ [INFO] [2018-04-06 17:41:13][org.apache.kafka.clients.consumer.internals.AbstractCoordinator][Consumer clientId=consumer-1, groupId=0] Marking the coordinator host-10-1-241-133:9092 (id: 2147483646 rack: null) dead
+ [INFO] [2018-04-06 17:41:13][org.apache.kafka.clients.consumer.internals.AbstractCoordinator][Consumer clientId=consumer-1, groupId=0] Discovered coordinator host-10-1-241-133:9092 (id: 2147483646 rack: null)
+ [INFO] [2018-04-06 17:41:13][org.apache.kafka.clients.consumer.internals.AbstractCoordinator][Consumer clientId=consumer-1, groupId=0] Marking the coordinator host-10-1-241-133:9092 (id: 2147483646 rack: null) dead
+ [INFO] [2018-04-06 17:41:13][org.apache.kafka.clients.consumer.internals.AbstractCoordinator][Consumer clientId=consumer-1, groupId=0] Discovered coordinator host-10-1-241-133:9092 (id: 2147483646 rack: null)
+ [INFO] [2018-04-06 17:41:13][org.apache.kafka.clients.consumer.internals.AbstractCoordinator][Consumer clientId=consumer-1, groupId=0] Marking the coordinator host-10-1-241-133:9092 (id: 2147483646 rack: null) dead
+ [INFO] [2018-04-06 17:41:14][org.apache.kafka.clients.consumer.internals.AbstractCoordinator][Consumer clientId=consumer-1, groupId=0] Discovered coordinator host-10-1-241-133:9092 (id: 2147483646 rack: null)
+ [INFO] [2018-04-06 17:41:14][org.apache.kafka.clients.consumer.internals.AbstractCoordinator][Consumer clientId=consumer-1, groupId=0] Marking the coordinator host-10-1-241-133:9092 (id: 2147483646 rack: null) dead
+ [INFO] [2018-04-06 17:41:14][org.apache.kafka.clients.consumer.internals.AbstractCoordinator][Consumer clientId=consumer-1, groupId=0] Discovered coordinator host-10-1-241-133:9092 (id: 2147483646 rack: null)
+ [INFO] [2018-04-06 17:41:14][org.apache.kafka.clients.consumer.internals.AbstractCoordinator][Consumer clientId=consumer-1, groupId=0] Marking the coordinator host-10-1-241-133:9092 (id: 2147483646 rack: null) dead
+ [INFO] [2018-04-06 17:41:14][org.apache.kafka.clients.consumer.internals.AbstractCoordinator][Consumer clientId=consumer-1, groupId=0] Discovered coordinator host-10-1-241-133:9092 (id: 2147483646 rack: null)
+ [INFO] [2018-04-06 17:41:14][org.apache.kafka.clients.consumer.internals.AbstractCoordinator][Consumer clientId=consumer-1, groupId=0] Marking the coordinator host-10-1-241-133:9092 (id: 2147483646 rack: null) dead
+ [INFO] [2018-04-06 17:41:14][org.apache.kafka.clients.consumer.internals.AbstractCoordinator][Consumer clientId=consumer-1, groupId=0] Discovered coordinator host-10-1-241-133:9092 (id: 2147483646 rack: null)
+ [INFO] [2018-04-06 17:41:14][org.apache.kafka.clients.consumer.internals.AbstractCoordinator][Consumer clientId=consumer-1, groupId=0] Marking the coordinator host-10-1-241-133:9092 (id: 2147483646 rack: null) dead
+ [INFO] [2018-04-06 17:41:14][org.apache.kafka.clients.consumer.internals.AbstractCoordinator][Consumer clientId=consumer-1, groupId=0] Discovered coordinator host-10-1-241-133:9092 (id: 2147483646 rack: null)
+ [INFO] [2018-04-06 17:41:14][org.apache.kafka.clients.consumer.internals.AbstractCoordinator][Consumer clientId=consumer-1, groupId=0] Marking the coordinator host-10-1-241-133:9092 (id: 2147483646 rack: null) dead
+ [INFO] [2018-04-06 17:41:15][org.apache.kafka.clients.consumer.internals.AbstractCoordinator][Consumer clientId=consumer-1, groupId=0] Discovered coordinator host-10-1-241-133:9092 (id: 2147483646 rack: null)
+ [INFO] [2018-04-06 17:41:15][org.apache.kafka.clients.consumer.internals.AbstractCoordinator][Consumer clientId=consumer-1, groupId=0] Marking the coordinator host-10-1-241-133:9092 (id: 2147483646 rack: null) dead
+ [INFO] [2018-04-06 17:41:15][org.apache.kafka.clients.consumer.internals.AbstractCoordinator][Consumer clientId=consumer-1, groupId=0] Discovered coordinator host-10-1-241-133:9092 (id: 2147483646 rack: null)
+ [INFO] [2018-04-06 17:41:15][org.apache.kafka.clients.consumer.internals.AbstractCoordinator][Consumer clientId=consumer-1, groupId=0] Marking the coordinator host-10-1-241-133:9092 (id: 2147483646 rack: null) dead
+ [INFO] [2018-04-06 17:41:15][org.apache.kafka.clients.consumer.internals.AbstractCoordinator][Consumer clientId=consumer-1, groupId=0] Discovered coordinator host-10-1-241-133:9092 (id: 2147483646 rack: null)
+ [INFO] [2018-04-06 17:41:15][org.apache.kafka.clients.consumer.internals.AbstractCoordinator][Consumer clientId=consumer-1, groupId=0] Marking the coordinator host-10-1-241-133:9092 (id: 2147483646 rack: null) dead
+ [INFO] [2018-04-06 17:41:18][org.apache.kafka.clients.consumer.internals.AbstractCoordinator][Consumer clientId=consumer-1, groupId=0] Discovered coordinator host-10-1-241-133:9092 (id: 2147483646 rack: null)
+ [INFO] [2018-04-06 17:41:18][org.apache.kafka.clients.consumer.internals.AbstractCoordinator][Consumer clientId=consumer-1, groupId=0] Marking the coordinator host-10-1-241-133:9092 (id: 2147483646 rack: null) dead
+ [INFO] [2018-04-06 17:41:19][org.apache.kafka.clients.consumer.internals.AbstractCoordinator][Consumer clientId=consumer-1, groupId=0] Discovered coordinator host-10-1-241-133:9092 (id: 2147483646 rack: null)
+ [INFO] [2018-04-06 17:41:19][org.apache.kafka.clients.consumer.internals.AbstractCoordinator][Consumer clientId=consumer-1, groupId=0] Marking the coordinator host-10-1-241-133:9092 (id: 2147483646 rack: null) dead
+ [INFO] [2018-04-06 17:41:19][org.apache.kafka.clients.consumer.internals.AbstractCoordinator][Consumer clientId=consumer-1, groupId=0] Discovered coordinator host-10-1-241-133:9092 (id: 2147483646 rack: null)
+ [INFO] [2018-04-06 17:41:19][org.apache.kafka.clients.consumer.internals.AbstractCoordinator][Consumer clientId=consumer-1, groupId=0] Marking the coordinator host-10-1-241-133:9092 (id: 2147483646 rack: null) dead
+ [INFO] [2018-04-06 17:41:19][org.apache.kafka.clients.consumer.internals.AbstractCoordinator][Consumer clientId=consumer-1, groupId=0] Discovered coordinator host-10-1-241-133:9092 (id: 2147483646 rack: null)
+ [INFO] [2018-04-06 17:41:19][org.apache.kafka.clients.consumer.internals.AbstractCoordinator][Consumer clientId=consumer-1, groupId=0] Marking the coordinator host-10-1-241-133:9092 (id: 2147483646 rack: null) dead
+ [INFO] [2018-04-06 17:41:20][org.apache.kafka.clients.consumer.internals.AbstractCoordinator][Consumer clientId=consumer-1, groupId=0] Discovered coordinator host-10-1-241-133:9092 (id: 2147483646 rack: null)
+ [INFO] [2018-04-06 17:41:20][org.apache.kafka.clients.consumer.internals.AbstractCoordinator][Consumer clientId=consumer-1, groupId=0] Marking the coordinator host-10-1-241-133:9092 (id: 2147483646 rack: null) dead
+ [INFO] [2018-04-06 17:41:20][org.apache.kafka.clients.consumer.internals.AbstractCoordinator][Consumer clientId=consumer-1, groupId=0] Discovered coordinator host-10-1-241-133:9092 (id: 2147483646 rack: null)
+ [INFO] [2018-04-06 17:41:20][org.apache.kafka.clients.consumer.internals.AbstractCoordinator][Consumer clientId=consumer-1, groupId=0] Marking the coordinator host-10-1-241-133:9092 (id: 2147483646 rack: null) dead
+ [INFO] [2018-04-06 17:41:20][org.apache.kafka.clients.consumer.internals.AbstractCoordinator][Consumer clientId=consumer-1, groupId=0] Discovered coordinator host-10-1-241-133:9092 (id: 2147483646 rack: null)
+ [INFO] [2018-04-06 17:41:20][org.apache.kafka.clients.consumer.internals.AbstractCoordinator][Consumer clientId=consumer-1, groupId=0] Marking the coordinator host-10-1-241-133:9092 (id: 2147483646 rack: null) dead
+ [INFO] [2018-04-06 17:41:20][org.apache.kafka.clients.consumer.internals.AbstractCoordinator][Consumer clientId=consumer-1, groupId=0] Discovered coordinator host-10-1-241-133:9092 (id: 2147483646 rack: null)
+ [INFO] [2018-04-06 17:41:20][org.apache.kafka.clients.consumer.internals.AbstractCoordinator][Consumer clientId=consumer-1, groupId=0] Marking the coordinator host-10-1-241-133:9092 (id: 2147483646 rack: null) dead
+ [INFO] [2018-04-06 17:41:22][org.apache.kafka.clients.consumer.internals.AbstractCoordinator][Consumer clientId=consumer-1, groupId=0] Discovered coordinator host-10-1-241-133:9092 (id: 2147483646 rack: null)
+ [INFO] [2018-04-06 17:41:22][org.apache.kafka.clients.consumer.internals.AbstractCoordinator][Consumer clientId=consumer-1, groupId=0] Marking the coordinator host-10-1-241-133:9092 (id: 2147483646 rack: null) dead
+ [INFO] [2018-04-06 17:41:22][org.apache.kafka.clients.consumer.internals.AbstractCoordinator][Consumer clientId=consumer-1, groupId=0] Discovered coordinator host-10-1-241-133:9092 (id: 2147483646 rack: null)
+ [INFO] [2018-04-06 17:41:22][org.apache.kafka.clients.consumer.internals.AbstractCoordinator][Consumer clientId=consumer-1, groupId=0] Marking the coordinator host-10-1-241-133:9092 (id: 2147483646 rack: null) dead
+ [INFO] [2018-04-06 17:41:23][org.apache.kafka.clients.consumer.internals.AbstractCoordinator][Consumer clientId=consumer-1, groupId=0] Discovered coordinator host-10-1-241-133:9092 (id: 2147483646 rack: null)
+ [INFO] [2018-04-06 17:41:23][org.apache.kafka.clients.consumer.internals.AbstractCoordinator][Consumer clientId=consumer-1, groupId=0] Marking the coordinator host-10-1-241-133:9092 (id: 2147483646 rack: null) dead
+ [INFO] [2018-04-06 17:41:23][org.apache.kafka.clients.consumer.internals.AbstractCoordinator][Consumer clientId=consumer-1, groupId=0] Discovered coordinator host-10-1-241-133:9092 (id: 2147483646 rack: null)
+ [INFO] [2018-04-06 17:41:23][org.apache.kafka.clients.consumer.internals.AbstractCoordinator][Consumer clientId=consumer-1, groupId=0] Marking the coordinator host-10-1-241-133:9092 (id: 2147483646 rack: null) dead
+ [INFO] [2018-04-06 17:41:23][org.apache.kafka.clients.consumer.internals.AbstractCoordinator][Consumer clientId=consumer-1, groupId=0] Discovered coordinator host-10-1-241-133:9092 (id: 2147483646 rack: null)
+ [INFO] [2018-04-06 17:41:23][org.apache.kafka.clients.consumer.internals.AbstractCoordinator][Consumer clientId=consumer-1, groupId=0] Marking the coordinator host-10-1-241-133:9092 (id: 2147483646 rack: null) dead
+ [INFO] [2018-04-06 17:41:23][org.apache.kafka.clients.consumer.internals.AbstractCoordinator][Consumer clientId=consumer-1, groupId=0] Discovered coordinator host-10-1-241-133:9092 (id: 2147483646 rack: null)
+ [INFO] [2018-04-06 17:41:23][org.apache.kafka.clients.consumer.internals.AbstractCoordinator][Consumer clientId=consumer-1, groupId=0] Marking the coordinator host-10-1-241-133:9092 (id: 2147483646 rack: null) dead
+ [INFO] [2018-04-06 17:41:23][org.apache.kafka.clients.consumer.internals.AbstractCoordinator][Consumer clientId=consumer-1, groupId=0] Discovered coordinator host-10-1-241-133:9092 (id: 2147483646 rack: null)
+ [INFO] [2018-04-06 17:41:23][org.apache.kafka.clients.consumer.internals.AbstractCoordinator][Consumer clientId=consumer-1, groupId=0] Marking the coordinator host-10-1-241-133:9092 (id: 2147483646 rack: null) dead
+ [INFO] [2018-04-06 17:41:24][org.apache.kafka.clients.consumer.internals.AbstractCoordinator][Consumer clientId=consumer-1, groupId=0] Discovered coordinator host-10-1-241-133:9092 (id: 2147483646 rack: null)
+ [INFO] [2018-04-06 17:41:24][org.apache.kafka.clients.consumer.internals.AbstractCoordinator][Consumer clientId=consumer-1, groupId=0] Marking the coordinator host-10-1-241-133:9092 (id: 2147483646 rack: null) dead
+ [INFO] [2018-04-06 17:41:24][org.apache.kafka.clients.consumer.internals.AbstractCoordinator][Consumer clientId=consumer-1, groupId=0] Discovered coordinator host-10-1-241-133:9092 (id: 2147483646 rack: null)
+ [INFO] [2018-04-06 17:41:24][org.apache.kafka.clients.consumer.internals.AbstractCoordinator][Consumer clientId=consumer-1, groupId=0] Marking the coordinator host-10-1-241-133:9092 (id: 2147483646 rack: null) dead
+ [INFO] [2018-04-06 17:41:24][org.apache.kafka.clients.consumer.internals.AbstractCoordinator][Consumer clientId=consumer-1, groupId=0] Discovered coordinator host-10-1-241-133:9092 (id: 2147483646 rack: null)
+ [INFO] [2018-04-06 17:41:24][org.apache.kafka.clients.consumer.internals.AbstractCoordinator][Consumer clientId=consumer-1, groupId=0] Marking the coordinator host-10-1-241-133:9092 (id: 2147483646 rack: null) dead
+ [INFO] [2018-04-06 17:41:24][org.apache.kafka.clients.consumer.internals.AbstractCoordinator][Consumer clientId=consumer-1, groupId=0] Discovered coordinator host-10-1-241-133:9092 (id: 2147483646 rack: null)
+ [INFO] [2018-04-06 17:41:24][org.apache.kafka.clients.consumer.internals.AbstractCoordinator][Consumer clientId=consumer-1, groupId=0] Marking the coordinator host-10-1-241-133:9092 (id: 2147483646 rack: null) dead
+ [INFO] [2018-04-06 17:41:25][org.apache.kafka.clients.consumer.internals.AbstractCoordinator][Consumer clientId=consumer-1, groupId=0] Discovered coordinator host-10-1-241-133:9092 (id: 2147483646 rack: null)
+ [INFO] [2018-04-06 17:41:25][org.apache.kafka.clients.consumer.internals.AbstractCoordinator][Consumer clientId=consumer-1, groupId=0] Marking the coordinator host-10-1-241-133:9092 (id: 2147483646 rack: null) dead
+ [INFO] [2018-04-06 17:41:27][org.apache.kafka.clients.consumer.internals.AbstractCoordinator][Consumer clientId=consumer-1, groupId=0] Discovered coordinator host-10-1-241-133:9092 (id: 2147483646 rack: null)
+ [INFO] [2018-04-06 17:41:27][org.apache.kafka.clients.consumer.internals.AbstractCoordinator][Consumer clientId=consumer-1, groupId=0] Marking the coordinator host-10-1-241-133:9092 (id: 2147483646 rack: null) dead
+ [INFO] [2018-04-06 17:41:32][org.apache.kafka.clients.consumer.internals.AbstractCoordinator][Consumer clientId=consumer-1, groupId=0] Discovered coordinator host-10-1-241-133:9092 (id: 2147483646 rack: null)
+ [INFO] [2018-04-06 17:41:33][org.apache.kafka.clients.consumer.internals.AbstractCoordinator][Consumer clientId=consumer-1, groupId=0] Marking the coordinator host-10-1-241-133:9092 (id: 2147483646 rack: null) dead
+ [INFO] [2018-04-06 17:41:38][org.apache.kafka.clients.consumer.internals.AbstractCoordinator][Consumer clientId=consumer-1, groupId=0] Discovered coordinator host-10-1-241-133:9092 (id: 2147483646 rack: null)
+ [INFO] [2018-04-06 17:41:38][org.apache.kafka.clients.consumer.internals.AbstractCoordinator][Consumer clientId=consumer-1, groupId=0] Marking the coordinator host-10-1-241-133:9092 (id: 2147483646 rack: null) dead
+ [INFO] [2018-04-06 17:41:39][org.apache.kafka.clients.consumer.internals.AbstractCoordinator][Consumer clientId=consumer-1, groupId=0] Discovered coordinator host-10-1-241-133:9092 (id: 2147483646 rack: null)
+ [INFO] [2018-04-06 17:41:39][org.apache.kafka.clients.consumer.internals.AbstractCoordinator][Consumer clientId=consumer-1, groupId=0] Marking the coordinator host-10-1-241-133:9092 (id: 2147483646 rack: null) dead
+ [INFO] [2018-04-06 17:41:39][org.apache.kafka.clients.consumer.internals.AbstractCoordinator][Consumer clientId=consumer-1, groupId=0] Discovered coordinator host-10-1-241-133:9092 (id: 2147483646 rack: null)
+ [INFO] [2018-04-06 17:41:39][org.apache.kafka.clients.consumer.internals.AbstractCoordinator][Consumer clientId=consumer-1, groupId=0] Marking the coordinator host-10-1-241-133:9092 (id: 2147483646 rack: null) dead
+ [INFO] [2018-04-06 17:41:39][org.apache.kafka.clients.consumer.internals.AbstractCoordinator][Consumer clientId=consumer-1, groupId=0] Discovered coordinator host-10-1-241-133:9092 (id: 2147483646 rack: null)
+ [INFO] [2018-04-06 17:41:39][org.apache.kafka.clients.consumer.internals.AbstractCoordinator][Consumer clientId=consumer-1, groupId=0] Marking the coordinator host-10-1-241-133:9092 (id: 2147483646 rack: null) dead
+ [INFO] [2018-04-06 17:41:40][org.apache.kafka.clients.consumer.internals.AbstractCoordinator][Consumer clientId=consumer-1, groupId=0] Discovered coordinator host-10-1-241-133:9092 (id: 2147483646 rack: null)
+ [INFO] [2018-04-06 17:41:40][org.apache.kafka.clients.consumer.internals.AbstractCoordinator][Consumer clientId=consumer-1, groupId=0] Marking the coordinator host-10-1-241-133:9092 (id: 2147483646 rack: null) dead
+ [INFO] [2018-04-06 17:41:40][org.apache.kafka.clients.consumer.internals.AbstractCoordinator][Consumer clientId=consumer-1, groupId=0] Discovered coordinator host-10-1-241-133:9092 (id: 2147483646 rack: null)
+ [INFO] [2018-04-06 17:41:40][org.apache.kafka.clients.consumer.internals.AbstractCoordinator][Consumer clientId=consumer-1, groupId=0] Marking the coordinator host-10-1-241-133:9092 (id: 2147483646 rack: null) dead
+ [INFO] [2018-04-06 17:41:40][org.apache.kafka.clients.consumer.internals.AbstractCoordinator][Consumer clientId=consumer-1, groupId=0] Discovered coordinator host-10-1-241-133:9092 (id: 2147483646 rack: null)
+ [INFO] [2018-04-06 17:41:40][org.apache.kafka.clients.consumer.internals.AbstractCoordinator][Consumer clientId=consumer-1, groupId=0] Marking the coordinator host-10-1-241-133:9092 (id: 2147483646 rack: null) dead
+ [INFO] [2018-04-06 17:41:41][org.apache.kafka.clients.consumer.internals.AbstractCoordinator][Consumer clientId=consumer-1, groupId=0] Discovered coordinator host-10-1-241-133:9092 (id: 2147483646 rack: null)
+ [INFO] [2018-04-06 17:41:41][org.apache.kafka.clients.consumer.internals.AbstractCoordinator][Consumer clientId=consumer-1, groupId=0] Marking the coordinator host-10-1-241-133:9092 (id: 2147483646 rack: null) dead
+ [INFO] [2018-04-06 17:41:41][org.apache.kafka.clients.consumer.internals.AbstractCoordinator][Consumer clientId=consumer-1, groupId=0] Discovered coordinator host-10-1-241-133:9092 (id: 2147483646 rack: null)
+ [INFO] [2018-04-06 17:41:41][org.apache.kafka.clients.consumer.internals.AbstractCoordinator][Consumer clientId=consumer-1, groupId=0] Marking the coordinator host-10-1-241-133:9092 (id: 2147483646 rack: null) dead
+ [INFO] [2018-04-06 17:41:42][org.apache.kafka.clients.consumer.internals.AbstractCoordinator][Consumer clientId=consumer-1, groupId=0] Discovered coordinator host-10-1-241-133:9092 (id: 2147483646 rack: null)
+ [INFO] [2018-04-06 17:41:42][org.apache.kafka.clients.consumer.internals.AbstractCoordinator][Consumer clientId=consumer-1, groupId=0] Marking the coordinator host-10-1-241-133:9092 (id: 2147483646 rack: null) dead
+ [INFO] [2018-04-06 17:41:42][org.apache.kafka.clients.consumer.internals.AbstractCoordinator][Consumer clientId=consumer-1, groupId=0] Discovered coordinator host-10-1-241-133:9092 (id: 2147483646 rack: null)
+ [INFO] [2018-04-06 17:41:42][org.apache.kafka.clients.consumer.internals.AbstractCoordinator][Consumer clientId=consumer-1, groupId=0] Marking the coordinator host-10-1-241-133:9092 (id: 2147483646 rack: null) dead
+ [INFO] [2018-04-06 17:41:42][org.apache.kafka.clients.consumer.internals.AbstractCoordinator][Consumer clientId=consumer-1, groupId=0] Discovered coordinator host-10-1-241-133:9092 (id: 2147483646 rack: null)
+ [INFO] [2018-04-06 17:41:42][org.apache.kafka.clients.consumer.internals.AbstractCoordinator][Consumer clientId=consumer-1, groupId=0] Marking the coordinator host-10-1-241-133:9092 (id: 2147483646 rack: null) dead
+ [INFO] [2018-04-06 17:41:43][org.apache.kafka.clients.consumer.internals.AbstractCoordinator][Consumer clientId=consumer-1, groupId=0] Discovered coordinator host-10-1-241-133:9092 (id: 2147483646 rack: null)
+ [INFO] [2018-04-06 17:41:43][org.apache.kafka.clients.consumer.internals.AbstractCoordinator][Consumer clientId=consumer-1, groupId=0] Marking the coordinator host-10-1-241-133:9092 (id: 2147483646 rack: null) dead
+ [INFO] [2018-04-06 17:41:43][org.apache.kafka.clients.consumer.internals.AbstractCoordinator][Consumer clientId=consumer-1, groupId=0] Discovered coordinator host-10-1-241-133:9092 (id: 2147483646 rack: null)
+ [INFO] [2018-04-06 17:41:43][org.apache.kafka.clients.consumer.internals.AbstractCoordinator][Consumer clientId=consumer-1, groupId=0] Marking the coordinator host-10-1-241-133:9092 (id: 2147483646 rack: null) dead
+ [INFO] [2018-04-06 17:41:43][org.apache.kafka.clients.consumer.internals.AbstractCoordinator][Consumer clientId=consumer-1, groupId=0] Discovered coordinator host-10-1-241-133:9092 (id: 2147483646 rack: null)
+ [INFO] [2018-04-06 17:41:43][org.apache.kafka.clients.consumer.internals.AbstractCoordinator][Consumer clientId=consumer-1, groupId=0] Marking the coordinator host-10-1-241-133:9092 (id: 2147483646 rack: null) dead
+ [INFO] [2018-04-06 17:41:44][org.apache.kafka.clients.consumer.internals.AbstractCoordinator][Consumer clientId=consumer-1, groupId=0] Discovered coordinator host-10-1-241-133:9092 (id: 2147483646 rack: null)
+ [INFO] [2018-04-06 17:41:44][org.apache.kafka.clients.consumer.internals.AbstractCoordinator][Consumer clientId=consumer-1, groupId=0] Marking the coordinator host-10-1-241-133:9092 (id: 2147483646 rack: null) dead
+ [INFO] [2018-04-06 17:41:44][org.apache.kafka.clients.consumer.internals.AbstractCoordinator][Consumer clientId=consumer-1, groupId=0] Discovered coordinator host-10-1-241-133:9092 (id: 2147483646 rack: null)
+ [INFO] [2018-04-06 17:41:44][org.apache.kafka.clients.consumer.internals.AbstractCoordinator][Consumer clientId=consumer-1, groupId=0] Marking the coordinator host-10-1-241-133:9092 (id: 2147483646 rack: null) dead
+ [INFO] [2018-04-06 17:41:44][org.apache.kafka.clients.consumer.internals.AbstractCoordinator][Consumer clientId=consumer-1, groupId=0] Discovered coordinator host-10-1-241-133:9092 (id: 2147483646 rack: null)
+ [INFO] [2018-04-06 17:41:44][org.apache.kafka.clients.consumer.internals.AbstractCoordinator][Consumer clientId=consumer-1, groupId=0] Marking the coordinator host-10-1-241-133:9092 (id: 2147483646 rack: null) dead
+ [INFO] [2018-04-06 17:41:44][org.apache.kafka.clients.consumer.internals.AbstractCoordinator][Consumer clientId=consumer-1, groupId=0] Discovered coordinator host-10-1-241-133:9092 (id: 2147483646 rack: null)
+ [INFO] [2018-04-06 17:41:44][org.apache.kafka.clients.consumer.internals.AbstractCoordinator][Consumer clientId=consumer-1, groupId=0] Marking the coordinator host-10-1-241-133:9092 (id: 2147483646 rack: null) dead
+ [INFO] [2018-04-06 17:41:45][org.apache.kafka.clients.consumer.internals.AbstractCoordinator][Consumer clientId=consumer-1, groupId=0] Discovered coordinator host-10-1-241-133:9092 (id: 2147483646 rack: null)
+ [INFO] [2018-04-06 17:41:45][org.apache.kafka.clients.consumer.internals.AbstractCoordinator][Consumer clientId=consumer-1, groupId=0] Marking the coordinator host-10-1-241-133:9092 (id: 2147483646 rack: null) dead
+ [INFO] [2018-04-06 17:41:50][org.apache.kafka.clients.consumer.internals.AbstractCoordinator][Consumer clientId=consumer-1, groupId=0] Discovered coordinator host-10-1-241-133:9092 (id: 2147483646 rack: null)
+ [INFO] [2018-04-06 17:41:50][org.apache.kafka.clients.consumer.internals.AbstractCoordinator][Consumer clientId=consumer-1, groupId=0] Marking the coordinator host-10-1-241-133:9092 (id: 2147483646 rack: null) dead
+ [INFO] [2018-04-06 17:41:50][org.apache.kafka.clients.consumer.internals.AbstractCoordinator][Consumer clientId=consumer-1, groupId=0] Discovered coordinator host-10-1-241-133:9092 (id: 2147483646 rack: null)
+ [INFO] [2018-04-06 17:41:50][org.apache.kafka.clients.consumer.internals.AbstractCoordinator][Consumer clientId=consumer-1, groupId=0] Marking the coordinator host-10-1-241-133:9092 (id: 2147483646 rack: null) dead
+ [INFO] [2018-04-06 17:41:50][org.apache.kafka.clients.consumer.internals.AbstractCoordinator][Consumer clientId=consumer-1, groupId=0] Discovered coordinator host-10-1-241-133:9092 (id: 2147483646 rack: null)
+ [INFO] [2018-04-06 17:41:50][org.apache.kafka.clients.consumer.internals.AbstractCoordinator][Consumer clientId=consumer-1, groupId=0] Marking the coordinator host-10-1-241-133:9092 (id: 2147483646 rack: null) dead
+ [INFO] [2018-04-06 17:41:50][org.apache.kafka.clients.consumer.internals.AbstractCoordinator][Consumer clientId=consumer-1, groupId=0] Discovered coordinator host-10-1-241-133:9092 (id: 2147483646 rack: null)
+ [INFO] [2018-04-06 17:41:50][org.apache.kafka.clients.consumer.internals.AbstractCoordinator][Consumer clientId=consumer-1, groupId=0] Marking the coordinator host-10-1-241-133:9092 (id: 2147483646 rack: null) dead
+ [INFO] [2018-04-06 17:41:51][org.apache.kafka.clients.consumer.internals.AbstractCoordinator][Consumer clientId=consumer-1, groupId=0] Discovered coordinator host-10-1-241-133:9092 (id: 2147483646 rack: null)
+ [INFO] [2018-04-06 17:41:51][org.apache.kafka.clients.consumer.internals.AbstractCoordinator][Consumer clientId=consumer-1, groupId=0] Marking the coordinator host-10-1-241-133:9092 (id: 2147483646 rack: null) dead
+ [INFO] [2018-04-06 17:41:51][org.apache.kafka.clients.consumer.internals.AbstractCoordinator][Consumer clientId=consumer-1, groupId=0] Discovered coordinator host-10-1-241-133:9092 (id: 2147483646 rack: null)
+ [INFO] [2018-04-06 17:41:51][org.apache.kafka.clients.consumer.internals.AbstractCoordinator][Consumer clientId=consumer-1, groupId=0] Marking the coordinator host-10-1-241-133:9092 (id: 2147483646 rack: null) dead
+ [INFO] [2018-04-06 17:41:51][org.apache.kafka.clients.consumer.internals.AbstractCoordinator][Consumer clientId=consumer-1, groupId=0] Discovered coordinator host-10-1-241-133:9092 (id: 2147483646 rack: null)
+ [INFO] [2018-04-06 17:41:51][org.apache.kafka.clients.consumer.internals.AbstractCoordinator][Consumer clientId=consumer-1, groupId=0] Marking the coordinator host-10-1-241-133:9092 (id: 2147483646 rack: null) dead
+ [INFO] [2018-04-06 17:41:52][org.apache.kafka.clients.consumer.internals.AbstractCoordinator][Consumer clientId=consumer-1, groupId=0] Discovered coordinator host-10-1-241-133:9092 (id: 2147483646 rack: null)
+ [INFO] [2018-04-06 17:41:52][org.apache.kafka.clients.consumer.internals.AbstractCoordinator][Consumer clientId=consumer-1, groupId=0] Marking the coordinator host-10-1-241-133:9092 (id: 2147483646 rack: null) dead
+ [INFO] [2018-04-06 17:41:52][org.apache.kafka.clients.consumer.internals.AbstractCoordinator][Consumer clientId=consumer-1, groupId=0] Discovered coordinator host-10-1-241-133:9092 (id: 2147483646 rack: null)
+ [INFO] [2018-04-06 17:41:52][org.apache.kafka.clients.consumer.internals.AbstractCoordinator][Consumer clientId=consumer-1, groupId=0] Marking the coordinator host-10-1-241-133:9092 (id: 2147483646 rack: null) dead
+ [INFO] [2018-04-06 17:41:52][org.apache.kafka.clients.consumer.internals.AbstractCoordinator][Consumer clientId=consumer-1, groupId=0] Discovered coordinator host-10-1-241-133:9092 (id: 2147483646 rack: null)
+ [INFO] [2018-04-06 17:41:52][org.apache.kafka.clients.consumer.internals.AbstractCoordinator][Consumer clientId=consumer-1, groupId=0] Marking the coordinator host-10-1-241-133:9092 (id: 2147483646 rack: null) dead
+ [INFO] [2018-04-06 17:41:52][org.apache.kafka.clients.consumer.internals.AbstractCoordinator][Consumer clientId=consumer-1, groupId=0] Discovered coordinator host-10-1-241-133:9092 (id: 2147483646 rack: null)
+ [INFO] [2018-04-06 17:41:52][org.apache.kafka.clients.consumer.internals.AbstractCoordinator][Consumer clientId=consumer-1, groupId=0] Marking the coordinator host-10-1-241-133:9092 (id: 2147483646 rack: null) dead
+ [INFO] [2018-04-06 17:41:52][org.apache.kafka.clients.consumer.internals.AbstractCoordinator][Consumer clientId=consumer-1, groupId=0] Discovered coordinator host-10-1-241-133:9092 (id: 2147483646 rack: null)
+ [INFO] [2018-04-06 17:41:52][org.apache.kafka.clients.consumer.internals.AbstractCoordinator][Consumer clientId=consumer-1, groupId=0] Marking the coordinator host-10-1-241-133:9092 (id: 2147483646 rack: null) dead
+ [INFO] [2018-04-06 17:41:53][org.apache.kafka.clients.consumer.internals.AbstractCoordinator][Consumer clientId=consumer-1, groupId=0] Discovered coordinator host-10-1-241-133:9092 (id: 2147483646 rack: null)
+ [INFO] [2018-04-06 17:41:53][org.apache.kafka.clients.consumer.internals.AbstractCoordinator][Consumer clientId=consumer-1, groupId=0] Marking the coordinator host-10-1-241-133:9092 (id: 2147483646 rack: null) dead
+ [INFO] [2018-04-06 17:41:53][org.apache.kafka.clients.consumer.internals.AbstractCoordinator][Consumer clientId=consumer-1, groupId=0] Discovered coordinator host-10-1-241-133:9092 (id: 2147483646 rack: null)
+ [INFO] [2018-04-06 17:41:53][org.apache.kafka.clients.consumer.internals.AbstractCoordinator][Consumer clientId=consumer-1, groupId=0] Marking the coordinator host-10-1-241-133:9092 (id: 2147483646 rack: null) dead
+ [INFO] [2018-04-06 17:41:54][org.apache.kafka.clients.consumer.internals.AbstractCoordinator][Consumer clientId=consumer-1, groupId=0] Discovered coordinator host-10-1-241-133:9092 (id: 2147483646 rack: null)
+ [INFO] [2018-04-06 17:41:54][org.apache.kafka.clients.consumer.internals.AbstractCoordinator][Consumer clientId=consumer-1, groupId=0] Marking the coordinator host-10-1-241-133:9092 (id: 2147483646 rack: null) dead
+ [INFO] [2018-04-06 17:41:55][org.apache.kafka.clients.consumer.internals.AbstractCoordinator][Consumer clientId=consumer-1, groupId=0] Discovered coordinator host-10-1-241-133:9092 (id: 2147483646 rack: null)
+ [INFO] [2018-04-06 17:41:55][org.apache.kafka.clients.consumer.internals.AbstractCoordinator][Consumer clientId=consumer-1, groupId=0] Marking the coordinator host-10-1-241-133:9092 (id: 2147483646 rack: null) dead
+ [INFO] [2018-04-06 17:41:55][org.apache.kafka.clients.consumer.internals.AbstractCoordinator][Consumer clientId=consumer-1, groupId=0] Discovered coordinator host-10-1-241-133:9092 (id: 2147483646 rack: null)
+ [INFO] [2018-04-06 17:41:55][org.apache.kafka.clients.consumer.internals.AbstractCoordinator][Consumer clientId=consumer-1, groupId=0] Marking the coordinator host-10-1-241-133:9092 (id: 2147483646 rack: null) dead
+ [INFO] [2018-04-06 17:41:57][org.apache.kafka.clients.consumer.internals.AbstractCoordinator][Consumer clientId=consumer-1, groupId=0] Discovered coordinator host-10-1-241-133:9092 (id: 2147483646 rack: null)
+ [INFO] [2018-04-06 17:41:57][org.apache.kafka.clients.consumer.internals.AbstractCoordinator][Consumer clientId=consumer-1, groupId=0] Marking the coordinator host-10-1-241-133:9092 (id: 2147483646 rack: null) dead
+ [INFO] [2018-04-06 17:41:57][org.apache.kafka.clients.consumer.internals.AbstractCoordinator][Consumer clientId=consumer-1, groupId=0] Discovered coordinator host-10-1-241-133:9092 (id: 2147483646 rack: null)
+ [INFO] [2018-04-06 17:41:57][org.apache.kafka.clients.consumer.internals.AbstractCoordinator][Consumer clientId=consumer-1, groupId=0] Marking the coordinator host-10-1-241-133:9092 (id: 2147483646 rack: null) dead
+ [INFO] [2018-04-06 17:41:58][org.apache.kafka.clients.consumer.internals.AbstractCoordinator][Consumer clientId=consumer-1, groupId=0] Discovered coordinator host-10-1-241-133:9092 (id: 2147483646 rack: null)
+ [INFO] [2018-04-06 17:41:58][org.apache.kafka.clients.consumer.internals.AbstractCoordinator][Consumer clientId=consumer-1, groupId=0] Marking the coordinator host-10-1-241-133:9092 (id: 2147483646 rack: null) dead
+ [INFO] [2018-04-06 17:41:58][org.apache.kafka.clients.consumer.internals.AbstractCoordinator][Consumer clientId=consumer-1, groupId=0] Discovered coordinator host-10-1-241-133:9092 (id: 2147483646 rack: null)
+ [INFO] [2018-04-06 17:41:58][org.apache.kafka.clients.consumer.internals.AbstractCoordinator][Consumer clientId=consumer-1, groupId=0] Marking the coordinator host-10-1-241-133:9092 (id: 2147483646 rack: null) dead
+ [INFO] [2018-04-06 17:41:58][org.apache.kafka.clients.consumer.internals.AbstractCoordinator][Consumer clientId=consumer-1, groupId=0] Discovered coordinator host-10-1-241-133:9092 (id: 2147483646 rack: null)
+ [INFO] [2018-04-06 17:41:58][org.apache.kafka.clients.consumer.internals.AbstractCoordinator][Consumer clientId=consumer-1, groupId=0] Marking the coordinator host-10-1-241-133:9092 (id: 2147483646 rack: null) dead
+ [INFO] [2018-04-06 17:41:58][org.apache.kafka.clients.consumer.internals.AbstractCoordinator][Consumer clientId=consumer-1, groupId=0] Discovered coordinator host-10-1-241-133:9092 (id: 2147483646 rack: null)
+ [INFO] [2018-04-06 17:41:58][org.apache.kafka.clients.consumer.internals.AbstractCoordinator][Consumer clientId=consumer-1, groupId=0] Marking the coordinator host-10-1-241-133:9092 (id: 2147483646 rack: null) dead
+ [INFO] [2018-04-06 17:41:58][org.apache.kafka.clients.consumer.internals.AbstractCoordinator][Consumer clientId=consumer-1, groupId=0] Discovered coordinator host-10-1-241-133:9092 (id: 2147483646 rack: null)
+ [INFO] [2018-04-06 17:41:58][org.apache.kafka.clients.consumer.internals.AbstractCoordinator][Consumer clientId=consumer-1, groupId=0] Marking the coordinator host-10-1-241-133:9092 (id: 2147483646 rack: null) dead
+ [INFO] [2018-04-06 17:41:59][org.apache.kafka.clients.consumer.internals.AbstractCoordinator][Consumer clientId=consumer-1, groupId=0] Discovered coordinator host-10-1-241-133:9092 (id: 2147483646 rack: null)
+ [INFO] [2018-04-06 17:41:59][org.apache.kafka.clients.consumer.internals.AbstractCoordinator][Consumer clientId=consumer-1, groupId=0] Marking the coordinator host-10-1-241-133:9092 (id: 2147483646 rack: null) dead
+ [INFO] [2018-04-06 17:41:59][org.apache.kafka.clients.consumer.internals.AbstractCoordinator][Consumer clientId=consumer-1, groupId=0] Discovered coordinator host-10-1-241-133:9092 (id: 2147483646 rack: null)
+ [INFO] [2018-04-06 17:41:59][org.apache.kafka.clients.consumer.internals.AbstractCoordinator][Consumer clientId=consumer-1, groupId=0] Marking the coordinator host-10-1-241-133:9092 (id: 2147483646 rack: null) dead
+ [INFO] [2018-04-06 17:41:59][org.apache.kafka.clients.consumer.internals.AbstractCoordinator][Consumer clientId=consumer-1, groupId=0] Discovered coordinator host-10-1-241-133:9092 (id: 2147483646 rack: null)
+ [INFO] [2018-04-06 17:41:59][org.apache.kafka.clients.consumer.internals.AbstractCoordinator][Consumer clientId=consumer-1, groupId=0] Marking the coordinator host-10-1-241-133:9092 (id: 2147483646 rack: null) dead
+ [INFO] [2018-04-06 17:41:59][org.apache.kafka.clients.consumer.internals.AbstractCoordinator][Consumer clientId=consumer-1, groupId=0] Discovered coordinator host-10-1-241-133:9092 (id: 2147483646 rack: null)
+ [INFO] [2018-04-06 17:41:59][org.apache.kafka.clients.consumer.internals.AbstractCoordinator][Consumer clientId=consumer-1, groupId=0] Marking the coordinator host-10-1-241-133:9092 (id: 2147483646 rack: null) dead
+ [INFO] [2018-04-06 17:41:59][org.apache.kafka.clients.consumer.internals.AbstractCoordinator][Consumer clientId=consumer-1, groupId=0] Discovered coordinator host-10-1-241-133:9092 (id: 2147483646 rack: null)
+ [INFO] [2018-04-06 17:41:59][org.apache.kafka.clients.consumer.internals.AbstractCoordinator][Consumer clientId=consumer-1, groupId=0] Marking the coordinator host-10-1-241-133:9092 (id: 2147483646 rack: null) dead
+ [INFO] [2018-04-06 17:42:00][org.apache.kafka.clients.consumer.internals.AbstractCoordinator][Consumer clientId=consumer-1, groupId=0] Discovered coordinator host-10-1-241-133:9092 (id: 2147483646 rack: null)
+ [INFO] [2018-04-06 17:42:00][org.apache.kafka.clients.consumer.internals.AbstractCoordinator][Consumer clientId=consumer-1, groupId=0] Marking the coordinator host-10-1-241-133:9092 (id: 2147483646 rack: null) dead
+ [INFO] [2018-04-06 17:42:00][org.apache.kafka.clients.consumer.internals.AbstractCoordinator][Consumer clientId=consumer-1, groupId=0] Discovered coordinator host-10-1-241-133:9092 (id: 2147483646 rack: null)
+ [INFO] [2018-04-06 17:42:00][org.apache.kafka.clients.consumer.internals.AbstractCoordinator][Consumer clientId=consumer-1, groupId=0] Marking the coordinator host-10-1-241-133:9092 (id: 2147483646 rack: null) dead
+ [INFO] [2018-04-06 17:42:00][org.apache.kafka.clients.consumer.internals.AbstractCoordinator][Consumer clientId=consumer-1, groupId=0] Discovered coordinator host-10-1-241-133:9092 (id: 2147483646 rack: null)
+ [INFO] [2018-04-06 17:42:00][org.apache.kafka.clients.consumer.internals.AbstractCoordinator][Consumer clientId=consumer-1, groupId=0] Marking the coordinator host-10-1-241-133:9092 (id: 2147483646 rack: null) dead
+ [INFO] [2018-04-06 17:42:01][org.apache.kafka.clients.consumer.internals.AbstractCoordinator][Consumer clientId=consumer-1, groupId=0] Discovered coordinator host-10-1-241-133:9092 (id: 2147483646 rack: null)
+ [INFO] [2018-04-06 17:42:01][org.apache.kafka.clients.consumer.internals.AbstractCoordinator][Consumer clientId=consumer-1, groupId=0] Marking the coordinator host-10-1-241-133:9092 (id: 2147483646 rack: null) dead
+ [INFO] [2018-04-06 17:42:01][org.apache.kafka.clients.consumer.internals.AbstractCoordinator][Consumer clientId=consumer-1, groupId=0] Discovered coordinator host-10-1-241-133:9092 (id: 2147483646 rack: null)
+ [INFO] [2018-04-06 17:42:01][org.apache.kafka.clients.consumer.internals.AbstractCoordinator][Consumer clientId=consumer-1, groupId=0] Marking the coordinator host-10-1-241-133:9092 (id: 2147483646 rack: null) dead
+ [INFO] [2018-04-06 17:42:02][org.apache.kafka.clients.consumer.internals.AbstractCoordinator][Consumer clientId=consumer-1, groupId=0] Discovered coordinator host-10-1-241-133:9092 (id: 2147483646 rack: null)
+ [INFO] [2018-04-06 17:42:02][org.apache.kafka.clients.consumer.internals.AbstractCoordinator][Consumer clientId=consumer-1, groupId=0] Marking the coordinator host-10-1-241-133:9092 (id: 2147483646 rack: null) dead
+ [INFO] [2018-04-06 17:42:02][org.apache.kafka.clients.consumer.internals.AbstractCoordinator][Consumer clientId=consumer-1, groupId=0] Discovered coordinator host-10-1-241-133:9092 (id: 2147483646 rack: null)
+ [INFO] [2018-04-06 17:42:02][org.apache.kafka.clients.consumer.internals.AbstractCoordinator][Consumer clientId=consumer-1, groupId=0] Marking the coordinator host-10-1-241-133:9092 (id: 2147483646 rack: null) dead
+ [INFO] [2018-04-06 17:42:02][org.apache.kafka.clients.consumer.internals.AbstractCoordinator][Consumer clientId=consumer-1, groupId=0] Discovered coordinator host-10-1-241-133:9092 (id: 2147483646 rack: null)
+ [INFO] [2018-04-06 17:42:02][org.apache.kafka.clients.consumer.internals.AbstractCoordinator][Consumer clientId=consumer-1, groupId=0] Marking the coordinator host-10-1-241-133:9092 (id: 2147483646 rack: null) dead
+ [INFO] [2018-04-06 17:42:02][org.apache.kafka.clients.consumer.internals.AbstractCoordinator][Consumer clientId=consumer-1, groupId=0] Discovered coordinator host-10-1-241-133:9092 (id: 2147483646 rack: null)
+ [INFO] [2018-04-06 17:42:02][org.apache.kafka.clients.consumer.internals.AbstractCoordinator][Consumer clientId=consumer-1, groupId=0] Marking the coordinator host-10-1-241-133:9092 (id: 2147483646 rack: null) dead
+ [INFO] [2018-04-06 17:42:03][org.apache.kafka.clients.consumer.internals.AbstractCoordinator][Consumer clientId=consumer-1, groupId=0] Discovered coordinator host-10-1-241-133:9092 (id: 2147483646 rack: null)
+ [INFO] [2018-04-06 17:42:03][org.apache.kafka.clients.consumer.internals.AbstractCoordinator][Consumer clientId=consumer-1, groupId=0] Marking the coordinator host-10-1-241-133:9092 (id: 2147483646 rack: null) dead
+ [INFO] [2018-04-06 17:42:03][org.apache.kafka.clients.consumer.internals.AbstractCoordinator][Consumer clientId=consumer-1, groupId=0] Discovered coordinator host-10-1-241-133:9092 (id: 2147483646 rack: null)
+ [INFO] [2018-04-06 17:42:03][org.apache.kafka.clients.consumer.internals.AbstractCoordinator][Consumer clientId=consumer-1, groupId=0] Marking the coordinator host-10-1-241-133:9092 (id: 2147483646 rack: null) dead
+ [INFO] [2018-04-06 17:42:03][org.apache.kafka.clients.consumer.internals.AbstractCoordinator][Consumer clientId=consumer-1, groupId=0] Discovered coordinator host-10-1-241-133:9092 (id: 2147483646 rack: null)
+ [INFO] [2018-04-06 17:42:03][org.apache.kafka.clients.consumer.internals.AbstractCoordinator][Consumer clientId=consumer-1, groupId=0] Marking the coordinator host-10-1-241-133:9092 (id: 2147483646 rack: null) dead
+ [INFO] [2018-04-06 17:42:03][org.apache.kafka.clients.consumer.internals.AbstractCoordinator][Consumer clientId=consumer-1, groupId=0] Discovered coordinator host-10-1-241-133:9092 (id: 2147483646 rack: null)
+ [INFO] [2018-04-06 17:42:03][org.apache.kafka.clients.consumer.internals.AbstractCoordinator][Consumer clientId=consumer-1, groupId=0] Marking the coordinator host-10-1-241-133:9092 (id: 2147483646 rack: null) dead
+ [INFO] [2018-04-06 17:42:04][org.apache.kafka.clients.consumer.internals.AbstractCoordinator][Consumer clientId=consumer-1, groupId=0] Discovered coordinator host-10-1-241-133:9092 (id: 2147483646 rack: null)
+ [INFO] [2018-04-06 17:42:04][org.apache.kafka.clients.consumer.internals.AbstractCoordinator][Consumer clientId=consumer-1, groupId=0] Marking the coordinator host-10-1-241-133:9092 (id: 2147483646 rack: null) dead
+ [INFO] [2018-04-06 17:42:04][org.apache.kafka.clients.consumer.internals.AbstractCoordinator][Consumer clientId=consumer-1, groupId=0] Discovered coordinator host-10-1-241-133:9092 (id: 2147483646 rack: null)
+ [INFO] [2018-04-06 17:42:04][org.apache.kafka.clients.consumer.internals.AbstractCoordinator][Consumer clientId=consumer-1, groupId=0] Marking the coordinator host-10-1-241-133:9092 (id: 2147483646 rack: null) dead
+ [INFO] [2018-04-06 17:42:04][org.apache.kafka.clients.consumer.internals.AbstractCoordinator][Consumer clientId=consumer-1, groupId=0] Discovered coordinator host-10-1-241-133:9092 (id: 2147483646 rack: null)
+ [INFO] [2018-04-06 17:42:04][org.apache.kafka.clients.consumer.internals.AbstractCoordinator][Consumer clientId=consumer-1, groupId=0] Marking the coordinator host-10-1-241-133:9092 (id: 2147483646 rack: null) dead
+ [INFO] [2018-04-06 17:42:04][org.apache.kafka.clients.consumer.internals.AbstractCoordinator][Consumer clientId=consumer-1, groupId=0] Discovered coordinator host-10-1-241-133:9092 (id: 2147483646 rack: null)
+ [INFO] [2018-04-06 17:42:04][org.apache.kafka.clients.consumer.internals.AbstractCoordinator][Consumer clientId=consumer-1, groupId=0] Marking the coordinator host-10-1-241-133:9092 (id: 2147483646 rack: null) dead
+ [INFO] [2018-04-06 17:42:05][org.apache.kafka.clients.consumer.internals.AbstractCoordinator][Consumer clientId=consumer-1, groupId=0] Discovered coordinator host-10-1-241-133:9092 (id: 2147483646 rack: null)
+ [INFO] [2018-04-06 17:42:05][org.apache.kafka.clients.consumer.internals.AbstractCoordinator][Consumer clientId=consumer-1, groupId=0] Marking the coordinator host-10-1-241-133:9092 (id: 2147483646 rack: null) dead
+ [INFO] [2018-04-06 17:42:05][org.apache.kafka.clients.consumer.internals.AbstractCoordinator][Consumer clientId=consumer-1, groupId=0] Discovered coordinator host-10-1-241-133:9092 (id: 2147483646 rack: null)
+ [INFO] [2018-04-06 17:42:05][org.apache.kafka.clients.consumer.internals.AbstractCoordinator][Consumer clientId=consumer-1, groupId=0] Marking the coordinator host-10-1-241-133:9092 (id: 2147483646 rack: null) dead
+ [INFO] [2018-04-06 17:42:05][org.apache.kafka.clients.consumer.internals.AbstractCoordinator][Consumer clientId=consumer-1, groupId=0] Discovered coordinator host-10-1-241-133:9092 (id: 2147483646 rack: null)
+ [INFO] [2018-04-06 17:42:06][org.apache.kafka.clients.consumer.internals.AbstractCoordinator][Consumer clientId=consumer-1, groupId=0] Marking the coordinator host-10-1-241-133:9092 (id: 2147483646 rack: null) dead
+ [INFO] [2018-04-06 17:42:06][org.apache.kafka.clients.consumer.internals.AbstractCoordinator][Consumer clientId=consumer-1, groupId=0] Discovered coordinator host-10-1-241-133:9092 (id: 2147483646 rack: null)
+ [INFO] [2018-04-06 17:42:06][org.apache.kafka.clients.consumer.internals.AbstractCoordinator][Consumer clientId=consumer-1, groupId=0] Marking the coordinator host-10-1-241-133:9092 (id: 2147483646 rack: null) dead
+ [INFO] [2018-04-06 17:42:06][org.apache.kafka.clients.consumer.internals.AbstractCoordinator][Consumer clientId=consumer-1, groupId=0] Discovered coordinator host-10-1-241-133:9092 (id: 2147483646 rack: null)
+ [INFO] [2018-04-06 17:42:06][org.apache.kafka.clients.consumer.internals.AbstractCoordinator][Consumer clientId=consumer-1, groupId=0] Marking the coordinator host-10-1-241-133:9092 (id: 2147483646 rack: null) dead
+ [INFO] [2018-04-06 17:42:06][org.apache.kafka.clients.consumer.internals.AbstractCoordinator][Consumer clientId=consumer-1, groupId=0] Discovered coordinator host-10-1-241-133:9092 (id: 2147483646 rack: null)
+ [INFO] [2018-04-06 17:42:06][org.apache.kafka.clients.consumer.internals.AbstractCoordinator][Consumer clientId=consumer-1, groupId=0] Marking the coordinator host-10-1-241-133:9092 (id: 2147483646 rack: null) dead
+ [INFO] [2018-04-06 17:42:07][org.apache.kafka.clients.consumer.internals.AbstractCoordinator][Consumer clientId=consumer-1, groupId=0] Discovered coordinator host-10-1-241-133:9092 (id: 2147483646 rack: null)
+ [INFO] [2018-04-06 17:42:07][org.apache.kafka.clients.consumer.internals.AbstractCoordinator][Consumer clientId=consumer-1, groupId=0] Marking the coordinator host-10-1-241-133:9092 (id: 2147483646 rack: null) dead
+ [INFO] [2018-04-06 17:42:07][org.apache.kafka.clients.consumer.internals.AbstractCoordinator][Consumer clientId=consumer-1, groupId=0] Discovered coordinator host-10-1-241-133:9092 (id: 2147483646 rack: null)
+ [INFO] [2018-04-06 17:42:07][org.apache.kafka.clients.consumer.internals.AbstractCoordinator][Consumer clientId=consumer-1, groupId=0] Marking the coordinator host-10-1-241-133:9092 (id: 2147483646 rack: null) dead
+ [INFO] [2018-04-06 17:42:07][org.apache.kafka.clients.consumer.internals.AbstractCoordinator][Consumer clientId=consumer-1, groupId=0] Discovered coordinator host-10-1-241-133:9092 (id: 2147483646 rack: null)
+ [INFO] [2018-04-06 17:42:07][org.apache.kafka.clients.consumer.internals.AbstractCoordinator][Consumer clientId=consumer-1, groupId=0] Marking the coordinator host-10-1-241-133:9092 (id: 2147483646 rack: null) dead
+ [INFO] [2018-04-06 17:42:07][org.apache.kafka.clients.consumer.internals.AbstractCoordinator][Consumer clientId=consumer-1, groupId=0] Discovered coordinator host-10-1-241-133:9092 (id: 2147483646 rack: null)
+ [INFO] [2018-04-06 17:42:07][org.apache.kafka.clients.consumer.internals.AbstractCoordinator][Consumer clientId=consumer-1, groupId=0] Marking the coordinator host-10-1-241-133:9092 (id: 2147483646 rack: null) dead
+ [INFO] [2018-04-06 17:42:07][org.apache.kafka.clients.consumer.internals.AbstractCoordinator][Consumer clientId=consumer-1, groupId=0] Discovered coordinator host-10-1-241-133:9092 (id: 2147483646 rack: null)
+ [INFO] [2018-04-06 17:42:07][org.apache.kafka.clients.consumer.internals.AbstractCoordinator][Consumer clientId=consumer-1, groupId=0] Marking the coordinator host-10-1-241-133:9092 (id: 2147483646 rack: null) dead
+ [INFO] [2018-04-06 17:42:07][org.apache.kafka.clients.consumer.internals.AbstractCoordinator][Consumer clientId=consumer-1, groupId=0] Discovered coordinator host-10-1-241-133:9092 (id: 2147483646 rack: null)
+ [INFO] [2018-04-06 17:42:07][org.apache.kafka.clients.consumer.internals.AbstractCoordinator][Consumer clientId=consumer-1, groupId=0] Marking the coordinator host-10-1-241-133:9092 (id: 2147483646 rack: null) dead
+ [INFO] [2018-04-06 17:42:08][org.apache.kafka.clients.consumer.internals.AbstractCoordinator][Consumer clientId=consumer-1, groupId=0] Discovered coordinator host-10-1-241-133:9092 (id: 2147483646 rack: null)
+ [INFO] [2018-04-06 17:42:08][org.apache.kafka.clients.consumer.internals.AbstractCoordinator][Consumer clientId=consumer-1, groupId=0] Marking the coordinator host-10-1-241-133:9092 (id: 2147483646 rack: null) dead
+ [INFO] [2018-04-06 17:42:08][org.apache.kafka.clients.consumer.internals.AbstractCoordinator][Consumer clientId=consumer-1, groupId=0] Discovered coordinator host-10-1-241-133:9092 (id: 2147483646 rack: null)
+ [INFO] [2018-04-06 17:42:08][org.apache.kafka.clients.consumer.internals.AbstractCoordinator][Consumer clientId=consumer-1, groupId=0] Marking the coordinator host-10-1-241-133:9092 (id: 2147483646 rack: null) dead
+ [INFO] [2018-04-06 17:42:08][org.apache.kafka.clients.consumer.internals.AbstractCoordinator][Consumer clientId=consumer-1, groupId=0] Discovered coordinator host-10-1-241-133:9092 (id: 2147483646 rack: null)
+ [INFO] [2018-04-06 17:42:08][org.apache.kafka.clients.consumer.internals.AbstractCoordinator][Consumer clientId=consumer-1, groupId=0] Marking the coordinator host-10-1-241-133:9092 (id: 2147483646 rack: null) dead
+ [INFO] [2018-04-06 17:42:09][org.apache.kafka.clients.consumer.internals.AbstractCoordinator][Consumer clientId=consumer-1, groupId=0] Discovered coordinator host-10-1-241-133:9092 (id: 2147483646 rack: null)
+ [INFO] [2018-04-06 17:42:09][org.apache.kafka.clients.consumer.internals.AbstractCoordinator][Consumer clientId=consumer-1, groupId=0] Marking the coordinator host-10-1-241-133:9092 (id: 2147483646 rack: null) dead
+ [INFO] [2018-04-06 17:42:09][org.apache.kafka.clients.consumer.internals.AbstractCoordinator][Consumer clientId=consumer-1, groupId=0] Discovered coordinator host-10-1-241-133:9092 (id: 2147483646 rack: null)
+ [INFO] [2018-04-06 17:42:09][org.apache.kafka.clients.consumer.internals.AbstractCoordinator][Consumer clientId=consumer-1, groupId=0] Marking the coordinator host-10-1-241-133:9092 (id: 2147483646 rack: null) dead
+ [INFO] [2018-04-06 17:42:09][org.apache.kafka.clients.consumer.internals.AbstractCoordinator][Consumer clientId=consumer-1, groupId=0] Discovered coordinator host-10-1-241-133:9092 (id: 2147483646 rack: null)
+ [INFO] [2018-04-06 17:42:09][org.apache.kafka.clients.consumer.internals.AbstractCoordinator][Consumer clientId=consumer-1, groupId=0] Marking the coordinator host-10-1-241-133:9092 (id: 2147483646 rack: null) dead
+ [INFO] [2018-04-06 17:42:10][org.apache.kafka.clients.consumer.internals.AbstractCoordinator][Consumer clientId=consumer-1, groupId=0] Discovered coordinator host-10-1-241-133:9092 (id: 2147483646 rack: null)
+ [INFO] [2018-04-06 17:42:10][org.apache.kafka.clients.consumer.internals.AbstractCoordinator][Consumer clientId=consumer-1, groupId=0] Marking the coordinator host-10-1-241-133:9092 (id: 2147483646 rack: null) dead
+ [INFO] [2018-04-06 17:42:11][org.apache.kafka.clients.consumer.internals.AbstractCoordinator][Consumer clientId=consumer-1, groupId=0] Discovered coordinator host-10-1-241-133:9092 (id: 2147483646 rack: null)
+ [INFO] [2018-04-06 17:42:11][org.apache.kafka.clients.consumer.internals.AbstractCoordinator][Consumer clientId=consumer-1, groupId=0] Marking the coordinator host-10-1-241-133:9092 (id: 2147483646 rack: null) dead
+ [INFO] [2018-04-06 17:42:11][org.apache.kafka.clients.consumer.internals.AbstractCoordinator][Consumer clientId=consumer-1, groupId=0] Discovered coordinator host-10-1-241-133:9092 (id: 2147483646 rack: null)
+ [INFO] [2018-04-06 17:42:11][org.apache.kafka.clients.consumer.internals.AbstractCoordinator][Consumer clientId=consumer-1, groupId=0] Marking the coordinator host-10-1-241-133:9092 (id: 2147483646 rack: null) dead
+ [INFO] [2018-04-06 17:42:11][org.apache.kafka.clients.consumer.internals.AbstractCoordinator][Consumer clientId=consumer-1, groupId=0] Discovered coordinator host-10-1-241-133:9092 (id: 2147483646 rack: null)
+ [INFO] [2018-04-06 17:42:11][org.apache.kafka.clients.consumer.internals.AbstractCoordinator][Consumer clientId=consumer-1, groupId=0] Marking the coordinator host-10-1-241-133:9092 (id: 2147483646 rack: null) dead
+ [INFO] [2018-04-06 17:42:11][org.apache.kafka.clients.consumer.internals.AbstractCoordinator][Consumer clientId=consumer-1, groupId=0] Discovered coordinator host-10-1-241-133:9092 (id: 2147483646 rack: null)
+ [INFO] [2018-04-06 17:42:11][org.apache.kafka.clients.consumer.internals.AbstractCoordinator][Consumer clientId=consumer-1, groupId=0] Marking the coordinator host-10-1-241-133:9092 (id: 2147483646 rack: null) dead
+ [INFO] [2018-04-06 17:42:11][org.apache.kafka.clients.consumer.internals.AbstractCoordinator][Consumer clientId=consumer-1, groupId=0] Discovered coordinator host-10-1-241-133:9092 (id: 2147483646 rack: null)
+ [INFO] [2018-04-06 17:42:11][org.apache.kafka.clients.consumer.internals.AbstractCoordinator][Consumer clientId=consumer-1, groupId=0] Marking the coordinator host-10-1-241-133:9092 (id: 2147483646 rack: null) dead
+ [INFO] [2018-04-06 17:42:12][org.apache.kafka.clients.consumer.internals.AbstractCoordinator][Consumer clientId=consumer-1, groupId=0] Discovered coordinator host-10-1-241-133:9092 (id: 2147483646 rack: null)
+ [INFO] [2018-04-06 17:42:12][org.apache.kafka.clients.consumer.internals.AbstractCoordinator][Consumer clientId=consumer-1, groupId=0] Marking the coordinator host-10-1-241-133:9092 (id: 2147483646 rack: null) dead
+ [INFO] [2018-04-06 17:42:12][org.apache.kafka.clients.consumer.internals.AbstractCoordinator][Consumer clientId=consumer-1, groupId=0] Discovered coordinator host-10-1-241-133:9092 (id: 2147483646 rack: null)
+ [INFO] [2018-04-06 17:42:12][org.apache.kafka.clients.consumer.internals.AbstractCoordinator][Consumer clientId=consumer-1, groupId=0] Marking the coordinator host-10-1-241-133:9092 (id: 2147483646 rack: null) dead
+ [INFO] [2018-04-06 17:42:12][org.apache.kafka.clients.consumer.internals.AbstractCoordinator][Consumer clientId=consumer-1, groupId=0] Discovered coordinator host-10-1-241-133:9092 (id: 2147483646 rack: null)
+ [INFO] [2018-04-06 17:42:12][org.apache.kafka.clients.consumer.internals.AbstractCoordinator][Consumer clientId=consumer-1, groupId=0] Marking the coordinator host-10-1-241-133:9092 (id: 2147483646 rack: null) dead
+ [INFO] [2018-04-06 17:42:12][org.apache.kafka.clients.consumer.internals.AbstractCoordinator][Consumer clientId=consumer-1, groupId=0] Discovered coordinator host-10-1-241-133:9092 (id: 2147483646 rack: null)
+ [INFO] [2018-04-06 17:42:12][org.apache.kafka.clients.consumer.internals.AbstractCoordinator][Consumer clientId=consumer-1, groupId=0] Marking the coordinator host-10-1-241-133:9092 (id: 2147483646 rack: null) dead
+ [INFO] [2018-04-06 17:42:12][org.apache.kafka.clients.consumer.internals.AbstractCoordinator][Consumer clientId=consumer-1, groupId=0] Discovered coordinator host-10-1-241-133:9092 (id: 2147483646 rack: null)
+ [INFO] [2018-04-06 17:42:12][org.apache.kafka.clients.consumer.internals.AbstractCoordinator][Consumer clientId=consumer-1, groupId=0] Marking the coordinator host-10-1-241-133:9092 (id: 2147483646 rack: null) dead
+ [INFO] [2018-04-06 17:42:13][org.apache.kafka.clients.consumer.internals.AbstractCoordinator][Consumer clientId=consumer-1, groupId=0] Discovered coordinator host-10-1-241-133:9092 (id: 2147483646 rack: null)
+ [INFO] [2018-04-06 17:42:13][org.apache.kafka.clients.consumer.internals.AbstractCoordinator][Consumer clientId=consumer-1, groupId=0] Marking the coordinator host-10-1-241-133:9092 (id: 2147483646 rack: null) dead
+ [INFO] [2018-04-06 17:42:13][org.apache.kafka.clients.consumer.internals.AbstractCoordinator][Consumer clientId=consumer-1, groupId=0] Discovered coordinator host-10-1-241-133:9092 (id: 2147483646 rack: null)
+ [INFO] [2018-04-06 17:42:13][org.apache.kafka.clients.consumer.internals.AbstractCoordinator][Consumer clientId=consumer-1, groupId=0] Marking the coordinator host-10-1-241-133:9092 (id: 2147483646 rack: null) dead
+ [INFO] [2018-04-06 17:42:13][org.apache.kafka.clients.consumer.internals.AbstractCoordinator][Consumer clientId=consumer-1, groupId=0] Discovered coordinator host-10-1-241-133:9092 (id: 2147483646 rack: null)
+ [INFO] [2018-04-06 17:42:13][org.apache.kafka.clients.consumer.internals.AbstractCoordinator][Consumer clientId=consumer-1, groupId=0] Marking the coordinator host-10-1-241-133:9092 (id: 2147483646 rack: null) dead
+ [INFO] [2018-04-06 17:42:13][org.apache.kafka.clients.consumer.internals.AbstractCoordinator][Consumer clientId=consumer-1, groupId=0] Discovered coordinator host-10-1-241-133:9092 (id: 2147483646 rack: null)
+ [INFO] [2018-04-06 17:42:13][org.apache.kafka.clients.consumer.internals.AbstractCoordinator][Consumer clientId=consumer-1, groupId=0] Marking the coordinator host-10-1-241-133:9092 (id: 2147483646 rack: null) dead
+ [INFO] [2018-04-06 17:42:13][org.apache.kafka.clients.consumer.internals.AbstractCoordinator][Consumer clientId=consumer-1, groupId=0] Discovered coordinator host-10-1-241-133:9092 (id: 2147483646 rack: null)
+ [INFO] [2018-04-06 17:42:13][org.apache.kafka.clients.consumer.internals.AbstractCoordinator][Consumer clientId=consumer-1, groupId=0] Marking the coordinator host-10-1-241-133:9092 (id: 2147483646 rack: null) dead
+ [INFO] [2018-04-06 17:42:14][org.apache.kafka.clients.consumer.internals.AbstractCoordinator][Consumer clientId=consumer-1, groupId=0] Discovered coordinator host-10-1-241-133:9092 (id: 2147483646 rack: null)
+ [INFO] [2018-04-06 17:42:14][org.apache.kafka.clients.consumer.internals.AbstractCoordinator][Consumer clientId=consumer-1, groupId=0] Marking the coordinator host-10-1-241-133:9092 (id: 2147483646 rack: null) dead
+ [INFO] [2018-04-06 17:42:14][org.apache.kafka.clients.consumer.internals.AbstractCoordinator][Consumer clientId=consumer-1, groupId=0] Discovered coordinator host-10-1-241-133:9092 (id: 2147483646 rack: null)
+ [INFO] [2018-04-06 17:42:14][org.apache.kafka.clients.consumer.internals.AbstractCoordinator][Consumer clientId=consumer-1, groupId=0] Marking the coordinator host-10-1-241-133:9092 (id: 2147483646 rack: null) dead
+ [INFO] [2018-04-06 17:42:14][org.apache.kafka.clients.consumer.internals.AbstractCoordinator][Consumer clientId=consumer-1, groupId=0] Discovered coordinator host-10-1-241-133:9092 (id: 2147483646 rack: null)
+ [INFO] [2018-04-06 17:42:14][org.apache.kafka.clients.consumer.internals.AbstractCoordinator][Consumer clientId=consumer-1, groupId=0] Marking the coordinator host-10-1-241-133:9092 (id: 2147483646 rack: null) dead
+ [INFO] [2018-04-06 17:42:15][org.apache.kafka.clients.consumer.internals.AbstractCoordinator][Consumer clientId=consumer-1, groupId=0] Discovered coordinator host-10-1-241-133:9092 (id: 2147483646 rack: null)
+ [INFO] [2018-04-06 17:42:15][org.apache.kafka.clients.consumer.internals.AbstractCoordinator][Consumer clientId=consumer-1, groupId=0] Marking the coordinator host-10-1-241-133:9092 (id: 2147483646 rack: null) dead
+ [INFO] [2018-04-06 17:42:15][org.apache.kafka.clients.consumer.internals.AbstractCoordinator][Consumer clientId=consumer-1, groupId=0] Discovered coordinator host-10-1-241-133:9092 (id: 2147483646 rack: null)
+ [INFO] [2018-04-06 17:42:15][org.apache.kafka.clients.consumer.internals.AbstractCoordinator][Consumer clientId=consumer-1, groupId=0] Marking the coordinator host-10-1-241-133:9092 (id: 2147483646 rack: null) dead
+ [INFO] [2018-04-06 17:42:15][org.apache.kafka.clients.consumer.internals.AbstractCoordinator][Consumer clientId=consumer-1, groupId=0] Discovered coordinator host-10-1-241-133:9092 (id: 2147483646 rack: null)
+ [INFO] [2018-04-06 17:42:15][org.apache.kafka.clients.consumer.internals.AbstractCoordinator][Consumer clientId=consumer-1, groupId=0] Marking the coordinator host-10-1-241-133:9092 (id: 2147483646 rack: null) dead
+ [INFO] [2018-04-06 17:42:15][org.apache.kafka.clients.consumer.internals.AbstractCoordinator][Consumer clientId=consumer-1, groupId=0] Discovered coordinator host-10-1-241-133:9092 (id: 2147483646 rack: null)
+ [INFO] [2018-04-06 17:42:15][org.apache.kafka.clients.consumer.internals.AbstractCoordinator][Consumer clientId=consumer-1, groupId=0] Marking the coordinator host-10-1-241-133:9092 (id: 2147483646 rack: null) dead
+ [INFO] [2018-04-06 17:42:16][org.apache.kafka.clients.consumer.internals.AbstractCoordinator][Consumer clientId=consumer-1, groupId=0] Discovered coordinator host-10-1-241-133:9092 (id: 2147483646 rack: null)
+ [INFO] [2018-04-06 17:42:16][org.apache.kafka.clients.consumer.internals.AbstractCoordinator][Consumer clientId=consumer-1, groupId=0] Marking the coordinator host-10-1-241-133:9092 (id: 2147483646 rack: null) dead
+ [INFO] [2018-04-06 17:42:16][org.apache.kafka.clients.consumer.internals.AbstractCoordinator][Consumer clientId=consumer-1, groupId=0] Discovered coordinator host-10-1-241-133:9092 (id: 2147483646 rack: null)
+ [INFO] [2018-04-06 17:42:16][org.apache.kafka.clients.consumer.internals.AbstractCoordinator][Consumer clientId=consumer-1, groupId=0] Marking the coordinator host-10-1-241-133:9092 (id: 2147483646 rack: null) dead
+ [INFO] [2018-04-06 17:42:16][org.apache.kafka.clients.consumer.internals.AbstractCoordinator][Consumer clientId=consumer-1, groupId=0] Discovered coordinator host-10-1-241-133:9092 (id: 2147483646 rack: null)
+ [INFO] [2018-04-06 17:42:16][org.apache.kafka.clients.consumer.internals.AbstractCoordinator][Consumer clientId=consumer-1, groupId=0] Marking the coordinator host-10-1-241-133:9092 (id: 2147483646 rack: null) dead
+ [INFO] [2018-04-06 17:42:17][org.apache.kafka.clients.consumer.internals.AbstractCoordinator][Consumer clientId=consumer-1, groupId=0] Discovered coordinator host-10-1-241-133:9092 (id: 2147483646 rack: null)
+ [INFO] [2018-04-06 17:42:17][org.apache.kafka.clients.consumer.internals.AbstractCoordinator][Consumer clientId=consumer-1, groupId=0] Marking the coordinator host-10-1-241-133:9092 (id: 2147483646 rack: null) dead
+ [INFO] [2018-04-06 17:42:17][org.apache.kafka.clients.consumer.internals.AbstractCoordinator][Consumer clientId=consumer-1, groupId=0] Discovered coordinator host-10-1-241-133:9092 (id: 2147483646 rack: null)
+ [INFO] [2018-04-06 17:42:17][org.apache.kafka.clients.consumer.internals.AbstractCoordinator][Consumer clientId=consumer-1, groupId=0] Marking the coordinator host-10-1-241-133:9092 (id: 2147483646 rack: null) dead
+ [INFO] [2018-04-06 17:42:17][org.apache.kafka.clients.consumer.internals.AbstractCoordinator][Consumer clientId=consumer-1, groupId=0] Discovered coordinator host-10-1-241-133:9092 (id: 2147483646 rack: null)
+ [INFO] [2018-04-06 17:42:17][org.apache.kafka.clients.consumer.internals.AbstractCoordinator][Consumer clientId=consumer-1, groupId=0] Marking the coordinator host-10-1-241-133:9092 (id: 2147483646 rack: null) dead
+ [INFO] [2018-04-06 17:42:17][org.apache.kafka.clients.consumer.internals.AbstractCoordinator][Consumer clientId=consumer-1, groupId=0] Discovered coordinator host-10-1-241-133:9092 (id: 2147483646 rack: null)
+ [INFO] [2018-04-06 17:42:17][org.apache.kafka.clients.consumer.internals.AbstractCoordinator][Consumer clientId=consumer-1, groupId=0] Marking the coordinator host-10-1-241-133:9092 (id: 2147483646 rack: null) dead
+ [INFO] [2018-04-06 17:42:18][org.apache.kafka.clients.consumer.internals.AbstractCoordinator][Consumer clientId=consumer-1, groupId=0] Discovered coordinator host-10-1-241-133:9092 (id: 2147483646 rack: null)
+ [INFO] [2018-04-06 17:42:18][org.apache.kafka.clients.consumer.internals.AbstractCoordinator][Consumer clientId=consumer-1, groupId=0] Marking the coordinator host-10-1-241-133:9092 (id: 2147483646 rack: null) dead
+ [INFO] [2018-04-06 17:42:18][org.apache.kafka.clients.consumer.internals.AbstractCoordinator][Consumer clientId=consumer-1, groupId=0] Discovered coordinator host-10-1-241-133:9092 (id: 2147483646 rack: null)
+ [INFO] [2018-04-06 17:42:18][org.apache.kafka.clients.consumer.internals.AbstractCoordinator][Consumer clientId=consumer-1, groupId=0] Marking the coordinator host-10-1-241-133:9092 (id: 2147483646 rack: null) dead
+ [INFO] [2018-04-06 17:42:18][org.apache.kafka.clients.consumer.internals.AbstractCoordinator][Consumer clientId=consumer-1, groupId=0] Discovered coordinator host-10-1-241-133:9092 (id: 2147483646 rack: null)
+ [INFO] [2018-04-06 17:42:18][org.apache.kafka.clients.consumer.internals.AbstractCoordinator][Consumer clientId=consumer-1, groupId=0] Marking the coordinator host-10-1-241-133:9092 (id: 2147483646 rack: null) dead
+ [INFO] [2018-04-06 17:42:18][org.apache.kafka.clients.consumer.internals.AbstractCoordinator][Consumer clientId=consumer-1, groupId=0] Discovered coordinator host-10-1-241-133:9092 (id: 2147483646 rack: null)
+ [INFO] [2018-04-06 17:42:18][org.apache.kafka.clients.consumer.internals.AbstractCoordinator][Consumer clientId=consumer-1, groupId=0] Marking the coordinator host-10-1-241-133:9092 (id: 2147483646 rack: null) dead
+ [INFO] [2018-04-06 17:42:18][org.apache.kafka.clients.consumer.internals.AbstractCoordinator][Consumer clientId=consumer-1, groupId=0] Discovered coordinator host-10-1-241-133:9092 (id: 2147483646 rack: null)
+ [INFO] [2018-04-06 17:42:18][org.apache.kafka.clients.consumer.internals.AbstractCoordinator][Consumer clientId=consumer-1, groupId=0] Marking the coordinator host-10-1-241-133:9092 (id: 2147483646 rack: null) dead
+ [INFO] [2018-04-06 17:42:19][org.apache.kafka.clients.consumer.internals.AbstractCoordinator][Consumer clientId=consumer-1, groupId=0] Discovered coordinator host-10-1-241-133:9092 (id: 2147483646 rack: null)
+ [INFO] [2018-04-06 17:42:19][org.apache.kafka.clients.consumer.internals.AbstractCoordinator][Consumer clientId=consumer-1, groupId=0] Marking the coordinator host-10-1-241-133:9092 (id: 2147483646 rack: null) dead
+ [INFO] [2018-04-06 17:42:19][org.apache.kafka.clients.consumer.internals.AbstractCoordinator][Consumer clientId=consumer-1, groupId=0] Discovered coordinator host-10-1-241-133:9092 (id: 2147483646 rack: null)
+ [INFO] [2018-04-06 17:42:19][org.apache.kafka.clients.consumer.internals.AbstractCoordinator][Consumer clientId=consumer-1, groupId=0] Marking the coordinator host-10-1-241-133:9092 (id: 2147483646 rack: null) dead
+ [INFO] [2018-04-06 17:42:20][org.apache.kafka.clients.consumer.internals.AbstractCoordinator][Consumer clientId=consumer-1, groupId=0] Discovered coordinator host-10-1-241-133:9092 (id: 2147483646 rack: null)
+ [INFO] [2018-04-06 17:42:20][org.apache.kafka.clients.consumer.internals.AbstractCoordinator][Consumer clientId=consumer-1, groupId=0] Marking the coordinator host-10-1-241-133:9092 (id: 2147483646 rack: null) dead
+ [INFO] [2018-04-06 17:42:20][org.apache.kafka.clients.consumer.internals.AbstractCoordinator][Consumer clientId=consumer-1, groupId=0] Discovered coordinator host-10-1-241-133:9092 (id: 2147483646 rack: null)
+ [INFO] [2018-04-06 17:42:20][org.apache.kafka.clients.consumer.internals.AbstractCoordinator][Consumer clientId=consumer-1, groupId=0] Marking the coordinator host-10-1-241-133:9092 (id: 2147483646 rack: null) dead
+ [INFO] [2018-04-06 17:42:20][org.apache.kafka.clients.consumer.internals.AbstractCoordinator][Consumer clientId=consumer-1, groupId=0] Discovered coordinator host-10-1-241-133:9092 (id: 2147483646 rack: null)
+ [INFO] [2018-04-06 17:42:20][org.apache.kafka.clients.consumer.internals.AbstractCoordinator][Consumer clientId=consumer-1, groupId=0] Marking the coordinator host-10-1-241-133:9092 (id: 2147483646 rack: null) dead
+ [INFO] [2018-04-06 17:42:20][org.apache.kafka.clients.consumer.internals.AbstractCoordinator][Consumer clientId=consumer-1, groupId=0] Discovered coordinator host-10-1-241-133:9092 (id: 2147483646 rack: null)
+ [INFO] [2018-04-06 17:42:20][org.apache.kafka.clients.consumer.internals.AbstractCoordinator][Consumer clientId=consumer-1, groupId=0] Marking the coordinator host-10-1-241-133:9092 (id: 2147483646 rack: null) dead
+ [INFO] [2018-04-06 17:42:21][org.apache.kafka.clients.consumer.internals.AbstractCoordinator][Consumer clientId=consumer-1, groupId=0] Discovered coordinator host-10-1-241-133:9092 (id: 2147483646 rack: null)
+ [INFO] [2018-04-06 17:42:21][org.apache.kafka.clients.consumer.internals.AbstractCoordinator][Consumer clientId=consumer-1, groupId=0] Marking the coordinator host-10-1-241-133:9092 (id: 2147483646 rack: null) dead
+ [INFO] [2018-04-06 17:42:22][org.apache.kafka.clients.consumer.internals.AbstractCoordinator][Consumer clientId=consumer-1, groupId=0] Discovered coordinator host-10-1-241-133:9092 (id: 2147483646 rack: null)
+ [INFO] [2018-04-06 17:42:22][org.apache.kafka.clients.consumer.internals.AbstractCoordinator][Consumer clientId=consumer-1, groupId=0] Marking the coordinator host-10-1-241-133:9092 (id: 2147483646 rack: null) dead
+ [INFO] [2018-04-06 17:42:22][org.apache.kafka.clients.consumer.internals.AbstractCoordinator][Consumer clientId=consumer-1, groupId=0] Discovered coordinator host-10-1-241-133:9092 (id: 2147483646 rack: null)
+ [INFO] [2018-04-06 17:42:22][org.apache.kafka.clients.consumer.internals.AbstractCoordinator][Consumer clientId=consumer-1, groupId=0] Marking the coordinator host-10-1-241-133:9092 (id: 2147483646 rack: null) dead
+ [INFO] [2018-04-06 17:42:22][org.apache.kafka.clients.consumer.internals.AbstractCoordinator][Consumer clientId=consumer-1, groupId=0] Discovered coordinator host-10-1-241-133:9092 (id: 2147483646 rack: null)
+ [INFO] [2018-04-06 17:42:22][org.apache.kafka.clients.consumer.internals.AbstractCoordinator][Consumer clientId=consumer-1, groupId=0] Marking the coordinator host-10-1-241-133:9092 (id: 2147483646 rack: null) dead
+ [INFO] [2018-04-06 17:42:22][org.apache.kafka.clients.consumer.internals.AbstractCoordinator][Consumer clientId=consumer-1, groupId=0] Discovered coordinator host-10-1-241-133:9092 (id: 2147483646 rack: null)
+ [INFO] [2018-04-06 17:42:22][org.apache.kafka.clients.consumer.internals.AbstractCoordinator][Consumer clientId=consumer-1, groupId=0] Marking the coordinator host-10-1-241-133:9092 (id: 2147483646 rack: null) dead
+ [INFO] [2018-04-06 17:42:23][org.apache.kafka.clients.consumer.internals.AbstractCoordinator][Consumer clientId=consumer-1, groupId=0] Discovered coordinator host-10-1-241-133:9092 (id: 2147483646 rack: null)
+ [INFO] [2018-04-06 17:42:23][org.apache.kafka.clients.consumer.internals.AbstractCoordinator][Consumer clientId=consumer-1, groupId=0] Marking the coordinator host-10-1-241-133:9092 (id: 2147483646 rack: null) dead
+ [INFO] [2018-04-06 17:44:35][org.apache.kafka.clients.consumer.ConsumerConfig]ConsumerConfig values: 
+	auto.commit.interval.ms = 1000
+	auto.offset.reset = latest
+	bootstrap.servers = [10.1.241.131:9092]
+	check.crcs = true
+	client.id = 
+	connections.max.idle.ms = 540000
+	enable.auto.commit = true
+	exclude.internal.topics = true
+	fetch.max.bytes = 52428800
+	fetch.max.wait.ms = 500
+	fetch.min.bytes = 1
+	group.id = 0
+	heartbeat.interval.ms = 3000
+	interceptor.classes = null
+	internal.leave.group.on.close = true
+	isolation.level = read_uncommitted
+	key.deserializer = class org.apache.kafka.common.serialization.IntegerDeserializer
+	max.partition.fetch.bytes = 1048576
+	max.poll.interval.ms = 300000
+	max.poll.records = 500
+	metadata.max.age.ms = 300000
+	metric.reporters = []
+	metrics.num.samples = 2
+	metrics.recording.level = INFO
+	metrics.sample.window.ms = 30000
+	partition.assignment.strategy = [class org.apache.kafka.clients.consumer.RangeAssignor]
+	receive.buffer.bytes = 65536
+	reconnect.backoff.max.ms = 1000
+	reconnect.backoff.ms = 50
+	request.timeout.ms = 305000
+	retry.backoff.ms = 100
+	sasl.jaas.config = null
+	sasl.kerberos.kinit.cmd = /usr/bin/kinit
+	sasl.kerberos.min.time.before.relogin = 60000
+	sasl.kerberos.service.name = null
+	sasl.kerberos.ticket.renew.jitter = 0.05
+	sasl.kerberos.ticket.renew.window.factor = 0.8
+	sasl.mechanism = GSSAPI
+	security.protocol = PLAINTEXT
+	send.buffer.bytes = 131072
+	session.timeout.ms = 15000
+	ssl.cipher.suites = null
+	ssl.enabled.protocols = [TLSv1.2, TLSv1.1, TLSv1]
+	ssl.endpoint.identification.algorithm = null
+	ssl.key.password = null
+	ssl.keymanager.algorithm = SunX509
+	ssl.keystore.location = null
+	ssl.keystore.password = null
+	ssl.keystore.type = JKS
+	ssl.protocol = TLS
+	ssl.provider = null
+	ssl.secure.random.implementation = null
+	ssl.trustmanager.algorithm = PKIX
+	ssl.truststore.location = null
+	ssl.truststore.password = null
+	ssl.truststore.type = JKS
+	value.deserializer = class org.apache.kafka.common.serialization.StringDeserializer
+
+ [INFO] [2018-04-06 17:44:36][org.apache.kafka.common.utils.AppInfoParser]Kafka version : 1.0.0
+ [INFO] [2018-04-06 17:44:36][org.apache.kafka.common.utils.AppInfoParser]Kafka commitId : aaa7af6d4a11b29d
+ [INFO] [2018-04-06 17:44:36][org.apache.kafka.clients.consumer.internals.AbstractCoordinator][Consumer clientId=consumer-1, groupId=0] Discovered coordinator host-10-1-241-133:9092 (id: 2147483646 rack: null)
+ [INFO] [2018-04-06 17:44:36][org.apache.kafka.clients.consumer.internals.ConsumerCoordinator][Consumer clientId=consumer-1, groupId=0] Revoking previously assigned partitions []
+ [INFO] [2018-04-06 17:44:36][org.apache.kafka.clients.consumer.internals.AbstractCoordinator][Consumer clientId=consumer-1, groupId=0] (Re-)joining group
+ [INFO] [2018-04-06 17:44:37][org.apache.kafka.clients.consumer.internals.AbstractCoordinator][Consumer clientId=consumer-1, groupId=0] Successfully joined group with generation 1
+ [INFO] [2018-04-06 17:44:37][org.apache.kafka.clients.consumer.internals.ConsumerCoordinator][Consumer clientId=consumer-1, groupId=0] Setting newly assigned partitions []
+ [INFO] [2018-04-06 17:49:42][org.apache.kafka.clients.producer.ProducerConfig]ProducerConfig values: 
+	acks = 1
+	batch.size = 16384
+	bootstrap.servers = [10.1.241.131:9092]
+	buffer.memory = 33554432
+	client.id = 
+	compression.type = none
+	connections.max.idle.ms = 540000
+	enable.idempotence = false
+	interceptor.classes = null
+	key.serializer = class org.apache.kafka.common.serialization.IntegerSerializer
+	linger.ms = 1
+	max.block.ms = 60000
+	max.in.flight.requests.per.connection = 5
+	max.request.size = 1048576
+	metadata.max.age.ms = 300000
+	metric.reporters = []
+	metrics.num.samples = 2
+	metrics.recording.level = INFO
+	metrics.sample.window.ms = 30000
+	partitioner.class = class org.apache.kafka.clients.producer.internals.DefaultPartitioner
+	receive.buffer.bytes = 32768
+	reconnect.backoff.max.ms = 1000
+	reconnect.backoff.ms = 50
+	request.timeout.ms = 30000
+	retries = 10
+	retry.backoff.ms = 100
+	sasl.jaas.config = null
+	sasl.kerberos.kinit.cmd = /usr/bin/kinit
+	sasl.kerberos.min.time.before.relogin = 60000
+	sasl.kerberos.service.name = null
+	sasl.kerberos.ticket.renew.jitter = 0.05
+	sasl.kerberos.ticket.renew.window.factor = 0.8
+	sasl.mechanism = GSSAPI
+	security.protocol = PLAINTEXT
+	send.buffer.bytes = 131072
+	ssl.cipher.suites = null
+	ssl.enabled.protocols = [TLSv1.2, TLSv1.1, TLSv1]
+	ssl.endpoint.identification.algorithm = null
+	ssl.key.password = null
+	ssl.keymanager.algorithm = SunX509
+	ssl.keystore.location = null
+	ssl.keystore.password = null
+	ssl.keystore.type = JKS
+	ssl.protocol = TLS
+	ssl.provider = null
+	ssl.secure.random.implementation = null
+	ssl.trustmanager.algorithm = PKIX
+	ssl.truststore.location = null
+	ssl.truststore.password = null
+	ssl.truststore.type = JKS
+	transaction.timeout.ms = 60000
+	transactional.id = null
+	value.serializer = class org.apache.kafka.common.serialization.StringSerializer
+
+ [WARN] [2018-04-06 17:49:43][org.apache.kafka.clients.producer.ProducerConfig]The configuration 'group.id' was supplied but isn't a known config.
+ [INFO] [2018-04-06 17:49:43][org.apache.kafka.common.utils.AppInfoParser]Kafka version : 1.0.0
+ [INFO] [2018-04-06 17:49:43][org.apache.kafka.common.utils.AppInfoParser]Kafka commitId : aaa7af6d4a11b29d
+ [WARN] [2018-04-06 17:49:44][org.apache.kafka.clients.NetworkClient][Producer clientId=producer-1] Error while fetching metadata with correlation id 1 : {test1=LEADER_NOT_AVAILABLE}
+ [WARN] [2018-04-06 17:49:44][org.apache.kafka.clients.NetworkClient][Producer clientId=producer-1] Error while fetching metadata with correlation id 4 : {test1=LEADER_NOT_AVAILABLE}
+ [INFO] [2018-04-06 17:49:46][org.apache.kafka.clients.producer.KafkaProducer][Producer clientId=producer-1] Closing the Kafka producer with timeoutMillis = 30000 ms.
+ [INFO] [2018-04-06 17:53:37][org.apache.kafka.clients.consumer.internals.ConsumerCoordinator][Consumer clientId=consumer-1, groupId=0] Revoking previously assigned partitions []
+ [INFO] [2018-04-06 17:53:37][org.apache.kafka.clients.consumer.internals.AbstractCoordinator][Consumer clientId=consumer-1, groupId=0] (Re-)joining group
+ [INFO] [2018-04-06 17:53:37][org.apache.kafka.clients.consumer.internals.AbstractCoordinator][Consumer clientId=consumer-1, groupId=0] Successfully joined group with generation 2
+ [INFO] [2018-04-06 17:53:37][org.apache.kafka.clients.consumer.internals.ConsumerCoordinator][Consumer clientId=consumer-1, groupId=0] Setting newly assigned partitions [test1-0, test1-2, test1-1, test1-4, test1-3]
+ [INFO] [2018-04-06 17:55:40][org.apache.kafka.clients.producer.ProducerConfig]ProducerConfig values: 
+	acks = 1
+	batch.size = 16384
+	bootstrap.servers = [10.1.241.131:9092]
+	buffer.memory = 33554432
+	client.id = 
+	compression.type = none
+	connections.max.idle.ms = 540000
+	enable.idempotence = false
+	interceptor.classes = null
+	key.serializer = class org.apache.kafka.common.serialization.IntegerSerializer
+	linger.ms = 1
+	max.block.ms = 60000
+	max.in.flight.requests.per.connection = 5
+	max.request.size = 1048576
+	metadata.max.age.ms = 300000
+	metric.reporters = []
+	metrics.num.samples = 2
+	metrics.recording.level = INFO
+	metrics.sample.window.ms = 30000
+	partitioner.class = class org.apache.kafka.clients.producer.internals.DefaultPartitioner
+	receive.buffer.bytes = 32768
+	reconnect.backoff.max.ms = 1000
+	reconnect.backoff.ms = 50
+	request.timeout.ms = 30000
+	retries = 10
+	retry.backoff.ms = 100
+	sasl.jaas.config = null
+	sasl.kerberos.kinit.cmd = /usr/bin/kinit
+	sasl.kerberos.min.time.before.relogin = 60000
+	sasl.kerberos.service.name = null
+	sasl.kerberos.ticket.renew.jitter = 0.05
+	sasl.kerberos.ticket.renew.window.factor = 0.8
+	sasl.mechanism = GSSAPI
+	security.protocol = PLAINTEXT
+	send.buffer.bytes = 131072
+	ssl.cipher.suites = null
+	ssl.enabled.protocols = [TLSv1.2, TLSv1.1, TLSv1]
+	ssl.endpoint.identification.algorithm = null
+	ssl.key.password = null
+	ssl.keymanager.algorithm = SunX509
+	ssl.keystore.location = null
+	ssl.keystore.password = null
+	ssl.keystore.type = JKS
+	ssl.protocol = TLS
+	ssl.provider = null
+	ssl.secure.random.implementation = null
+	ssl.trustmanager.algorithm = PKIX
+	ssl.truststore.location = null
+	ssl.truststore.password = null
+	ssl.truststore.type = JKS
+	transaction.timeout.ms = 60000
+	transactional.id = null
+	value.serializer = class org.apache.kafka.common.serialization.StringSerializer
+
+ [WARN] [2018-04-06 17:55:41][org.apache.kafka.clients.producer.ProducerConfig]The configuration 'group.id' was supplied but isn't a known config.
+ [INFO] [2018-04-06 17:55:41][org.apache.kafka.common.utils.AppInfoParser]Kafka version : 1.0.0
+ [INFO] [2018-04-06 17:55:41][org.apache.kafka.common.utils.AppInfoParser]Kafka commitId : aaa7af6d4a11b29d
+ [INFO] [2018-04-06 17:55:42][org.apache.kafka.clients.producer.KafkaProducer][Producer clientId=producer-1] Closing the Kafka producer with timeoutMillis = 30000 ms.
+ [INFO] [2018-04-06 17:59:43][org.apache.kafka.clients.consumer.internals.AbstractCoordinator][Consumer clientId=consumer-1, groupId=0] Marking the coordinator host-10-1-241-133:9092 (id: 2147483646 rack: null) dead
+ [INFO] [2018-04-06 17:59:43][org.apache.kafka.clients.consumer.internals.AbstractCoordinator][Consumer clientId=consumer-1, groupId=0] Marking the coordinator host-10-1-241-133:9092 (id: 2147483646 rack: null) dead
+ [INFO] [2018-04-06 17:59:43][org.apache.kafka.clients.consumer.internals.AbstractCoordinator][Consumer clientId=consumer-1, groupId=0] Marking the coordinator host-10-1-241-133:9092 (id: 2147483646 rack: null) dead
+ [INFO] [2018-04-06 17:59:43][org.apache.kafka.clients.consumer.internals.AbstractCoordinator][Consumer clientId=consumer-1, groupId=0] Marking the coordinator host-10-1-241-133:9092 (id: 2147483646 rack: null) dead
+ [INFO] [2018-04-06 17:59:43][org.apache.kafka.clients.consumer.internals.AbstractCoordinator][Consumer clientId=consumer-1, groupId=0] Marking the coordinator host-10-1-241-133:9092 (id: 2147483646 rack: null) dead
+ [INFO] [2018-04-06 17:59:43][org.apache.kafka.clients.consumer.internals.AbstractCoordinator][Consumer clientId=consumer-1, groupId=0] Marking the coordinator host-10-1-241-133:9092 (id: 2147483646 rack: null) dead
+ [INFO] [2018-04-06 17:59:43][org.apache.kafka.clients.consumer.internals.AbstractCoordinator][Consumer clientId=consumer-1, groupId=0] Marking the coordinator host-10-1-241-133:9092 (id: 2147483646 rack: null) dead
+ [INFO] [2018-04-06 17:59:43][org.apache.kafka.clients.consumer.internals.AbstractCoordinator][Consumer clientId=consumer-1, groupId=0] Marking the coordinator host-10-1-241-133:9092 (id: 2147483646 rack: null) dead
+ [INFO] [2018-04-06 17:59:43][org.apache.kafka.clients.consumer.internals.AbstractCoordinator][Consumer clientId=consumer-1, groupId=0] Marking the coordinator host-10-1-241-133:9092 (id: 2147483646 rack: null) dead
+ [INFO] [2018-04-06 17:59:43][org.apache.kafka.clients.consumer.internals.AbstractCoordinator][Consumer clientId=consumer-1, groupId=0] Marking the coordinator host-10-1-241-133:9092 (id: 2147483646 rack: null) dead
+ [INFO] [2018-04-06 17:59:43][org.apache.kafka.clients.consumer.internals.AbstractCoordinator][Consumer clientId=consumer-1, groupId=0] Marking the coordinator host-10-1-241-133:9092 (id: 2147483646 rack: null) dead
+ [INFO] [2018-04-06 17:59:43][org.apache.kafka.clients.consumer.internals.AbstractCoordinator][Consumer clientId=consumer-1, groupId=0] Marking the coordinator host-10-1-241-133:9092 (id: 2147483646 rack: null) dead
+ [INFO] [2018-04-06 17:59:43][org.apache.kafka.clients.consumer.internals.AbstractCoordinator][Consumer clientId=consumer-1, groupId=0] Marking the coordinator host-10-1-241-133:9092 (id: 2147483646 rack: null) dead
+ [INFO] [2018-04-06 17:59:43][org.apache.kafka.clients.consumer.internals.AbstractCoordinator][Consumer clientId=consumer-1, groupId=0] Marking the coordinator host-10-1-241-133:9092 (id: 2147483646 rack: null) dead
+ [INFO] [2018-04-06 17:59:43][org.apache.kafka.clients.consumer.internals.AbstractCoordinator][Consumer clientId=consumer-1, groupId=0] Marking the coordinator host-10-1-241-133:9092 (id: 2147483646 rack: null) dead
+ [INFO] [2018-04-06 17:59:43][org.apache.kafka.clients.consumer.internals.AbstractCoordinator][Consumer clientId=consumer-1, groupId=0] Marking the coordinator host-10-1-241-133:9092 (id: 2147483646 rack: null) dead
+ [INFO] [2018-04-06 17:59:43][org.apache.kafka.clients.consumer.internals.AbstractCoordinator][Consumer clientId=consumer-1, groupId=0] Marking the coordinator host-10-1-241-133:9092 (id: 2147483646 rack: null) dead
+ [INFO] [2018-04-06 17:59:43][org.apache.kafka.clients.consumer.internals.AbstractCoordinator][Consumer clientId=consumer-1, groupId=0] Marking the coordinator host-10-1-241-133:9092 (id: 2147483646 rack: null) dead
+ [INFO] [2018-04-06 17:59:43][org.apache.kafka.clients.consumer.internals.AbstractCoordinator][Consumer clientId=consumer-1, groupId=0] Marking the coordinator host-10-1-241-133:9092 (id: 2147483646 rack: null) dead
+ [WARN] [2018-04-06 17:59:43][org.apache.kafka.clients.consumer.internals.ConsumerCoordinator][Consumer clientId=consumer-1, groupId=0] Asynchronous auto-commit of offsets {test1-0=OffsetAndMetadata{offset=0, metadata=''}, test1-2=OffsetAndMetadata{offset=0, metadata=''}, test1-1=OffsetAndMetadata{offset=1, metadata=''}, test1-4=OffsetAndMetadata{offset=0, metadata=''}, test1-3=OffsetAndMetadata{offset=0, metadata=''}} failed: Offset commit failed with a retriable exception. You should retry committing offsets. The underlying error was: null
+ [WARN] [2018-04-06 17:59:43][org.apache.kafka.clients.consumer.internals.ConsumerCoordinator][Consumer clientId=consumer-1, groupId=0] Asynchronous auto-commit of offsets {test1-0=OffsetAndMetadata{offset=0, metadata=''}, test1-2=OffsetAndMetadata{offset=0, metadata=''}, test1-1=OffsetAndMetadata{offset=1, metadata=''}, test1-4=OffsetAndMetadata{offset=0, metadata=''}, test1-3=OffsetAndMetadata{offset=0, metadata=''}} failed: Offset commit failed with a retriable exception. You should retry committing offsets. The underlying error was: null
+ [WARN] [2018-04-06 17:59:43][org.apache.kafka.clients.consumer.internals.ConsumerCoordinator][Consumer clientId=consumer-1, groupId=0] Asynchronous auto-commit of offsets {test1-0=OffsetAndMetadata{offset=0, metadata=''}, test1-2=OffsetAndMetadata{offset=0, metadata=''}, test1-1=OffsetAndMetadata{offset=1, metadata=''}, test1-4=OffsetAndMetadata{offset=0, metadata=''}, test1-3=OffsetAndMetadata{offset=0, metadata=''}} failed: Offset commit failed with a retriable exception. You should retry committing offsets. The underlying error was: null
+ [WARN] [2018-04-06 17:59:43][org.apache.kafka.clients.consumer.internals.ConsumerCoordinator][Consumer clientId=consumer-1, groupId=0] Asynchronous auto-commit of offsets {test1-0=OffsetAndMetadata{offset=0, metadata=''}, test1-2=OffsetAndMetadata{offset=0, metadata=''}, test1-1=OffsetAndMetadata{offset=1, metadata=''}, test1-4=OffsetAndMetadata{offset=0, metadata=''}, test1-3=OffsetAndMetadata{offset=0, metadata=''}} failed: Offset commit failed with a retriable exception. You should retry committing offsets. The underlying error was: null
+ [WARN] [2018-04-06 17:59:43][org.apache.kafka.clients.consumer.internals.ConsumerCoordinator][Consumer clientId=consumer-1, groupId=0] Asynchronous auto-commit of offsets {test1-0=OffsetAndMetadata{offset=0, metadata=''}, test1-2=OffsetAndMetadata{offset=0, metadata=''}, test1-1=OffsetAndMetadata{offset=1, metadata=''}, test1-4=OffsetAndMetadata{offset=0, metadata=''}, test1-3=OffsetAndMetadata{offset=0, metadata=''}} failed: Offset commit failed with a retriable exception. You should retry committing offsets. The underlying error was: null
+ [WARN] [2018-04-06 17:59:43][org.apache.kafka.clients.consumer.internals.ConsumerCoordinator][Consumer clientId=consumer-1, groupId=0] Asynchronous auto-commit of offsets {test1-0=OffsetAndMetadata{offset=0, metadata=''}, test1-2=OffsetAndMetadata{offset=0, metadata=''}, test1-1=OffsetAndMetadata{offset=1, metadata=''}, test1-4=OffsetAndMetadata{offset=0, metadata=''}, test1-3=OffsetAndMetadata{offset=0, metadata=''}} failed: Offset commit failed with a retriable exception. You should retry committing offsets. The underlying error was: null
+ [WARN] [2018-04-06 17:59:43][org.apache.kafka.clients.consumer.internals.ConsumerCoordinator][Consumer clientId=consumer-1, groupId=0] Asynchronous auto-commit of offsets {test1-0=OffsetAndMetadata{offset=0, metadata=''}, test1-2=OffsetAndMetadata{offset=0, metadata=''}, test1-1=OffsetAndMetadata{offset=1, metadata=''}, test1-4=OffsetAndMetadata{offset=0, metadata=''}, test1-3=OffsetAndMetadata{offset=0, metadata=''}} failed: Offset commit failed with a retriable exception. You should retry committing offsets. The underlying error was: null
+ [WARN] [2018-04-06 17:59:43][org.apache.kafka.clients.consumer.internals.ConsumerCoordinator][Consumer clientId=consumer-1, groupId=0] Asynchronous auto-commit of offsets {test1-0=OffsetAndMetadata{offset=0, metadata=''}, test1-2=OffsetAndMetadata{offset=0, metadata=''}, test1-1=OffsetAndMetadata{offset=1, metadata=''}, test1-4=OffsetAndMetadata{offset=0, metadata=''}, test1-3=OffsetAndMetadata{offset=0, metadata=''}} failed: Offset commit failed with a retriable exception. You should retry committing offsets. The underlying error was: null
+ [WARN] [2018-04-06 17:59:43][org.apache.kafka.clients.consumer.internals.ConsumerCoordinator][Consumer clientId=consumer-1, groupId=0] Asynchronous auto-commit of offsets {test1-0=OffsetAndMetadata{offset=0, metadata=''}, test1-2=OffsetAndMetadata{offset=0, metadata=''}, test1-1=OffsetAndMetadata{offset=1, metadata=''}, test1-4=OffsetAndMetadata{offset=0, metadata=''}, test1-3=OffsetAndMetadata{offset=0, metadata=''}} failed: Offset commit failed with a retriable exception. You should retry committing offsets. The underlying error was: null
+ [WARN] [2018-04-06 17:59:43][org.apache.kafka.clients.consumer.internals.ConsumerCoordinator][Consumer clientId=consumer-1, groupId=0] Asynchronous auto-commit of offsets {test1-0=OffsetAndMetadata{offset=0, metadata=''}, test1-2=OffsetAndMetadata{offset=0, metadata=''}, test1-1=OffsetAndMetadata{offset=1, metadata=''}, test1-4=OffsetAndMetadata{offset=0, metadata=''}, test1-3=OffsetAndMetadata{offset=0, metadata=''}} failed: Offset commit failed with a retriable exception. You should retry committing offsets. The underlying error was: null
+ [WARN] [2018-04-06 17:59:43][org.apache.kafka.clients.consumer.internals.ConsumerCoordinator][Consumer clientId=consumer-1, groupId=0] Asynchronous auto-commit of offsets {test1-0=OffsetAndMetadata{offset=0, metadata=''}, test1-2=OffsetAndMetadata{offset=0, metadata=''}, test1-1=OffsetAndMetadata{offset=1, metadata=''}, test1-4=OffsetAndMetadata{offset=0, metadata=''}, test1-3=OffsetAndMetadata{offset=0, metadata=''}} failed: Offset commit failed with a retriable exception. You should retry committing offsets. The underlying error was: null
+ [WARN] [2018-04-06 17:59:43][org.apache.kafka.clients.consumer.internals.ConsumerCoordinator][Consumer clientId=consumer-1, groupId=0] Asynchronous auto-commit of offsets {test1-0=OffsetAndMetadata{offset=0, metadata=''}, test1-2=OffsetAndMetadata{offset=0, metadata=''}, test1-1=OffsetAndMetadata{offset=1, metadata=''}, test1-4=OffsetAndMetadata{offset=0, metadata=''}, test1-3=OffsetAndMetadata{offset=0, metadata=''}} failed: Offset commit failed with a retriable exception. You should retry committing offsets. The underlying error was: null
+ [WARN] [2018-04-06 17:59:43][org.apache.kafka.clients.consumer.internals.ConsumerCoordinator][Consumer clientId=consumer-1, groupId=0] Asynchronous auto-commit of offsets {test1-0=OffsetAndMetadata{offset=0, metadata=''}, test1-2=OffsetAndMetadata{offset=0, metadata=''}, test1-1=OffsetAndMetadata{offset=1, metadata=''}, test1-4=OffsetAndMetadata{offset=0, metadata=''}, test1-3=OffsetAndMetadata{offset=0, metadata=''}} failed: Offset commit failed with a retriable exception. You should retry committing offsets. The underlying error was: null
+ [INFO] [2018-04-06 17:59:48][org.apache.kafka.clients.consumer.internals.AbstractCoordinator][Consumer clientId=consumer-1, groupId=0] Discovered coordinator host-10-1-241-133:9092 (id: 2147483646 rack: null)
+ [INFO] [2018-04-06 18:02:56][org.apache.kafka.clients.consumer.ConsumerConfig]ConsumerConfig values: 
+	auto.commit.interval.ms = 1000
+	auto.offset.reset = latest
+	bootstrap.servers = [10.1.241.131:9092]
+	check.crcs = true
+	client.id = 
+	connections.max.idle.ms = 540000
+	enable.auto.commit = true
+	exclude.internal.topics = true
+	fetch.max.bytes = 52428800
+	fetch.max.wait.ms = 500
+	fetch.min.bytes = 1
+	group.id = 0
+	heartbeat.interval.ms = 3000
+	interceptor.classes = null
+	internal.leave.group.on.close = true
+	isolation.level = read_uncommitted
+	key.deserializer = class org.apache.kafka.common.serialization.IntegerDeserializer
+	max.partition.fetch.bytes = 1048576
+	max.poll.interval.ms = 300000
+	max.poll.records = 500
+	metadata.max.age.ms = 300000
+	metric.reporters = []
+	metrics.num.samples = 2
+	metrics.recording.level = INFO
+	metrics.sample.window.ms = 30000
+	partition.assignment.strategy = [class org.apache.kafka.clients.consumer.RangeAssignor]
+	receive.buffer.bytes = 65536
+	reconnect.backoff.max.ms = 1000
+	reconnect.backoff.ms = 50
+	request.timeout.ms = 305000
+	retry.backoff.ms = 100
+	sasl.jaas.config = null
+	sasl.kerberos.kinit.cmd = /usr/bin/kinit
+	sasl.kerberos.min.time.before.relogin = 60000
+	sasl.kerberos.service.name = null
+	sasl.kerberos.ticket.renew.jitter = 0.05
+	sasl.kerberos.ticket.renew.window.factor = 0.8
+	sasl.mechanism = GSSAPI
+	security.protocol = PLAINTEXT
+	send.buffer.bytes = 131072
+	session.timeout.ms = 15000
+	ssl.cipher.suites = null
+	ssl.enabled.protocols = [TLSv1.2, TLSv1.1, TLSv1]
+	ssl.endpoint.identification.algorithm = null
+	ssl.key.password = null
+	ssl.keymanager.algorithm = SunX509
+	ssl.keystore.location = null
+	ssl.keystore.password = null
+	ssl.keystore.type = JKS
+	ssl.protocol = TLS
+	ssl.provider = null
+	ssl.secure.random.implementation = null
+	ssl.trustmanager.algorithm = PKIX
+	ssl.truststore.location = null
+	ssl.truststore.password = null
+	ssl.truststore.type = JKS
+	value.deserializer = class org.apache.kafka.common.serialization.StringDeserializer
+
+ [INFO] [2018-04-06 18:02:56][org.apache.kafka.common.utils.AppInfoParser]Kafka version : 1.0.0
+ [INFO] [2018-04-06 18:02:56][org.apache.kafka.common.utils.AppInfoParser]Kafka commitId : aaa7af6d4a11b29d
+ [INFO] [2018-04-06 18:02:57][org.apache.kafka.clients.consumer.internals.AbstractCoordinator][Consumer clientId=consumer-1, groupId=0] Discovered coordinator host-10-1-241-133:9092 (id: 2147483646 rack: null)
+ [INFO] [2018-04-06 18:02:57][org.apache.kafka.clients.consumer.internals.ConsumerCoordinator][Consumer clientId=consumer-1, groupId=0] Revoking previously assigned partitions []
+ [INFO] [2018-04-06 18:02:57][org.apache.kafka.clients.consumer.internals.AbstractCoordinator][Consumer clientId=consumer-1, groupId=0] (Re-)joining group
+ [INFO] [2018-04-06 18:02:57][org.apache.kafka.clients.consumer.internals.AbstractCoordinator][Consumer clientId=consumer-1, groupId=0] Successfully joined group with generation 4
+ [INFO] [2018-04-06 18:02:57][org.apache.kafka.clients.consumer.internals.ConsumerCoordinator][Consumer clientId=consumer-1, groupId=0] Setting newly assigned partitions [test1-0, test1-2, test1-1, test1-4, test1-3]
+ [INFO] [2018-04-06 18:03:15][org.apache.kafka.clients.producer.ProducerConfig]ProducerConfig values: 
+	acks = 1
+	batch.size = 16384
+	bootstrap.servers = [10.1.241.131:9092]
+	buffer.memory = 33554432
+	client.id = 
+	compression.type = none
+	connections.max.idle.ms = 540000
+	enable.idempotence = false
+	interceptor.classes = null
+	key.serializer = class org.apache.kafka.common.serialization.IntegerSerializer
+	linger.ms = 1
+	max.block.ms = 60000
+	max.in.flight.requests.per.connection = 5
+	max.request.size = 1048576
+	metadata.max.age.ms = 300000
+	metric.reporters = []
+	metrics.num.samples = 2
+	metrics.recording.level = INFO
+	metrics.sample.window.ms = 30000
+	partitioner.class = class org.apache.kafka.clients.producer.internals.DefaultPartitioner
+	receive.buffer.bytes = 32768
+	reconnect.backoff.max.ms = 1000
+	reconnect.backoff.ms = 50
+	request.timeout.ms = 30000
+	retries = 10
+	retry.backoff.ms = 100
+	sasl.jaas.config = null
+	sasl.kerberos.kinit.cmd = /usr/bin/kinit
+	sasl.kerberos.min.time.before.relogin = 60000
+	sasl.kerberos.service.name = null
+	sasl.kerberos.ticket.renew.jitter = 0.05
+	sasl.kerberos.ticket.renew.window.factor = 0.8
+	sasl.mechanism = GSSAPI
+	security.protocol = PLAINTEXT
+	send.buffer.bytes = 131072
+	ssl.cipher.suites = null
+	ssl.enabled.protocols = [TLSv1.2, TLSv1.1, TLSv1]
+	ssl.endpoint.identification.algorithm = null
+	ssl.key.password = null
+	ssl.keymanager.algorithm = SunX509
+	ssl.keystore.location = null
+	ssl.keystore.password = null
+	ssl.keystore.type = JKS
+	ssl.protocol = TLS
+	ssl.provider = null
+	ssl.secure.random.implementation = null
+	ssl.trustmanager.algorithm = PKIX
+	ssl.truststore.location = null
+	ssl.truststore.password = null
+	ssl.truststore.type = JKS
+	transaction.timeout.ms = 60000
+	transactional.id = null
+	value.serializer = class org.apache.kafka.common.serialization.StringSerializer
+
+ [WARN] [2018-04-06 18:03:16][org.apache.kafka.clients.producer.ProducerConfig]The configuration 'group.id' was supplied but isn't a known config.
+ [INFO] [2018-04-06 18:03:16][org.apache.kafka.common.utils.AppInfoParser]Kafka version : 1.0.0
+ [INFO] [2018-04-06 18:03:16][org.apache.kafka.common.utils.AppInfoParser]Kafka commitId : aaa7af6d4a11b29d
+ [INFO] [2018-04-06 18:03:17][org.apache.kafka.clients.producer.KafkaProducer][Producer clientId=producer-1] Closing the Kafka producer with timeoutMillis = 30000 ms.
+ [INFO] [2018-04-06 18:04:59][org.apache.kafka.clients.producer.ProducerConfig]ProducerConfig values: 
+	acks = 1
+	batch.size = 16384
+	bootstrap.servers = [10.1.241.131:9092]
+	buffer.memory = 33554432
+	client.id = 
+	compression.type = none
+	connections.max.idle.ms = 540000
+	enable.idempotence = false
+	interceptor.classes = null
+	key.serializer = class org.apache.kafka.common.serialization.IntegerSerializer
+	linger.ms = 1
+	max.block.ms = 60000
+	max.in.flight.requests.per.connection = 5
+	max.request.size = 1048576
+	metadata.max.age.ms = 300000
+	metric.reporters = []
+	metrics.num.samples = 2
+	metrics.recording.level = INFO
+	metrics.sample.window.ms = 30000
+	partitioner.class = class org.apache.kafka.clients.producer.internals.DefaultPartitioner
+	receive.buffer.bytes = 32768
+	reconnect.backoff.max.ms = 1000
+	reconnect.backoff.ms = 50
+	request.timeout.ms = 30000
+	retries = 10
+	retry.backoff.ms = 100
+	sasl.jaas.config = null
+	sasl.kerberos.kinit.cmd = /usr/bin/kinit
+	sasl.kerberos.min.time.before.relogin = 60000
+	sasl.kerberos.service.name = null
+	sasl.kerberos.ticket.renew.jitter = 0.05
+	sasl.kerberos.ticket.renew.window.factor = 0.8
+	sasl.mechanism = GSSAPI
+	security.protocol = PLAINTEXT
+	send.buffer.bytes = 131072
+	ssl.cipher.suites = null
+	ssl.enabled.protocols = [TLSv1.2, TLSv1.1, TLSv1]
+	ssl.endpoint.identification.algorithm = null
+	ssl.key.password = null
+	ssl.keymanager.algorithm = SunX509
+	ssl.keystore.location = null
+	ssl.keystore.password = null
+	ssl.keystore.type = JKS
+	ssl.protocol = TLS
+	ssl.provider = null
+	ssl.secure.random.implementation = null
+	ssl.trustmanager.algorithm = PKIX
+	ssl.truststore.location = null
+	ssl.truststore.password = null
+	ssl.truststore.type = JKS
+	transaction.timeout.ms = 60000
+	transactional.id = null
+	value.serializer = class org.apache.kafka.common.serialization.StringSerializer
+
+ [WARN] [2018-04-06 18:05:01][org.apache.kafka.clients.producer.ProducerConfig]The configuration 'group.id' was supplied but isn't a known config.
+ [INFO] [2018-04-06 18:05:01][org.apache.kafka.common.utils.AppInfoParser]Kafka version : 1.0.0
+ [INFO] [2018-04-06 18:05:01][org.apache.kafka.common.utils.AppInfoParser]Kafka commitId : aaa7af6d4a11b29d
+ [INFO] [2018-04-06 18:05:02][org.apache.kafka.clients.producer.KafkaProducer][Producer clientId=producer-1] Closing the Kafka producer with timeoutMillis = 30000 ms.
+ [INFO] [2018-04-06 18:05:40][org.apache.kafka.clients.consumer.ConsumerConfig]ConsumerConfig values: 
+	auto.commit.interval.ms = 1000
+	auto.offset.reset = latest
+	bootstrap.servers = [10.1.241.131:9092]
+	check.crcs = true
+	client.id = 
+	connections.max.idle.ms = 540000
+	enable.auto.commit = true
+	exclude.internal.topics = true
+	fetch.max.bytes = 52428800
+	fetch.max.wait.ms = 500
+	fetch.min.bytes = 1
+	group.id = 0
+	heartbeat.interval.ms = 3000
+	interceptor.classes = null
+	internal.leave.group.on.close = true
+	isolation.level = read_uncommitted
+	key.deserializer = class org.apache.kafka.common.serialization.IntegerDeserializer
+	max.partition.fetch.bytes = 1048576
+	max.poll.interval.ms = 300000
+	max.poll.records = 500
+	metadata.max.age.ms = 300000
+	metric.reporters = []
+	metrics.num.samples = 2
+	metrics.recording.level = INFO
+	metrics.sample.window.ms = 30000
+	partition.assignment.strategy = [class org.apache.kafka.clients.consumer.RangeAssignor]
+	receive.buffer.bytes = 65536
+	reconnect.backoff.max.ms = 1000
+	reconnect.backoff.ms = 50
+	request.timeout.ms = 305000
+	retry.backoff.ms = 100
+	sasl.jaas.config = null
+	sasl.kerberos.kinit.cmd = /usr/bin/kinit
+	sasl.kerberos.min.time.before.relogin = 60000
+	sasl.kerberos.service.name = null
+	sasl.kerberos.ticket.renew.jitter = 0.05
+	sasl.kerberos.ticket.renew.window.factor = 0.8
+	sasl.mechanism = GSSAPI
+	security.protocol = PLAINTEXT
+	send.buffer.bytes = 131072
+	session.timeout.ms = 15000
+	ssl.cipher.suites = null
+	ssl.enabled.protocols = [TLSv1.2, TLSv1.1, TLSv1]
+	ssl.endpoint.identification.algorithm = null
+	ssl.key.password = null
+	ssl.keymanager.algorithm = SunX509
+	ssl.keystore.location = null
+	ssl.keystore.password = null
+	ssl.keystore.type = JKS
+	ssl.protocol = TLS
+	ssl.provider = null
+	ssl.secure.random.implementation = null
+	ssl.trustmanager.algorithm = PKIX
+	ssl.truststore.location = null
+	ssl.truststore.password = null
+	ssl.truststore.type = JKS
+	value.deserializer = class org.apache.kafka.common.serialization.StringDeserializer
+
+ [INFO] [2018-04-06 18:05:43][org.apache.kafka.common.utils.AppInfoParser]Kafka version : 1.0.0
+ [INFO] [2018-04-06 18:05:43][org.apache.kafka.common.utils.AppInfoParser]Kafka commitId : aaa7af6d4a11b29d
+ [INFO] [2018-04-06 18:05:43][org.apache.kafka.clients.consumer.internals.AbstractCoordinator][Consumer clientId=consumer-1, groupId=0] Discovered coordinator host-10-1-241-133:9092 (id: 2147483646 rack: null)
+ [INFO] [2018-04-06 18:05:43][org.apache.kafka.clients.consumer.internals.ConsumerCoordinator][Consumer clientId=consumer-1, groupId=0] Revoking previously assigned partitions []
+ [INFO] [2018-04-06 18:05:43][org.apache.kafka.clients.consumer.internals.AbstractCoordinator][Consumer clientId=consumer-1, groupId=0] (Re-)joining group
+ [INFO] [2018-04-06 18:05:44][org.apache.kafka.clients.consumer.internals.AbstractCoordinator][Consumer clientId=consumer-1, groupId=0] Successfully joined group with generation 6
+ [INFO] [2018-04-06 18:05:44][org.apache.kafka.clients.consumer.internals.ConsumerCoordinator][Consumer clientId=consumer-1, groupId=0] Setting newly assigned partitions [test1-0, test1-2, test1-1, test1-4, test1-3]
+ [INFO] [2018-04-06 18:06:02][org.apache.kafka.clients.producer.ProducerConfig]ProducerConfig values: 
+	acks = 1
+	batch.size = 16384
+	bootstrap.servers = [10.1.241.131:9092]
+	buffer.memory = 33554432
+	client.id = 
+	compression.type = none
+	connections.max.idle.ms = 540000
+	enable.idempotence = false
+	interceptor.classes = null
+	key.serializer = class org.apache.kafka.common.serialization.IntegerSerializer
+	linger.ms = 1
+	max.block.ms = 60000
+	max.in.flight.requests.per.connection = 5
+	max.request.size = 1048576
+	metadata.max.age.ms = 300000
+	metric.reporters = []
+	metrics.num.samples = 2
+	metrics.recording.level = INFO
+	metrics.sample.window.ms = 30000
+	partitioner.class = class org.apache.kafka.clients.producer.internals.DefaultPartitioner
+	receive.buffer.bytes = 32768
+	reconnect.backoff.max.ms = 1000
+	reconnect.backoff.ms = 50
+	request.timeout.ms = 30000
+	retries = 10
+	retry.backoff.ms = 100
+	sasl.jaas.config = null
+	sasl.kerberos.kinit.cmd = /usr/bin/kinit
+	sasl.kerberos.min.time.before.relogin = 60000
+	sasl.kerberos.service.name = null
+	sasl.kerberos.ticket.renew.jitter = 0.05
+	sasl.kerberos.ticket.renew.window.factor = 0.8
+	sasl.mechanism = GSSAPI
+	security.protocol = PLAINTEXT
+	send.buffer.bytes = 131072
+	ssl.cipher.suites = null
+	ssl.enabled.protocols = [TLSv1.2, TLSv1.1, TLSv1]
+	ssl.endpoint.identification.algorithm = null
+	ssl.key.password = null
+	ssl.keymanager.algorithm = SunX509
+	ssl.keystore.location = null
+	ssl.keystore.password = null
+	ssl.keystore.type = JKS
+	ssl.protocol = TLS
+	ssl.provider = null
+	ssl.secure.random.implementation = null
+	ssl.trustmanager.algorithm = PKIX
+	ssl.truststore.location = null
+	ssl.truststore.password = null
+	ssl.truststore.type = JKS
+	transaction.timeout.ms = 60000
+	transactional.id = null
+	value.serializer = class org.apache.kafka.common.serialization.StringSerializer
+
+ [WARN] [2018-04-06 18:06:03][org.apache.kafka.clients.producer.ProducerConfig]The configuration 'group.id' was supplied but isn't a known config.
+ [INFO] [2018-04-06 18:06:03][org.apache.kafka.common.utils.AppInfoParser]Kafka version : 1.0.0
+ [INFO] [2018-04-06 18:06:03][org.apache.kafka.common.utils.AppInfoParser]Kafka commitId : aaa7af6d4a11b29d
+ [INFO] [2018-04-06 18:06:04][org.apache.kafka.clients.producer.KafkaProducer][Producer clientId=producer-1] Closing the Kafka producer with timeoutMillis = 30000 ms.
  
